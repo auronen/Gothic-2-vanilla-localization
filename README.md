@@ -1,4 +1,8 @@
 # Gothic 2 Vanilla Localization
+
+## 🚧🚧 Work in Progress 🚧🚧
+This repository is being currently actively worked on (on the translation optimization).  
+
 Localization of Gothic 2 scripts. Scripts are reconstructed using Daedalus decompilation with no functional changes, only optimized for translation. 
 
 The goal is to provide consistent compiled scripts and output units (spoken dialogue) for Gothic, that share the same code base.
