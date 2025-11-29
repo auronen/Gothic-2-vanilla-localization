@@ -49,7 +49,7 @@ func void DIA_NOV_3_Fegen_Info()
 		if((NOV_Helfer < 1) && (Feger1_Permanent == FALSE))
 		{
 			AI_Output(self,other,"DIA_NOV_3_Fegen_03_01");	//Bisher hilft dir niemand, was? Ich helfe dir nur, wenn du mindestens einen weiteren gefunden hast, der mitmacht.
-			B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_1);
+			B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_4);
 		}
 		else if((NOV_Helfer >= 1) && (Feger1_Permanent == FALSE))
 		{
@@ -61,7 +61,7 @@ func void DIA_NOV_3_Fegen_Info()
 			B_GivePlayerXP(XP_Feger);
 			AI_StopProcessInfos(self);
 			Npc_ExchangeRoutine(self,"FEGEN");
-			B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_2);
+			B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_5);
 		}
 		else if(Feger1_Permanent == TRUE)
 		{
@@ -110,7 +110,7 @@ func void DIA_NOV_3_Fegen_Ja()
 	Info_ClearChoices(DIA_NOV_3_Fegen);
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self,"FEGEN");
-	B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_4);
+	B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_8);
 };
 
 

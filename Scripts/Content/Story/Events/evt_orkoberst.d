@@ -38,7 +38,7 @@ func void evt_orkoberst()
 			Wld_InsertNpc(UndeadOrcWarrior,"FP_ROAM_DI_MARIOSSKELETONS_04");
 		};
 		ORkSturmDI = TRUE;
-		B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_8);
+		B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_6);
 		EVT_ORKOBERST_OneTime = TRUE;
 	};
 	PrintScreen("",-1,-1,FONT_Screen,0);

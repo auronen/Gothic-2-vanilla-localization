@@ -227,7 +227,7 @@ func void DIA_Akil_Lieferung_Info()
 	B_GiveInvItems(self,other,ItMi_BaltramPaket,1);
 	Lieferung_Geholt = TRUE;
 	B_LogEntry(TOPIC_Baltram,TOPIC_Baltram_1);
-	B_LogEntry(TOPIC_Nagur,TOPIC_Nagur_1);
+	B_LogEntry(TOPIC_Nagur,TOPIC_Nagur_3);
 };
 
 

@@ -40,7 +40,7 @@ func int DIA_Cipher_HALLO_Condition()
 func void DIA_Cipher_HALLO_Info()
 {
 	AI_Output(other,self,"DIA_Cipher_HALLO_15_00");	//Nettes Lager.
-	AI_Output(self,other,"DIA_Cipher_HALLO_07_01");	//Du sagst es. Hier stinkt's wie im Schlachthof. Überall tote Viecher und vermoderte Bäume!
+	AI_Output(self,other,"DIA_Cipher_HALLO_07_01");	//Du sagst es. Hier stinkt's wie im Schlachthof. ï¿½berall tote Viecher und vermoderte Bï¿½ume!
 };
 
 
@@ -74,7 +74,7 @@ func void DIA_CipherDJG_HELLOAGAIN_Info()
 		AI_Output(self,other,"DIA_CipherDJG_HELLOAGAIN_07_06");	//Na gut. Rod ist noch da. Aber der läuft ja schon bei dem Anblick der Fleischwanzen davon.
 	};
 	AI_Output(self,other,"DIA_CipherDJG_HELLOAGAIN_07_07");	//Was ist mit dir? Du bist sicher nicht nur zum Vergnügen hier, oder? Lass uns zusammen rein gehen.
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_3);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_2);
 	Info_AddChoice(DIA_CipherDJG_HELLOAGAIN,"Ich bleibe lieber allein.",DIA_CipherDJG_HELLOAGAIN_GoAlone);
 	Info_AddChoice(DIA_CipherDJG_HELLOAGAIN,"Warum nicht, Hilfe könnte ich brauchen.",DIA_CipherDJG_HELLOAGAIN_GoTogether);
 };

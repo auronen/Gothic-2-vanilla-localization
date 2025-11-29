@@ -95,7 +95,7 @@ func void DIA_Isgaroth_Wolf_Info()
 	AI_Output(other,self,"DIA_Isgaroth_Wolf_15_00");	//Sergio schickt mich. Ich habe seine Aufgabe übernommen. Also, was gibt's?
 	AI_Output(self,other,"DIA_Isgaroth_Wolf_01_01");	//Hier in der Gegend streift seit kurzer Zeit ein dunkler Wolf herum. Spüre ihn auf und erlege ihn.
 	MIS_IsgarothWolf = LOG_Running;
-	B_LogEntry(Topic_IsgarothWolf,Topic_IsgarothWolf_1);
+	B_LogEntry(Topic_IsgarothWolf,Topic_IsgarothWolf_2);
 };
 
 
@@ -156,7 +156,7 @@ func void DIA_Isgaroth_Job_Info()
 	AI_Output(self,other,"DIA_Isgaroth_Job_01_03");	//Zu mir kommen die Menschen, um zu Innos zu beten und sich segnen zu lassen.
 	AI_Output(self,other,"DIA_Isgaroth_Job_01_04");	//Und für eine kleine Spende bekommst du bei mir verschiedene nützliche Dinge.
 	Log_CreateTopic(Topic_KlosterTrader,LOG_NOTE);
-	B_LogEntry(Topic_KlosterTrader,Topic_KlosterTrader_3);
+	B_LogEntry(Topic_KlosterTrader,Topic_KlosterTrader_1);
 };
 
 

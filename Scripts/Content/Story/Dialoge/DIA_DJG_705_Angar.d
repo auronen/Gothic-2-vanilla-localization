@@ -43,7 +43,7 @@ func void DIA_AngarDJG_HALLO_Info()
 	AI_Output(self,other,"DIA_AngarDJG_HALLO_04_02");	//Seltsam, aber du kommst mir auch irgendwie bekannt vor. Ich kann mich aber kaum an dich erinnern.
 	AI_Output(other,self,"DIA_AngarDJG_HALLO_15_03");	//Was ist los mit dir?
 	AI_Output(self,other,"DIA_AngarDJG_HALLO_04_04");	//(winkt ab) Ach. Ich habe schon lange nicht mehr richtig schlafen können. Ständig diese Alpträume.
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_5);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_13);
 };
 
 func void B_SCTellsAngarAboutMadPsi()
@@ -367,7 +367,7 @@ func void DIA_AngarDJG_WHATSINTHERE_Info()
 	AI_Output(self,other,"DIA_AngarDJG_WHATSINTHERE_04_01");	//Irgendetwas lässt mich nicht an diesen Felseingang heran!
 	AI_Output(self,other,"DIA_AngarDJG_WHATSINTHERE_04_02");	//Er wird von einer magischen Kreatur bewacht. Ich hab es nachts die Gegend absuchen sehen. Ein abscheuliches Wesen.
 	AI_Output(self,other,"DIA_AngarDJG_WHATSINTHERE_04_03");	//Es schwebt zwischen den Bäumen hin und her und man hat den Eindruck, dass es alles Leben in seiner Umgebung aufsaugt wie einen Schwamm.
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_5);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_13);
 };
 
 
@@ -493,7 +493,7 @@ func void DIA_Angar_WASISTLOS_Info()
 		AI_Output(self,other,"DIA_Angar_WASISTLOS_04_05");	//Jedes Mal, wenn ich gegen eine ... dieser Ausgeburten der Hölle antrete, dann habe ich das Gefühl, gegen meine eigenen Leute zu kämpfen.
 	};
 	AI_StopProcessInfos(self);
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_6);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_15);
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 	Npc_ExchangeRoutine(self,"LeavingOW");
 };
@@ -522,7 +522,7 @@ func void DIA_Angar_WHYAREYOUHERE_Info()
 	AI_Output(other,self,"DIA_Angar_WHYAREYOUHERE_15_00");	//Angar? Was machst du denn hier?
 	AI_Output(self,other,"DIA_Angar_WHYAREYOUHERE_04_01");	//Ich war auf dem Weg zum Pass, da sind mir die Orks in die Quere gekommen. Ich konnte die gottverdammten Kerle nicht abschütteln.
 	AI_Output(self,other,"DIA_Angar_WHYAREYOUHERE_04_02");	//Ich warte noch eine Weile ab und verzieh' mich dann über den Pass. Wir sehen uns drüben!
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_7);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_14);
 	B_GivePlayerXP(XP_AngarDJGAgain);
 	AI_StopProcessInfos(self);
 };

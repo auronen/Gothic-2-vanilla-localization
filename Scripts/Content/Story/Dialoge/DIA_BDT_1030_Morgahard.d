@@ -50,7 +50,7 @@ func void DIA_Morgahard_HALLO_Info()
 	Info_AddChoice(DIA_Morgahard_HALLO,"Hör auf zu jammern und zieh deine Waffe.",DIA_Morgahard_HALLO_attack);
 	Info_AddChoice(DIA_Morgahard_HALLO,"Was können wir gegen den Richter unternehmen?",DIA_Morgahard_HALLO_richter);
 	Info_AddChoice(DIA_Morgahard_HALLO,"Der Richter gab mir den Auftrag, dich zu töten.",DIA_Morgahard_HALLO_tot);
-	B_LogEntry(TOPIC_RichterLakai,TOPIC_RichterLakai_1);
+	B_LogEntry(TOPIC_RichterLakai,TOPIC_RichterLakai_2);
 	SCFoundMorgahard = TRUE;
 	B_GivePlayerXP(XP_FoundMorgahard);
 };

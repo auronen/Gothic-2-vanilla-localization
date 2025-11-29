@@ -98,7 +98,7 @@ func void DIA_Mortis_Paket_Info()
 	AI_Output(self,other,"DIA_Mortis_Paket_13_01");	//Hm ... als ich letztens in der Hafenkneipe war, habe ich mitgekriegt, wie sich Kardif und noch so ein Kerl darüber unterhalten haben.
 	AI_Output(other,self,"DIA_Mortis_Paket_15_02");	//Wer war der andere?
 	AI_Output(self,other,"DIA_Mortis_Paket_13_03");	//Keine Ahnung. Aber er meinte, er hätte den besten Lagerplatz für sein Kraut gefunden - dann haben die beiden gelacht wie zwei besoffene Orks.
-	B_LogEntry(TOPIC_Warehouse,TOPIC_Warehouse_2);
+	B_LogEntry(TOPIC_Warehouse,TOPIC_Warehouse_3);
 };
 
 
@@ -161,7 +161,7 @@ func void DIA_Mortis_CanTeach_Info()
 		AI_Output(self,other,"DIA_Mortis_CanTeach_13_02");	//Natürlich willst du das. Aber solange du nicht zu uns oder den Paladinen gehörst, werde ich dir nicht helfen.
 	};
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_2);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_16);
 };
 
 

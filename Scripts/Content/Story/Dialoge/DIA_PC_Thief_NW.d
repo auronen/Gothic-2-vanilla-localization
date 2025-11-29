@@ -498,7 +498,7 @@ func void DIA_DiegoNW_KnowWhereEnemy_Info()
 	AI_Output(self,other,"DIA_DiegoNW_KnowWhereEnemy_11_03");	//Außerdem kannst du sicher 'nen guten Dieb gebrauchen.
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_10);
+	B_LogEntry(Topic_Crew,Topic_Crew_3);
 	if(Crewmember_Count >= Max_Crew)
 	{
 		AI_Output(other,self,"DIA_DiegoNW_KnowWhereEnemy_15_04");	//Ich denke darüber nach. Im Moment habe ich nämlich schon eine komplette Mannschaft.

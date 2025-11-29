@@ -236,7 +236,7 @@ func void B_Ferros_FerrosAnySword_Yes2()
 	AI_Output(self,other,"DIA_DJG_715_Ferros_FerrosAnySword_Blade_Yes2_01_00");	//Danke, ich stehe in deiner Schuld.
 	AI_Output(self,other,"DIA_DJG_715_Ferros_FerrosAnySword_Blade_Yes2_01_01");	//Als Dank werde ich dir zeigen, wie du mit ein paar Tricks deine Kraft und dein Geschick im Kampf besser nutzen kannst.
 	Log_CreateTopic(TOPIC_Teacher,LOG_NOTE);
-	B_LogEntry(TOPIC_Teacher,TOPIC_Teacher_3);
+	B_LogEntry(TOPIC_Teacher,TOPIC_Teacher_4);
 };
 
 func void B_Ferros_FerrosAnySword_No()

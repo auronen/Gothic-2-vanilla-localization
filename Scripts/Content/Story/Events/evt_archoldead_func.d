@@ -14,7 +14,7 @@ func void evt_archoldead_func()
 	};
 	if(EVT_ARCHOLDEAD_FUNC_OneTime == FALSE)
 	{
-		B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_7);
+		B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_1);
 		EVT_ARCHOLDEAD_FUNC_OneTime = TRUE;
 	};
 };

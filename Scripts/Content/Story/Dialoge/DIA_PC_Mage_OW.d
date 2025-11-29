@@ -211,7 +211,7 @@ func void DIA_MiltenOW_Gorn_Info()
 	AI_Output(self,other,"DIA_MiltenOW_Gorn_03_04");	//Halt mich auf dem Laufenden.
 	Log_CreateTopic(TOPIC_RescueGorn,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_RescueGorn,LOG_Running);
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_7);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_8);
 };
 
 
@@ -239,7 +239,7 @@ func void DIA_MiltenOW_Preis_Info()
 	AI_Output(other,self,"DIA_MiltenOW_Preis_15_00");	//Garond verlangt 1000 Goldstücke für Gorn.
 	AI_Output(self,other,"DIA_MiltenOW_Preis_03_01");	//Eine hübsche Summe. Ich kann 250 Goldstücke beisteuern.
 	B_GiveInvItems(self,other,ItMi_Gold,250);
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_8);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_9);
 };
 
 
@@ -269,7 +269,7 @@ func void DIA_MiltenOW_Mehr_Info()
 	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_02");	//Vielleicht hat Gorn selbst noch irgendwo Gold versteckt - das sollten wir herausfinden.
 	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_03");	//Ich werde ihm eine Notiz schreiben - hier, versuch, sie in den Kerker zu schmuggeln.
 	B_GiveInvItems(self,other,ItWr_LetterForGorn_MIS,1);
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_9);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_10);
 };
 
 
@@ -327,7 +327,7 @@ func void DIA_MiltenOW_Versteck_Info()
 	AI_Output(other,self,"DIA_MiltenOW_Versteck_15_02");	//Wie komme ich dahin?
 	AI_Output(self,other,"DIA_MiltenOW_Versteck_03_03");	//Das ist nahe der Orkramme. Rechts davon war das Südtor.
 	AI_Output(self,other,"DIA_MiltenOW_Versteck_03_04");	//Es wird nicht leicht werden - also halt den Kopf unten und beeil dich.
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_10);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_11);
 };
 
 

@@ -237,7 +237,7 @@ func void startup_dragonisland()
 	PlayVideo("SHIP.BIK");
 	Log_CreateTopic(TOPIC_HallenVonIrdorath,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_HallenVonIrdorath,LOG_Running);
-	Log_AddEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_9);
+	Log_AddEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_5);
 	B_Kapitelwechsel(6,DRAGONISLAND_ZEN);
 };
 

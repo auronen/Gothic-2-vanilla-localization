@@ -368,7 +368,7 @@ func void DIA_Bengar_BALTHASAR_Info()
 	AI_Output(other,self,"DIA_Bengar_BALTHASAR_15_00");	//Balthasar der Schafhirte darf nicht auf deine Weide?
 	AI_Output(self,other,"DIA_Bengar_BALTHASAR_10_01");	//Ach so. Die Geschichte. Ich habe ihm erzählt, Sekob soll mir Geld bezahlen, wenn er die Schafe auf meine Weide führt.
 	AI_Output(self,other,"DIA_Bengar_BALTHASAR_10_02");	//Wenn ich ehrlich bin, ist das nur Schikane. Ich kann Balthasar einfach nicht leiden.
-	B_LogEntry(TOPIC_BalthasarsSchafe,TOPIC_BalthasarsSchafe_2);
+	B_LogEntry(TOPIC_BalthasarsSchafe,TOPIC_BalthasarsSchafe_1);
 	B_GivePlayerXP(XP_Ambient);
 };
 

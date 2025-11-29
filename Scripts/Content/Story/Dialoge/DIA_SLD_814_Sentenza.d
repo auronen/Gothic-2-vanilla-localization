@@ -226,7 +226,7 @@ func void DIA_Sentenza_Vote_Info()
 	{
 		AI_Output(self,other,"DIA_Sentenza_Vote_09_02");	//Aber warum denn nicht? 50 Goldstücke sind doch ein fairer Preis für eine Stimme, denkst du nicht?
 		Sentenza_Stimme = TRUE;
-		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_9);
+		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_10);
 	}
 	else if((Sentenza_Stimme == TRUE) && (Npc_HasItems(self,ItMi_Gold) < 50))
 	{

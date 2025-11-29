@@ -44,7 +44,7 @@ func void DIA_None_101_Mario_Job_Info()
 {
 	AI_Output(other,self,"DIA_None_101_Mario_Job_15_00");	//Was machst du hier?
 	AI_Output(self,other,"DIA_None_101_Mario_Job_07_01");	//Ich hoffe, dass hier in absehbarer Zeit ein Schiff reinkommt, auf dem ich anheuern kann.
-	AI_Output(self,other,"DIA_None_101_Mario_Job_07_02");	//Das Rumgehänge geht mir ganz schön auf die Nerven.
+	AI_Output(self,other,"DIA_None_101_Mario_Job_07_02");	//Das Rumgehï¿½nge geht mir ganz schï¿½n auf die Nerven.
 };
 
 
@@ -74,7 +74,7 @@ func void DIA_None_101_Mario_YouNeedMe_Info()
 	AI_Output(self,other,"DIA_None_101_Mario_YouNeedMe_07_02");	//Ich bin dabei!
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_3);
+	B_LogEntry(Topic_Crew,Topic_Crew_6);
 };
 
 
@@ -159,7 +159,7 @@ func void DIA_None_101_Mario_Abilities_Info()
 	AI_Output(other,self,"DIA_None_101_Mario_Abilities_15_00");	//Was kannst du?
 	AI_Output(self,other,"DIA_None_101_Mario_Abilities_07_01");	//Ich bin ausgebildet für den Enterkrieg und im Nahkampf, ferner bin ich ein ganz brauchbarer Schütze mit der Schiffskanone.
 	AI_Output(self,other,"DIA_None_101_Mario_Abilities_07_02");	//Ich wette, es gibt die eine oder andere Sache, die ich dir auf der Reise beibringen kann.
-	B_LogEntry(Topic_Crew,Topic_Crew_4);
+	B_LogEntry(Topic_Crew,Topic_Crew_7);
 };
 
 

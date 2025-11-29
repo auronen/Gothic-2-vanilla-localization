@@ -101,7 +101,7 @@ func void DIA_Jora_GREET_Info()
 	AI_Output(other,self,"DIA_Jora_GREET_15_02");	//Moment mal, sehe ich etwa aus wie ein Dieb?
 	AI_Output(self,other,"DIA_Jora_GREET_08_03");	//(verächtlich) Pah! Du wärst nicht der Erste, der sich heute an meinen Sachen bereichert.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_3);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_7);
 };
 
 

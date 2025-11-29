@@ -163,7 +163,7 @@ func void DIA_Gerold_Deal_Info()
 	AI_Output(self,other,"DIA_Gerold_Deal_12_05");	//Unsere Nahrungsrationen werden ständig gekürzt. Ich will mal wieder was Anständiges essen.
 	AI_Output(self,other,"DIA_Gerold_Deal_12_06");	//Besorg mir eine leckere Wurst und einen frischen Laib Brot - und süßen Honig.
 	AI_Output(self,other,"DIA_Gerold_Deal_12_07");	//Dazu eine Flasche Wein ... Ja, das sollte reichen. Das wirst du ja wohl hinkriegen. Also komm wieder, wenn du das Zeug hast.
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_3);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_1);
 };
 
 
@@ -199,7 +199,7 @@ func void DIA_Gerold_Stuff_Info()
 		B_GiveInvItems(other,self,ItWr_LetterForGorn_MIS,1);
 		DayContactGorn = Wld_GetDay();
 		DIA_Gerold_Stuff_permanent = TRUE;
-		B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_4);
+		B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_2);
 	}
 	else
 	{
@@ -243,7 +243,7 @@ func void DIA_Gerold_Antwort_Info()
 		AI_Output(self,other,"DIA_Gerold_Antwort_12_07");	//Ist wahrscheinlich besser.
 		GornsTreasure = TRUE;
 		DIA_Gerold_Antwort_permanent = TRUE;
-		B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_5);
+		B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_3);
 	}
 	else
 	{
@@ -278,7 +278,7 @@ func void DIA_Gerold_SetGornFree_Info()
 	AI_Output(self,other,"DIA_Gerold_SetGornFree_12_01");	//Ich bin schon informiert worden. Hier ist der Schlüssel, du kannst reingehen.
 	CreateInvItems(self,ItKe_PrisonKey_MIS,1);
 	B_GiveInvItems(self,other,ItKe_PrisonKey_MIS,1);
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_6);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_4);
 };
 
 

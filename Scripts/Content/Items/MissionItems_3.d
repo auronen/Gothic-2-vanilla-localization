@@ -182,7 +182,7 @@ func void UseCorneliusTagebuch()
 {
 	var int nDocID;
 	Cornelius_IsLiar = TRUE;
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_1);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_4);
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,2);
 	Doc_SetPage(nDocID,0,"Book_Brown_L.tga",0);

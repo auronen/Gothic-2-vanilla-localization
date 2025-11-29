@@ -352,7 +352,7 @@ func void DIA_Vino_Heilung_Info()
 		AI_Output(self,other,"DIA_Vino_Heilung_05_03");	//Meinst du? In Ordnung. Ich werde es versuchen.
 		B_NpcClearObsessionByDMT(self);
 		B_StartOtherRoutine(Vino,"Kloster");
-		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_1);
+		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_2);
 		B_GivePlayerXP(XP_VinoFreeFromDMT);
 		DIA_Vino_Heilung_oneTime = TRUE;
 	};

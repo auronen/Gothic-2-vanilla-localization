@@ -343,7 +343,7 @@ func void UseBloodMIS()
 	{
 		Knows_Bloodfly = TRUE;
 		Log_CreateTopic(Topic_Bonus,LOG_NOTE);
-		B_LogEntry(Topic_Bonus,Topic_Bonus_1);
+		B_LogEntry(Topic_Bonus,Topic_Bonus_5);
 		B_GivePlayerXP(XP_Ambient);
 	};
 };

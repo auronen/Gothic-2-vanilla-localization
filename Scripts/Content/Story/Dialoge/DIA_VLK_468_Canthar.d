@@ -227,7 +227,7 @@ func void DIA_Canthar_WhatOffer_Info()
 		AI_Output(self,other,"DIA_Canthar_WhatOffer_09_07");	//Ich bin fahrender Händler. Ich verkaufe von allem etwas.
 	};
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_17);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_14);
 };
 
 func void DIA_Canthar_WhatOffer_Strings()

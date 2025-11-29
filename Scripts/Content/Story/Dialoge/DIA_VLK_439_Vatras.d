@@ -251,7 +251,7 @@ func void dia_vatras_influence_repeat()
 		Snd_Play("LevelUp");
 		B_GivePlayerXP(XP_VatrasTruth);
 		Vatras_Segen = TRUE;
-		B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_3);
+		B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_1);
 	}
 	else if(Vatras_Chance == FALSE)
 	{
@@ -361,7 +361,7 @@ func void DIA_Vatras_Spende_100()
 	Info_ClearChoices(DIA_Vatras_Spende);
 	if(MIS_Thorben_GetBlessings == LOG_Running)
 	{
-		B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_3);
+		B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_1);
 	};
 };
 
@@ -390,7 +390,7 @@ func void DIA_Vatras_CanTeach_Info()
 	AI_Output(self,other,"DIA_Vatras_CanTeach_05_03");	//Ich kann dir zeigen, wie du deine magischen Kräfte kanalisieren und erweitern kannst.
 	Vatras_TeachMANA = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_16);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_19);
 };
 
 
@@ -829,7 +829,7 @@ func void DIA_Vatras_INNOSEYEKAPUTT_Auge_Stein_Wer_Xardas_weiter()
 	AI_Output(other,self,"DIA_Vatras_INNOSEYEKAPUTT_weiter_15_00");	//Ich muss los.
 	AI_Output(self,other,"DIA_Vatras_INNOSEYEKAPUTT_weiter_05_01");	//Ich werde ebenfalls aufbrechen und am Sonnenkreis die Zeremonie vorbereiten.
 	AI_Output(self,other,"DIA_Vatras_INNOSEYEKAPUTT_weiter_05_02");	//Schicke Xardas und Pyrokar dorthin. Und vergiss nicht, das Sumpfkraut mitzubringen. Ich verlass mich auf dich.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_16);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_3);
 	MIS_RitualInnosEyeRepair = LOG_Running;
 	Info_ClearChoices(DIA_Vatras_INNOSEYEKAPUTT);
 	Npc_ExchangeRoutine(self,"RITUALINNOSEYEREPAIR");
@@ -963,7 +963,7 @@ func void DIA_Vatras_AUGEGEHEILT_Info()
 	AI_Output(self,other,"DIA_Vatras_AUGEGEHEILT_05_00");	//Es ist vollbracht. Es ist uns gelungen, den Plan des Feindes zu vereiteln und das Auge wieder zu heilen.
 	AI_Output(self,other,"DIA_Vatras_AUGEGEHEILT_05_01");	//Lass dir den Umgang mit seiner Macht von Pyrokar erklären.
 	AI_Output(self,other,"DIA_Vatras_AUGEGEHEILT_05_02");	//Ich hoffe, ich werde dich wiedersehen, wenn du deine Aufgabe erledigt hast. Leb wohl.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_17);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_4);
 	AI_StopProcessInfos(self);
 	RitualInnosEyeRuns = LOG_SUCCESS;
 	MIS_RitualInnosEyeRepair = LOG_SUCCESS;
@@ -1117,7 +1117,7 @@ func void DIA_Vatras_KnowWhereEnemy_Info()
 	AI_Output(self,other,"DIA_Vatras_KnowWhereEnemy_05_03");	//Ich habe lange darüber nachgedacht und bin mir meiner Sache noch nie so sicher gewesen, mein Freund.
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_15);
+	B_LogEntry(Topic_Crew,Topic_Crew_8);
 	if(Crewmember_Count >= Max_Crew)
 	{
 		AI_Output(other,self,"DIA_Vatras_KnowWhereEnemy_15_04");	//Ich habe schon zu viel auf meiner Liste. Ich fürchte, ich habe keinen Platz mehr für dich.

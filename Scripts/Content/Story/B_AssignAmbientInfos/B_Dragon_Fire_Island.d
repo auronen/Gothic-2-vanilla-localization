@@ -63,7 +63,7 @@ func void DIA_Dragon_Fire_Island_Hello_Info()
 	Npc_RemoveInvItems(other,ItMi_InnosEye_MIS,1);
 	CreateInvItems(other,ItMi_InnosEye_Discharged_Mis,1);
 	AI_StopProcessInfos(self);
-	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_4);
+	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_8);
 	DragonTalk_Exit_Free = FALSE;
 	self.flags = 0;
 };

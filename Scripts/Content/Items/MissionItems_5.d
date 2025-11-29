@@ -41,7 +41,7 @@ func void Use_XardasLetterToOpenBook()
 	Doc_Show(nDocID);
 	if(MIS_Xardas_SCCanOpenIrdorathBook == FALSE)
 	{
-		B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_1);
+		B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_2);
 	};
 	MIS_Xardas_SCCanOpenIrdorathBook = TRUE;
 };
@@ -90,7 +90,7 @@ func void Use_HallsofIrdorath()
 		Print(PRINT_IrdorathBookHiddenKey);
 		B_GivePlayerXP(XP_HallsofIrdorathIsOpen);
 		ItWr_HallsofIrdorathIsOpen = TRUE;
-		B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_2);
+		B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_3);
 	}
 	else
 	{
@@ -123,7 +123,7 @@ func void Use_HallsofIrdorath_Open()
 	var int nDocID;
 	if(ItWr_SCReadsHallsofIrdorath == FALSE)
 	{
-		B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_3);
+		B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_4);
 	};
 	ItWr_SCReadsHallsofIrdorath = TRUE;
 	nDocID = Doc_Create();
@@ -293,7 +293,7 @@ func void Use_Seamap_Irdorath()
 	{
 		Log_CreateTopic(Topic_Ship,LOG_MISSION);
 		Log_SetTopicStatus(Topic_Ship,LOG_Running);
-		B_LogEntry(Topic_Ship,Topic_Ship_1);
+		B_LogEntry(Topic_Ship,Topic_Ship_3);
 		B_GivePlayerXP(XP_SCKnowsWayToIrdorath);
 	};
 	MIS_SCKnowsWayToIrdorath = TRUE;

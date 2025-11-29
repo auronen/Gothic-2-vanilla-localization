@@ -187,7 +187,7 @@ func void DIA_Bartok_WannaLearn_Info()
 	};
 	Bartok_TeachPlayer = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_17);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_18);
 };
 
 

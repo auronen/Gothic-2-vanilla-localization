@@ -1,31 +1,31 @@
 
 const string TOPIC_Trader_OC = "Händler in der Burg.";
 const string TOPIC_Trader_OC_1 = "Tandor handelt mit Waffen in der Burg.";
-const string TOPIC_Trader_OC_2 = "Sengrath verkauft Spruchrollen in der Burg.";
-const string TOPIC_Trader_OC_3 = "Engor verwaltet die Vorräte der Burg und macht nebenher Geschäfte.";
+const string TOPIC_Trader_OC_6 = "Sengrath verkauft Spruchrollen in der Burg.";
+const string TOPIC_Trader_OC_7 = "Engor verwaltet die Vorräte der Burg und macht nebenher Geschäfte.";
 
 
 const string TOPIC_CityTrader = "Händler in Khorinis.";
-const string TOPIC_CityTrader_1 = "Lutero handelt mit ausgefallenen und seltenen Gegenständen im oberen Viertel.";
-const string TOPIC_CityTrader_2 = "Hakon verkauft Waffen am Marktplatz.";
-const string TOPIC_CityTrader_3 = "Jora handelt mit Waren aller Art am Marktplatz.";
-const string TOPIC_CityTrader_4 = "Zuris verkauft Tränke am Marktplatz.";
-const string TOPIC_CityTrader_5 = "Baltram handelt mit Nahrungsmitteln am Marktplatz.";
-const string TOPIC_CityTrader_6 = "Der Gärtner des Statthalters kann mir Pflanzen verkaufen.";
-const string TOPIC_CityTrader_7 = "Bosper baut Bögen und handelt mit Fellen. Er hat seinen Laden am östlichen Tor, in der Unterstadt.";
-const string TOPIC_CityTrader_8 = "Kardif, der Wirt der Hafenkneipe handelt mit Informationen.";
-const string TOPIC_CityTrader_9 = "Matteo hat seinen Laden am Südtor der Stadt. Er handelt mit Ausrüstung, Waffen und Proviant.";
-const string TOPIC_CityTrader_10 = "Constantino verkauft alchemistisches Zubehör.";
-const string TOPIC_CityTrader_11 = "Bei dem Wirt Coragon kann ich Nahrung und Getränke kaufen.";
-const string TOPIC_CityTrader_12 = "Salandril handelt mit Tränken. Er hat seinen Laden im oberen Viertel.";
-const string TOPIC_CityTrader_13 = "Bei Kardif in der Hafenkneipe gibt's was zu trinken.";
-const string TOPIC_CityTrader_14 = "Brahim zeichnet und verkauft Karten am Hafen.";
-const string TOPIC_CityTrader_15 = "Brian, der Gehilfe von Harad, verkauft Schmiederohlinge";
+const string TOPIC_CityTrader_1 = "Fenia handelt mit Nahrung auf dem Weg zum Hafen.";
+const string TOPIC_CityTrader_2 = "Sarah handelt mit Waffen am Marktplatz.";
+const string TOPIC_CityTrader_3 = "Constantino verkauft alchemistisches Zubehör.";
+const string TOPIC_CityTrader_4 = "Bei Kardif in der Hafenkneipe gibt's was zu trinken.";
+const string TOPIC_CityTrader_5 = "Kardif, der Wirt der Hafenkneipe handelt mit Informationen.";
+const string TOPIC_CityTrader_6 = "Brahim zeichnet und verkauft Karten am Hafen.";
+const string TOPIC_CityTrader_7 = "Jora handelt mit Waren aller Art am Marktplatz.";
+const string TOPIC_CityTrader_8 = "Matteo hat seinen Laden am Südtor der Stadt. Er handelt mit Ausrüstung, Waffen und Proviant.";
+const string TOPIC_CityTrader_9 = "Salandril handelt mit Tränken. Er hat seinen Laden im oberen Viertel.";
+const string TOPIC_CityTrader_10 = "Bosper baut Bögen und handelt mit Fellen. Er hat seinen Laden am östlichen Tor, in der Unterstadt.";
+const string TOPIC_CityTrader_11 = "Baltram handelt mit Nahrungsmitteln am Marktplatz.";
+const string TOPIC_CityTrader_12 = "Halvor handelt am Hafen mit Fischen.";
+const string TOPIC_CityTrader_13 = "Brian, der Gehilfe von Harad, verkauft Schmiederohlinge";
+const string TOPIC_CityTrader_14 = "Canthar handelt mit aller Art von Waren.";
+const string TOPIC_CityTrader_15 = "Hakon verkauft Waffen am Marktplatz.";
 const string TOPIC_CityTrader_16 = "Der Tischler Thorben verkauft Dietriche.";
-const string TOPIC_CityTrader_17 = "Canthar handelt mit aller Art von Waren.";
-const string TOPIC_CityTrader_18 = "Halvor handelt am Hafen mit Fischen.";
-const string TOPIC_CityTrader_19 = "Sarah handelt mit Waffen am Marktplatz.";
-const string TOPIC_CityTrader_20 = "Fenia handelt mit Nahrung auf dem Weg zum Hafen.";
+const string TOPIC_CityTrader_17 = "Bei dem Wirt Coragon kann ich Nahrung und Getränke kaufen.";
+const string TOPIC_CityTrader_18 = "Der Gärtner des Statthalters kann mir Pflanzen verkaufen.";
+const string TOPIC_CityTrader_19 = "Lutero handelt mit ausgefallenen und seltenen Gegenständen im oberen Viertel.";
+const string TOPIC_CityTrader_20 = "Zuris verkauft Tränke am Marktplatz.";
 
 
 const string Topic_OutTrader = "Händler der Außenwelt";
@@ -33,8 +33,8 @@ const string Topic_OutTrader_1 = "Rosi handelt mit verschiedenen Waren, auf dem 
 
 
 const string Topic_SoldierTrader = "Händler auf Onar's Hof.";
-const string Topic_SoldierTrader_1 = "Elena verkauft Waren auf Onar's Hof.";
-const string Topic_SoldierTrader_2 = "Sagitta verkauft Waren, hinter Sekobs Hof.";
+const string Topic_SoldierTrader_1 = "Sagitta verkauft Waren, hinter Sekobs Hof.";
+const string Topic_SoldierTrader_2 = "Elena verkauft Waren auf Onar's Hof.";
 const string Topic_SoldierTrader_3 = "Khaled handelt mit Waffen.";
 const string Topic_SoldierTrader_4 = "Bennet verkauft Schmiedezubehör.";
 
@@ -42,62 +42,63 @@ const string Topic_SoldierTrader_4 = "Bennet verkauft Schmiedezubehör.";
 const string TOPIC_Teacher = "Lehrer";
 const string TOPIC_Teacher_1 = "Bei Gaan kann ich lernen wie man Tiere ausnimmt.";
 const string TOPIC_Teacher_2 = "Niclas kann mir zeigen wie ich besser mir dem Bogen werde.";
-const string TOPIC_Teacher_3 = "Ferros kann mir beibringen wie ich meine Stärke und Geschicklichkeit steigern kann.";
-const string TOPIC_Teacher_4 = "Bei Talbin kann ich lernen wie man Tiere ausnimmt";
+const string TOPIC_Teacher_3 = "Bei Talbin kann ich lernen wie man Tiere ausnimmt";
+const string TOPIC_Teacher_4 = "Ferros kann mir beibringen wie ich meine Stärke und Geschicklichkeit steigern kann.";
 
 
 const string TOPIC_Teacher_OC = "Lehrer in der Burg";
-const string TOPIC_Teacher_OC_1 = "Keroloth trainiert Schwertkampf in der Burg.";
-const string TOPIC_Teacher_OC_2 = "Udar aus der Burg des Minentals kennt sich mit Armbrüsten aus.";
+const string TOPIC_Teacher_OC_1 = "Brutus kann mir dabei helfen, stärker zu werden.";
+const string TOPIC_Teacher_OC_2 = "Dobar kann mir das Schmieden bessere Waffen beibringen.";
 const string TOPIC_Teacher_OC_3 = "Udar ist kann mich im Umgang mit der Armbrust unterweisen";
-const string TOPIC_Teacher_OC_4 = "Brutus kann mir dabei helfen, stärker zu werden.";
-const string TOPIC_Teacher_OC_5 = "Dobar kann mir das Schmieden bessere Waffen beibringen.";
+const string TOPIC_Teacher_OC_4 = "Keroloth trainiert Schwertkampf in der Burg.";
+const string TOPIC_Teacher_OC_5 = "Udar aus der Burg des Minentals kennt sich mit Armbrüsten aus.";
 
 
 const string Topic_SoldierTeacher = "Lehrer auf Onar's Hof.";
 const string Topic_SoldierTeacher_1 = "Lee wird mich im Kampf mit zweihändigen Waffen unterrichten.";
-const string Topic_SoldierTeacher_2 = "Torlof kann mir dabei helfen, mein Geschick und meine Stärke zu verbessern.";
-const string Topic_SoldierTeacher_3 = "Buster kann mich im einhändigen Kampf trainieren.";
-const string Topic_SoldierTeacher_4 = "Cord kann mich im Umgang mit Ein - und Zweihändern unterrichten.";
-const string Topic_SoldierTeacher_5 = "Bennet kann mich im Schmieden unterrichten.";
-const string Topic_SoldierTeacher_6 = "Wolf kann mir den Umgang mit dem Bogen zeigen.";
+const string Topic_SoldierTeacher_2 = "Bennet kann mich im Schmieden unterrichten.";
+const string Topic_SoldierTeacher_3 = "Cord kann mich im Umgang mit Ein - und Zweihändern unterrichten.";
+const string Topic_SoldierTeacher_4 = "Wolf kann mir den Umgang mit dem Bogen zeigen.";
+const string Topic_SoldierTeacher_5 = "Torlof kann mir dabei helfen, mein Geschick und meine Stärke zu verbessern.";
+const string Topic_SoldierTeacher_6 = "Buster kann mich im einhändigen Kampf trainieren.";
 
 
 const string Topic_OutTeacher = "Lehrer der Außenwelt";
+
 const string TOPIC_CityTeacher = "Lehrer in Khorinis.";
-const string TOPIC_CityTeacher_1 = "Wulfgar, von der Stadtwache, kann mich im Einhand - und Zweihandkampf unterweisen.";
-const string TOPIC_CityTeacher_2 = "Mortis, von der Stadtwache, kann mir helfen, meine Stärke zu trainieren.";
-const string TOPIC_CityTeacher_3 = "Ruga, von der Stadtwache, kann mir helfen geschickter zu werden und mich im Umgang mit der Armbrust unterweisen. Allerdings muss ich dazu im Dienst des Königs stehen.";
-const string TOPIC_CityTeacher_4 = "Lord Hagen kann mich im Kampf mit Zweihändern unterweisen.";
-const string TOPIC_CityTeacher_5 = "Paladin Ingmar kann mir helfen, stärker zu werden.";
-const string TOPIC_CityTeacher_6 = "Paladin Albrecht kann mir helfen, meine magische Kraft zu steigern.";
-const string TOPIC_CityTeacher_7 = "Paladin Girion kann mich im Kampf mit Zweihändern unterweisen.";
-const string TOPIC_CityTeacher_8 = "Paladin Cedric kann mich im Kampf mit Einhändern unterweisen.";
-const string TOPIC_CityTeacher_9 = "Bei Harad kann ich das Schmieden lernen und er kann mir dabei helfen, stärker zu werden.";
-const string TOPIC_CityTeacher_10 = "Bosper kann mir beibringen, wie ich Tieren das Fell abziehe.";
-const string TOPIC_CityTeacher_11 = "Constantino kann mich in der Kunst der Alchemie unterweisen.";
-const string TOPIC_CityTeacher_12 = "Carl der Schmied im Hafenviertel, kann mir dabei helfen, stärker zu werden.";
-const string TOPIC_CityTeacher_13 = "Lares kann mir dabei helfen, geschickter zu werden.";
-const string TOPIC_CityTeacher_14 = "Alrik kann mich im Kampf mit einhändigen Waffen trainieren. Er hält sich hinter dem Lagerhaus im Hafenviertel auf.";
-const string TOPIC_CityTeacher_15 = "Ignaz kann mir einige Rezepte zur Herstellung von Tränken zeigen. Er wohnt im Hafenviertel.";
-const string TOPIC_CityTeacher_16 = "Vatras der Wassermagier, kann mir dabei helfen, meine magische Energie zu steigern.";
-const string TOPIC_CityTeacher_17 = "Bartok  kann mir den Umgang mit dem Bogen und das Schleichen beibringen.";
-const string TOPIC_CityTeacher_18 = "Cassia kann mich im Taschendiebstahl unterrichten und sie kann mir dabei helfen, geschickter zu werden.";
-const string TOPIC_CityTeacher_19 = "Ramirez kann mir das Schlösser knacken beibringen.";
-const string TOPIC_CityTeacher_20 = "Jesper kann mir das Schleichen beibringen.";
+const string TOPIC_CityTeacher_1 = "Constantino kann mich in der Kunst der Alchemie unterweisen.";
+const string TOPIC_CityTeacher_3 = "Carl der Schmied im Hafenviertel, kann mir dabei helfen, stärker zu werden.";
+const string TOPIC_CityTeacher_4 = "Lares kann mir dabei helfen, geschickter zu werden.";
+const string TOPIC_CityTeacher_5 = "Alrik kann mich im Kampf mit einhändigen Waffen trainieren. Er hält sich hinter dem Lagerhaus im Hafenviertel auf.";
+const string TOPIC_CityTeacher_6 = "Ignaz kann mir einige Rezepte zur Herstellung von Tränken zeigen. Er wohnt im Hafenviertel.";
+const string TOPIC_CityTeacher_7 = "Ruga, von der Stadtwache, kann mir helfen geschickter zu werden und mich im Umgang mit der Armbrust unterweisen. Allerdings muss ich dazu im Dienst des Königs stehen.";
+const string TOPIC_CityTeacher_8 = "Lord Hagen kann mich im Kampf mit Zweihändern unterweisen.";
+const string TOPIC_CityTeacher_9 = "Paladin Girion kann mich im Kampf mit Zweihändern unterweisen.";
+const string TOPIC_CityTeacher_11 = "Paladin Ingmar kann mir helfen, stärker zu werden.";
+const string TOPIC_CityTeacher_12 = "Bei Harad kann ich das Schmieden lernen und er kann mir dabei helfen, stärker zu werden.";
+const string TOPIC_CityTeacher_13 = "Cassia kann mich im Taschendiebstahl unterrichten und sie kann mir dabei helfen, geschickter zu werden.";
+const string TOPIC_CityTeacher_14 = "Ramirez kann mir das Schlösser knacken beibringen.";
+const string TOPIC_CityTeacher_15 = "Jesper kann mir das Schleichen beibringen.";
+const string TOPIC_CityTeacher_16 = "Mortis, von der Stadtwache, kann mir helfen, meine Stärke zu trainieren.";
+const string TOPIC_CityTeacher_17 = "Bosper kann mir beibringen, wie ich Tieren das Fell abziehe.";
+const string TOPIC_CityTeacher_18 = "Bartok  kann mir den Umgang mit dem Bogen und das Schleichen beibringen.";
+const string TOPIC_CityTeacher_19 = "Vatras der Wassermagier, kann mir dabei helfen, meine magische Energie zu steigern.";
+const string TOPIC_CityTeacher_20 = "Paladin Albrecht kann mir helfen, meine magische Kraft zu steigern.";
+const string TOPIC_CityTeacher_21 = "Wulfgar, von der Stadtwache, kann mich im Einhand - und Zweihandkampf unterweisen.";
+const string TOPIC_CityTeacher_22 = "Paladin Cedric kann mich im Kampf mit Einhändern unterweisen.";
 
 
 const string TOPIC_TalentSmith = "Das Schmieden";
 const string TOPIC_TalentSmith_1 = "Um eine Waffe zu schmiede, brauche ich zunächst ein Stück Rohstahl. An einem Schmiedefeuer muss ich den Stahl erhitzen und anschließend an einem Amboss in die gewünschte Form bringen. Für hochwertigere Waffe benötigt man häufig noch Substanzen, welche der Waffe besondere Eigenschaften verleihen.";
 const string TOPIC_TalentSmith_2 = "Wenn ich 4 Erz und 5 Drachenblut hinzugebe, kann ich mir einen ´ERZ-DRACHENTÖTER´ schmieden.";
 const string TOPIC_TalentSmith_3 = "Wenn ich 5 Erz und 5 Drachenblut hinzugebe, kann ich mir einen ´GROßEN ERZ-DRACHENTÖTER´ schmieden.";
-const string TOPIC_TalentSmith_4 = "Für ein einfaches Schwert benötige ich keine weiteren Zutaten.";
-const string TOPIC_TalentSmith_5 = "Wenn ich 1 Erz hinzugebe, kann ich mir ein ´ERZ-LANGSCHWERT´ schmieden.";
-const string TOPIC_TalentSmith_6 = "Wenn ich 2 Erz hinzugebe, kann ich mir einen ´ERZ-ZWEIHÄNDER´ schmieden.";
-const string TOPIC_TalentSmith_7 = "Wenn ich 2 Erz hinzugebe, kann ich mir ein ´ERZ-BASTARDSCHWERT´ schmieden.";
-const string TOPIC_TalentSmith_8 = "Wenn ich 3 Erz hinzugebe, kann ich mir einen ´SCHWEREN ERZ-ZWEIHÄNDER´ schmieden.";
-const string TOPIC_TalentSmith_9 = "Wenn ich 3 Erz hinzugebe, kann ich mir eine ´ERZ-SCHLACHTKLINGE´ schmieden.";
-const string TOPIC_TalentSmith_10 = "Wenn ich 4 Erz hinzugebe, kann ich mir eine ´SCHWERE ERZ-SCHLACHTKLINGE´ schmieden.";
+const string TOPIC_TalentSmith_5 = "Für ein einfaches Schwert benötige ich keine weiteren Zutaten.";
+const string TOPIC_TalentSmith_6 = "Wenn ich 1 Erz hinzugebe, kann ich mir ein ´ERZ-LANGSCHWERT´ schmieden.";
+const string TOPIC_TalentSmith_7 = "Wenn ich 2 Erz hinzugebe, kann ich mir einen ´ERZ-ZWEIHÄNDER´ schmieden.";
+const string TOPIC_TalentSmith_8 = "Wenn ich 2 Erz hinzugebe, kann ich mir ein ´ERZ-BASTARDSCHWERT´ schmieden.";
+const string TOPIC_TalentSmith_9 = "Wenn ich 3 Erz hinzugebe, kann ich mir einen ´SCHWEREN ERZ-ZWEIHÄNDER´ schmieden.";
+const string TOPIC_TalentSmith_10 = "Wenn ich 3 Erz hinzugebe, kann ich mir eine ´ERZ-SCHLACHTKLINGE´ schmieden.";
+const string TOPIC_TalentSmith_11 = "Wenn ich 4 Erz hinzugebe, kann ich mir eine ´SCHWERE ERZ-SCHLACHTKLINGE´ schmieden.";
 
 
 const string TOPIC_TalentRunes = "Die Runen";
@@ -138,17 +139,17 @@ const string TOPIC_TalentRunes_33 = "Zutaten für die Rune ´MONSTER SCHRUMPFEN�
 
 const string TOPIC_TalentAlchemy = "Die Tränke";
 const string TOPIC_TalentAlchemy_1 = "Um einen Trank zu brauen, brauche ich einen leere Laborflasche und die jeweilig benötigten Zutaten für den gewünschten Trank. Mit diese Zutaten kann man an einem Alchemietisch den gewünschten Trank herstellen.";
-const string TOPIC_TalentAlchemy_2 = "Zutaten ´ESSENZ DER HEILUNG´:2 Heilpflanzen und 1 Feldknöterich.";
-const string TOPIC_TalentAlchemy_3 = "Zutaten ´EXTRAKT DER HEILUNG´:2 Heilkräuter und 1 Feldknöterich.";
-const string TOPIC_TalentAlchemy_4 = "Zutaten ´ELIXIER DER HEILUNG´:2 Heilwurzel und 1 Feldknöterich.";
-const string TOPIC_TalentAlchemy_5 = "Zutaten ´MANA ESSENZ´: 2 Feuernesseln und 1 Feldknöterich.";
-const string TOPIC_TalentAlchemy_6 = "Zutaten ´MANA EXTRAKT´: 2 Feuerkraut und 1 Feldknöterich.";
-const string TOPIC_TalentAlchemy_7 = "Zutaten ´MANA ELIXIER´:2 Feuerwurzel und 1 Feldknöterich";
-const string TOPIC_TalentAlchemy_8 = "Zutaten ´TRANK DER GESCHWINDIGKEIT´: 1 Snapperkraut und 1 Feldknöterich";
-const string TOPIC_TalentAlchemy_9 = "Zutaten ´Elixier der Stärke´:1 Drachenwurzel und 1 Kronstöckel.";
-const string TOPIC_TalentAlchemy_10 = "Zutaten ´ELIXIER DER GESCHICKLICHKEIT´: 1 Goblinbeere und 1 Kronstöckel.";
-const string TOPIC_TalentAlchemy_11 = "Zutaten ´ELIXIER DES GEISTES´:1 Feuerwurzel und 1 Kronstöckel.";
-const string TOPIC_TalentAlchemy_12 = "Zutaten ´ELIXIER DES LEBENS´:1 Heilwurzel und 1 Kronstöckel.";
+const string TOPIC_TalentAlchemy_4 = "Zutaten ´ESSENZ DER HEILUNG´:2 Heilpflanzen und 1 Feldknöterich.";
+const string TOPIC_TalentAlchemy_5 = "Zutaten ´EXTRAKT DER HEILUNG´:2 Heilkräuter und 1 Feldknöterich.";
+const string TOPIC_TalentAlchemy_6 = "Zutaten ´ELIXIER DER HEILUNG´:2 Heilwurzel und 1 Feldknöterich.";
+const string TOPIC_TalentAlchemy_7 = "Zutaten ´MANA ESSENZ´: 2 Feuernesseln und 1 Feldknöterich.";
+const string TOPIC_TalentAlchemy_8 = "Zutaten ´MANA EXTRAKT´: 2 Feuerkraut und 1 Feldknöterich.";
+const string TOPIC_TalentAlchemy_9 = "Zutaten ´MANA ELIXIER´:2 Feuerwurzel und 1 Feldknöterich";
+const string TOPIC_TalentAlchemy_10 = "Zutaten ´TRANK DER GESCHWINDIGKEIT´: 1 Snapperkraut und 1 Feldknöterich";
+const string TOPIC_TalentAlchemy_11 = "Zutaten ´Elixier der Stärke´:1 Drachenwurzel und 1 Kronstöckel.";
+const string TOPIC_TalentAlchemy_12 = "Zutaten ´ELIXIER DER GESCHICKLICHKEIT´: 1 Goblinbeere und 1 Kronstöckel.";
+const string TOPIC_TalentAlchemy_13 = "Zutaten ´ELIXIER DES GEISTES´:1 Feuerwurzel und 1 Kronstöckel.";
+const string TOPIC_TalentAlchemy_14 = "Zutaten ´ELIXIER DES LEBENS´:1 Heilwurzel und 1 Kronstöckel.";
 
 
 const string TOPIC_TalentAnimalTrophy = "Die Tierverwertung";
@@ -179,15 +180,15 @@ const string TOPIC_TalentMagicCircle_7 = "Die Sprüche des 6. Kreises sind: Feue
 
 
 const string Topic_Bonus = "Besonderes";
-const string Topic_Bonus_1 = "Ich weiß jetzt was ich tun muss, um heilenden Saft aus den abgetrennten Stacheln von Blutfliegen trinken zu können. ";
-const string Topic_Bonus_2 = "Bei Onar kann ich mir täglich meinen Sold abholen.";
-const string Topic_Bonus_3 = "Bei Hilda kann ich mir jeden Tag einen Rübeneintopf abholen.";
-const string Topic_Bonus_4 = "Harad hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.";
-const string Topic_Bonus_5 = "Harad kauft mir meine geschmiedeten Waffen zu einem guten Preis ab.";
-const string Topic_Bonus_6 = "Bosper hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.";
-const string Topic_Bonus_7 = "Bosper zahlt mir für Felle einen besonders guten Preis.";
-const string Topic_Bonus_8 = "Constantino hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.";
-const string Topic_Bonus_9 = "Bei Constantino kann ich Pilze zu einem besonderen guten Preis verkaufen.";
+const string Topic_Bonus_1 = "Constantino hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.";
+const string Topic_Bonus_2 = "Bei Constantino kann ich Pilze zu einem besonderen guten Preis verkaufen.";
+const string Topic_Bonus_3 = "Harad hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.";
+const string Topic_Bonus_4 = "Harad kauft mir meine geschmiedeten Waffen zu einem guten Preis ab.";
+const string Topic_Bonus_5 = "Ich weiß jetzt was ich tun muss, um heilenden Saft aus den abgetrennten Stacheln von Blutfliegen trinken zu können. ";
+const string Topic_Bonus_6 = "Bei Hilda kann ich mir jeden Tag einen Rübeneintopf abholen.";
+const string Topic_Bonus_7 = "Bei Onar kann ich mir täglich meinen Sold abholen.";
+const string Topic_Bonus_8 = "Bosper zahlt mir für Felle einen besonders guten Preis.";
+const string Topic_Bonus_9 = "Bosper hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.";
 
 
 const string Topic_Diebesgilde = "Diebesgilde";

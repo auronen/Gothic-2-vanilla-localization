@@ -55,7 +55,7 @@ func void DIA_NOV_8_Fegen_Info()
 			B_GivePlayerXP(XP_Feger);
 			AI_StopProcessInfos(self);
 			Npc_ExchangeRoutine(self,"FEGEN");
-			B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_5);
+			B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_1);
 		}
 		else
 		{

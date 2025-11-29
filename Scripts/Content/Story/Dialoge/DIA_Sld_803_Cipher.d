@@ -77,11 +77,11 @@ func void DIA_Cipher_TradeWhat_Info()
 	AI_Output(self,other,"DIA_Cipher_TradeWhat_07_04");	//Aber irgendein Mistkerl hat mir das ganze Kraut aus meiner Truhe gestohlen!
 	Log_CreateTopic(Topic_CipherPaket,LOG_MISSION);
 	Log_SetTopicStatus(Topic_CipherPaket,LOG_Running);
-	B_LogEntry(Topic_CipherPaket,Topic_CipherPaket_1);
+	B_LogEntry(Topic_CipherPaket,Topic_CipherPaket_2);
 	if(!Npc_IsDead(Bodo))
 	{
 		AI_Output(self,other,"DIA_Cipher_TradeWhat_07_05");	//Bin mir ziemlich sicher, dass es dieser Bodo war, er hat sein Bett im selben Raum wie ich und er grinst mich immer so dämlich an ...
-		B_LogEntry(Topic_CipherPaket,Topic_CipherPaket_2);
+		B_LogEntry(Topic_CipherPaket,Topic_CipherPaket_3);
 	};
 	MIS_Cipher_Paket = LOG_Running;
 };

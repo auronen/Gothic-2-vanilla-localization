@@ -218,7 +218,7 @@ func void DIA_Bennet_WannaSmith_Pay()
 		AI_Output(self,other,"DIA_Bennet_WannaSmith_Pay_06_01");	//Und das war noch verdammt günstig! Wir können anfangen, sobald du so weit bist.
 		Bennet_TeachCommon = TRUE;
 		Log_CreateTopic(Topic_SoldierTeacher,LOG_NOTE);
-		B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_5);
+		B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_2);
 	}
 	else
 	{
@@ -587,7 +587,7 @@ func void DIA_Bennet_WhyPrison_Info()
 	MIS_RescueBennet = LOG_Running;
 	Log_CreateTopic(TOPIC_RescueBennet,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_RescueBennet,LOG_Running);
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_6);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_9);
 };
 
 
@@ -648,7 +648,7 @@ func void DIA_Bennet_Victim_Info()
 	AI_Output(other,self,"DIA_Bennet_Victim_15_02");	//Hast du einen Namen?
 	AI_Output(self,other,"DIA_Bennet_Victim_06_03");	//Lothar, oder so. Keine Ahnung, ich bin mir aber auch nicht sicher.
 	AI_Output(self,other,"DIA_Bennet_Victim_06_04");	//Frag am besten Lord Hagen, der kennt alle Einzelheiten.
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_7);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_10);
 };
 
 
@@ -677,7 +677,7 @@ func void DIA_Bennet_Evidence_Info()
 	AI_Output(self,other,"DIA_Bennet_Evidence_06_01");	//Sie sagen, sie haben einen Zeugen, der mich erkannt hat.
 	AI_Output(other,self,"DIA_Bennet_Evidence_15_02");	//Weißt du, wer der Zeuge ist?
 	AI_Output(self,other,"DIA_Bennet_Evidence_06_03");	//Nein. Ich weiß nur, dass er lügt.
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_8);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_11);
 	RescueBennet_KnowsWitness = TRUE;
 };
 
@@ -1016,7 +1016,7 @@ func void DIA_Bennet_ShowInnosEye_Info()
 		AI_Output(self,other,"DIA_Bennet_ShowInnosEye_06_06");	//Wenn du es hierlässt und morgen wiederkommst, wird es fertig sein.
 		AI_Output(self,other,"DIA_Bennet_ShowInnosEye_06_07");	//Ich werde dir noch nicht mal was dafür abknöpfen. Schließlich hast du mich aus dem Bau geholt.
 	};
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_14);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_17);
 	MIS_SCKnowsInnosEyeIsBroken = TRUE;
 };
 
@@ -1081,7 +1081,7 @@ func void DIA_Bennet_GetInnosEye_Info()
 		AI_PrintScreen(Print_InnosEyeGet,-1,YPOS_ItemGiven,FONT_ScreenSmall,2);
 		AI_Output(self,other,"DIA_Bennet_GetInnosEye_06_02");	//Ich musste eine neue Fassung für den Stein fertigen.
 		AI_Output(self,other,"DIA_Bennet_GetInnosEye_06_03");	//Ich hab die ganze Nacht daran gearbeitet und es ist wie neu.
-		B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_15);
+		B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_10);
 		MIS_Bennet_InnosEyeRepairedSetting = LOG_SUCCESS;
 		B_GivePlayerXP(XP_InnosEyeIsRepaired);
 	}
@@ -1343,7 +1343,7 @@ func void DIA_Bennet_KnowWhereEnemy_Info()
 	AI_Output(self,other,"DIA_Bennet_KnowWhereEnemy_06_03");	//Besser als der Onars Hof. Junge, selbst die Hölle kann nicht so schlimm sein. Ich bin dabei.
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_13);
+	B_LogEntry(Topic_Crew,Topic_Crew_15);
 	if(Crewmember_Count >= Max_Crew)
 	{
 		AI_Output(other,self,"DIA_Bennet_KnowWhereEnemy_15_04");	//Im Moment habe ich meine Crew schon komplett.

@@ -73,7 +73,7 @@ func void DIA_Girion_CanTeach_Info()
 		AI_Output(self,other,"DIA_Girion_CanTeach_08_01");	//Du tust gut daran, dich in dem edelsten aller Kampfstile zu üben. So, wie es sich für einen Streiter Innos' gehört.
 		AI_Output(self,other,"DIA_Girion_CanTeach_08_02");	//Ich werde dich ausbilden. Erstatte mir Bericht, wenn du bereit bist.
 		Girion_Teach2H = TRUE;
-		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_7);
+		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_9);
 	}
 	else
 	{

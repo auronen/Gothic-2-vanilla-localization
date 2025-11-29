@@ -72,7 +72,7 @@ func void DIA_Cornelius_WhatYouSee_Info()
 	AI_Output(other,self,"DIA_Cornelius_WhatYouSee_15_00");	//Was hast du gesehen?
 	AI_Output(self,other,"DIA_Cornelius_WhatYouSee_13_01");	//(hektisch) Ich hab jetzt wirklich keine Zeit.
 	AI_Output(self,other,"DIA_Cornelius_WhatYouSee_13_02");	//(hektisch) Du musst jetzt gehen, das Büro schließt jetzt.
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_9);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_6);
 	AI_StopProcessInfos(self);
 };
 
@@ -154,7 +154,7 @@ func void DIA_Cornelius_DontBelieveYou_WhatYouWant()
 	AI_Output(self,other,"DIA_Cornelius_DontBelieveYou_WhatYouWant_13_01");	//(arrogant) Du hast gar nicht genug Gold, um mich zu bezahlen.
 	AI_Output(other,self,"DIA_Cornelius_DontBelieveYou_WhatYouWant_15_02");	//Wie viel?
 	AI_Output(self,other,"DIA_Cornelius_DontBelieveYou_WhatYouWant_13_03");	//2000 Goldstücke. Dann könnte ich mir die Sache noch mal überlegen.
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_10);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_7);
 	Cornelius_PayForProof = TRUE;
 	Info_ClearChoices(DIA_Cornelius_DontBelieveYou);
 };
@@ -263,7 +263,7 @@ func void DIA_Cornelius_RealStory_Info()
 		AI_Output(self,other,"DIA_Cornelius_RealStory_13_07");	//Ich werde dir mein Tagebuch geben, das sollte als Beweis genügen.
 		B_GiveInvItems(self,other,ItWr_CorneliusTagebuch_Mis,1);
 	};
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_11);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_8);
 	CorneliusFlee = TRUE;
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self,"FLEE");

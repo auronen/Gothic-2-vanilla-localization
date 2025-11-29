@@ -254,7 +254,7 @@ func void Use_Map_NewWorld_Orcelite_MIS()
 	Doc_Show(Document);
 	if((Use_Map_NewWorld_Orcelite_MIS_OneTime == FALSE) && (MIS_KillOrkOberst != 0))
 	{
-		B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_1);
+		B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_8);
 		Use_Map_NewWorld_Orcelite_MIS_OneTime = TRUE;
 	};
 };

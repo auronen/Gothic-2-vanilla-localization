@@ -161,7 +161,7 @@ func void DIA_DragonTalk_Main_4_Info()
 	AI_Output(self,other,"DIA_DragonTalk_Main_4_20_06");	//Denn ganz offensichtlich bist du noch nicht bereit für die hohe Bürde ihres oberen Wissens.
 	Log_CreateTopic(TOPIC_BuchHallenVonIrdorath,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BuchHallenVonIrdorath,LOG_Running);
-	B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_4);
+	B_LogEntry(TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_1);
 	B_NPC_IsAliveCheck(OldWorld_Zen);
 	DragonTalk_Exit_Free = TRUE;
 };

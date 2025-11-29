@@ -155,7 +155,7 @@ func void DIA_Carl_Lernen_Info()
 	AI_Output(self,other,"DIA_Carl_Lernen_05_03");	//Wenn du das lernen willst, dann geh zu Harad. Ja, der kann Waffen schmieden!
 	AI_Output(self,other,"DIA_Carl_Lernen_05_04");	//Aber wenn du ein bisschen deine Muskeln trainieren willst - dabei kann ich dir helfen.
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_12);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_3);
 };
 
 

@@ -77,7 +77,7 @@ func void DIA_Coragon_HALLO_Info()
 	AI_Output(other,self,"DIA_Coragon_HALLO_15_00");	//Krieg ich hier was zu trinken?
 	AI_Output(self,other,"DIA_Coragon_Add_05_00");	//Wenn du Gold hast, kannst du hier sogar was essen, wenn du willst.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_11);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_17);
 };
 
 

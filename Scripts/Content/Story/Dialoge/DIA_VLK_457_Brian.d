@@ -267,7 +267,7 @@ func void DIA_Brian_WASKAUFEN_Info()
 	if(Brian_Trade_einmal == FALSE)
 	{
 		Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_15);
+		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_13);
 		Brian_Trade_einmal = TRUE;
 	};
 	Npc_RemoveInvItems(self,ItMiSwordblade,Npc_HasItems(self,ItMiSwordblade));

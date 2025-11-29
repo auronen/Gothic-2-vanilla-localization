@@ -70,7 +70,7 @@ func void DIA_Sengrath_Equipment_Info()
 	AI_Output(other,self,"DIA_Sengrath_Equipment_15_02");	//Was ist mit magischem Bedarf?
 	AI_Output(self,other,"DIA_Sengrath_Equipment_03_03");	//Wir sind mit Spruchrollen ausgestattet worden. Wenn du welche haben willst, lass es mich wissen.
 	Log_CreateTopic(TOPIC_Trader_OC,LOG_NOTE);
-	B_LogEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_2);
+	B_LogEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_6);
 };
 
 
@@ -101,7 +101,7 @@ func void DIA_Sengrath_Perm_Info()
 	{
 		AI_Output(self,other,"DIA_Sengrath_Perm_03_02");	//Frag mal Keroloth. Er trainiert die Jungs im Schwertkampf. Vielleicht unterrichtet er dich ja auch.
 		Log_CreateTopic(TOPIC_Teacher_OC,LOG_NOTE);
-		B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_1);
+		B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_4);
 	};
 };
 

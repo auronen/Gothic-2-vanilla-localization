@@ -713,7 +713,7 @@ func void DIA_Biff_KnowWhereEnemy_Yes()
 	AI_Output(self,other,"DIA_Biff_KnowWhereEnemy_Yes_07_05");	//Kein Problem. Ich bin schon unterwegs. Treff mich am Pass.
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_2);
+	B_LogEntry(Topic_Crew,Topic_Crew_4);
 	B_GivePlayerXP(XP_Crewmember_Success);
 	self.flags = NPC_FLAG_IMMORTAL;
 	Biff_IsOnBoard = LOG_SUCCESS;

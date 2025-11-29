@@ -112,7 +112,7 @@ func void DIA_Pyrokar_Auge_Info()
 	AI_Output(self,other,"DIA_Pyrokar_Auge_11_02");	//Das Amulett bestimmt seinen Träger selbst - niemals wird es ein anderer tragen können als der dafür bestimmte Mann.
 	AI_Output(other,self,"DIA_Pyrokar_Auge_15_03");	//Ich würd's auf einen Versuch ankommen lassen.
 	AI_Output(self,other,"DIA_Pyrokar_Auge_11_04");	//Demut ist die Pflicht des Novizen - nicht das Verlangen.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_2);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_12);
 	if(Npc_KnowsInfo(other,DIA_Pyrokar_Hagen))
 	{
 		AI_Output(self,other,"DIA_Pyrokar_ALL_11_05");	//Dann wollen wir dich auch nicht länger von deinen Arbeiten abhalten - Du darfst jetzt gehen.
@@ -921,7 +921,7 @@ func void DIA_Pyrokar_BACKFROMOW_Info()
 	{
 		Log_CreateTopic(TOPIC_DEMENTOREN,LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_DEMENTOREN,LOG_Running);
-		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_2);
+		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_3);
 	};
 	if((Npc_IsDead(Karras) == FALSE) && (hero.guild == GIL_KDF))
 	{
@@ -989,7 +989,7 @@ func void DIA_Pyrokar_GIVEINNOSEYE_wer()
 	AI_Output(self,other,"DIA_Pyrokar_GIVEINNOSEYE_wer_11_08");	//Ich fürchte, er war einfach zu lange alleine draußen vor den Toren und somit außerhalb der schützenden Klostermauern allen lauernden Gefahren ausgeliefert.
 	Pedro.flags = 0;
 	Pedro_Traitor = TRUE;
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_3);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_13);
 	B_LogEntry(TOPIC_TraitorPedro,TOPIC_TraitorPedro_2);
 };
 
@@ -1155,7 +1155,7 @@ func void DIA_Pyrokar_XARDASVERTRAUEN_Info()
 	AI_Output(other,self,"DIA_Pyrokar_XARDASVERTRAUEN_15_03");	//Was wäre, wenn ich dir diesen Beweis liefern könnte?
 	AI_Output(self,other,"DIA_Pyrokar_XARDASVERTRAUEN_11_04");	//Ich fürchte, das ist unmöglich. Es müsste mich schon sehr beeindrucken.
 	AI_Output(self,other,"DIA_Pyrokar_XARDASVERTRAUEN_11_05");	//Was Xardas angeht, habe ich meine Zweifel, ob es ihm überhaupt noch gelingen wird, mich zu beeindrucken.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_5);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_15);
 	Pyrokar_DeniesInnosEyeRitual = TRUE;
 };
 
@@ -1196,7 +1196,7 @@ func void DIA_Pyrokar_BUCHZURUECK_Info()
 	AI_StopProcessInfos(self);
 	AI_UseMob(self,"THRONE",-1);
 	Npc_ExchangeRoutine(self,"RitualInnosEyeRepair");
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_6);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_16);
 	Pyrokar_GoesToRitualInnosEye = TRUE;
 };
 
@@ -1301,7 +1301,7 @@ func void DIA_Pyrokar_KAP3_READY_Info()
 	CreateInvItems(Gorax,ItMi_RuneBlank,1);
 	Log_CreateTopic(TOPIC_DRACHENJAGD,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_DRACHENJAGD,LOG_Running);
-	B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_4);
+	B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_10);
 	MIS_ReadyforChapter4 = TRUE;
 	B_NPC_IsAliveCheck(NEWWORLD_ZEN);
 	AI_StopProcessInfos(self);
@@ -1350,7 +1350,7 @@ func void DIA_Pyrokar_BUCHDERBESSENEN_Info()
 			AI_Output(self,other,"DIA_Pyrokar_BUCHDERBESSENEN_11_10");	//Doch vorher solltest du wenigstens eins davon Karras zeigen. Vielleicht hilft ihm das bei seinen Studien.
 		};
 		AI_Output(self,other,"DIA_Pyrokar_BUCHDERBESSENEN_11_11");	//Begehe nicht den Fehler, sie selbst vernichten zu wollen. Du bist ihrer Macht noch nicht gewachsen.
-		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_4);
+		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_5);
 	};
 	AI_Output(self,other,"DIA_Pyrokar_BUCHDERBESSENEN_11_12");	//Komm den Suchenden nicht zu nah, sonst werden sie von dir Besitz ergreifen.
 	AI_Output(self,other,"DIA_Pyrokar_BUCHDERBESSENEN_11_13");	//Solltest du trotzdem ihrem Ruf nicht entgehen können, dann komm so schnell, wie du kannst, zu mir zurück.
@@ -1360,7 +1360,7 @@ func void DIA_Pyrokar_BUCHDERBESSENEN_Info()
 		AI_Output(other,self,"DIA_Pyrokar_BUCHDERBESSENEN_15_15");	//Gibt es keinen Schutz gegen ihre mentalen Angriffe?
 		AI_Output(self,other,"DIA_Pyrokar_BUCHDERBESSENEN_11_16");	//Möglich. Karras könnte etwas darüber wissen.
 		Pyrokar_AskKarrasAboutDMTAmulett = TRUE;
-		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_5);
+		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_6);
 	};
 };
 

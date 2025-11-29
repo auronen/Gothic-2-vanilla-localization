@@ -72,7 +72,7 @@ func void DIA_Cedric_CanTeach_Info()
 	{
 		AI_Output(self,other,"DIA_Cedric_CanTeach_12_01");	//Ich kann dich im Kampf mit einhändigen Waffen trainieren.
 		Cedric_Teach1H = TRUE;
-		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_8);
+		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_22);
 	}
 	else
 	{

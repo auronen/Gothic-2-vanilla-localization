@@ -120,7 +120,7 @@ func void DIA_Marcos_Garond_Info()
 	AI_Output(self,other,"DIA_Marcos_Garond_04_04");	//Sag ihm, dass ich das Erz mit meinen Leben schützen werde. Doch weiß ich nicht, wie lange es dauern wird, bis mich die Orks hier aufspüren.
 	AI_Output(self,other,"DIA_Marcos_Garond_04_05");	//Er soll mir Unterstützung schicken.
 	AI_Output(other,self,"DIA_Marcos_Garond_15_06");	//Ich werd's ihm ausrichten.
-	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_1);
+	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_6);
 	Log_CreateTopic(Topic_MarcosJungs,LOG_MISSION);
 	Log_SetTopicStatus(Topic_MarcosJungs,LOG_Running);
 	B_LogEntry(Topic_MarcosJungs,Topic_MarcosJungs_1);

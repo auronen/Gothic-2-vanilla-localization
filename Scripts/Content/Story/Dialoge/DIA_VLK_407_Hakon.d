@@ -71,7 +71,7 @@ func void DIA_Hakon_Hallo_Info()
 	AI_Output(self,other,"DIA_Hakon_Add_12_00");	//Ich bin Hakon, der Waffenhändler. Kann ich etwa für dich tun?
 	AI_Output(self,other,"DIA_Hakon_Add_12_01");	//In diesen Tagen sollte jeder Mann eine Waffe tragen. Vor allem wenn er außerhalb der Stadtmauern unterwegs ist.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_2);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_15);
 };
 
 

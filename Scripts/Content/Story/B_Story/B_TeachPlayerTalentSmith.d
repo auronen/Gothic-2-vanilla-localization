@@ -15,37 +15,37 @@ func int B_TeachPlayerTalentSmith(var C_Npc slf,var C_Npc oth,var int waffe)
 	if(waffe == WEAPON_Common)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_Common] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_4);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_5);
 	};
 	if(waffe == WEAPON_1H_Special_01)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_1H_Special_01] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_5);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_6);
 	};
 	if(waffe == WEAPON_2H_Special_01)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_2H_Special_01] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_6);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_7);
 	};
 	if(waffe == WEAPON_1H_Special_02)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_1H_Special_02] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_7);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_8);
 	};
 	if(waffe == WEAPON_2H_Special_02)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_2H_Special_02] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_8);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_9);
 	};
 	if(waffe == WEAPON_1H_Special_03)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_1H_Special_03] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_9);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_10);
 	};
 	if(waffe == WEAPON_2H_Special_03)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_2H_Special_03] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_10);
+		B_LogEntry(TOPIC_TalentSmith,TOPIC_TalentSmith_11);
 	};
 	if(waffe == WEAPON_1H_Special_04)
 	{

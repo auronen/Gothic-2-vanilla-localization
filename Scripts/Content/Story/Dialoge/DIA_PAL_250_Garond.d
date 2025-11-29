@@ -691,7 +691,7 @@ func void DIA_Garond_Gorn_Info()
 	AI_Output(other,self,"DIA_Garond_Gorn_15_04");	//Das ist ein Haufen Gold.
 	AI_Output(self,other,"DIA_Garond_Gorn_10_05");	//Gorn hat auch einiges auf dem Kerbholz. Bring mir das Gold, dann lasse ich Gorn frei.
 	MIS_RescueGorn = LOG_Running;
-	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_1);
+	B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_5);
 };
 
 
@@ -721,7 +721,7 @@ func void DIA_Garond_Pay_Info()
 	{
 		AI_Output(self,other,"DIA_Garond_Pay_10_01");	//Einverstanden. Du kannst zu Gerold gehen und ihm sagen, das Gorn auf meinen Befehl freigelassen wird.
 		Garond_Kerkerauf = TRUE;
-		B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_2);
+		B_LogEntry(TOPIC_RescueGorn,TOPIC_RescueGorn_6);
 	}
 	else
 	{
@@ -920,7 +920,7 @@ func void DIA_Garond_DragonPlettBericht_Info()
 	var int CurrentDragonCount;
 	var int Drachengeld;
 	var int XP_LocalGarond;
-	B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_5);
+	B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_3);
 	if(Garond_DragonCounter < MIS_KilledDragons)
 	{
 		AI_Output(other,self,"DIA_Garond_DragonPlettBericht_15_00");	//Ich habe Neuigkeiten über die Drachen.
@@ -966,7 +966,7 @@ func void DIA_Garond_DragonPlettBericht_Info()
 	{
 		AI_Output(other,self,"DIA_Garond_DragonPlettBericht_15_07");	//Kannst du mir noch mehr Informationen über die Drachen geben?
 		AI_Output(self,other,"DIA_Garond_DragonPlettBericht_10_08");	//Ich habe mich noch um andere Dinge zu kümmern. Mein strategischer Offizier Oric kann dir mehr dazu sagen.
-		B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_6);
+		B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_4);
 		Garond_OricExperte_OneTime = TRUE;
 	}
 	else if(MIS_AllDragonsDead == FALSE)

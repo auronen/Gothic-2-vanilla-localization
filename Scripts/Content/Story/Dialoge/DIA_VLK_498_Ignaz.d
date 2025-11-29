@@ -233,7 +233,7 @@ func void DIA_Ignaz_Danach_Info()
 	AI_Output(self,other,"DIA_Ignaz_Danach_14_05");	//Und, wenn du willst, kannst du auch einige nützliche Dinge von mir haben.
 	Ignaz_TeachAlchemy = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_15);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_6);
 	MIS_Ignaz_Charm = LOG_SUCCESS;
 	B_GivePlayerXP(XP_MIS_Ignaz_Charm);
 	CreateInvItems(self,ItSc_Charm,3);

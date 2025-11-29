@@ -99,7 +99,7 @@ func void DIA_Albrecht_CanTeach_Info()
 		AI_Output(self,other,"DIA_Albrecht_CanTeach_03_01");	//Wenn du dich würdig erweißt, werde ich dir die magischen Runen der Paladine verleihen.
 		AI_Output(self,other,"DIA_Albrecht_CanTeach_03_02");	//Außerdem kann ich dir beibringen, deine magische Kraft zu vergrößern.
 		Albrecht_TeachMANA = TRUE;
-		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_6);
+		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_20);
 	}
 	else
 	{

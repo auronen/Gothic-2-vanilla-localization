@@ -532,26 +532,26 @@ func void DIA_Oric_DragonPlettBericht_Info()
 		if((Npc_IsDead(SwampDragon) == FALSE) && (Oric_SwampdragonInfo_OneTime == FALSE))
 		{
 			AI_Output(self,other,"DIA_Oric_DragonPlettBericht_11_03");	//Westlich der alten Burg, hat sich in den letzten Tagen ein ziemlich großes Sumpfgebiet gebildet. Ziemlich verdächtig, findest du nicht?
-			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_7);
+			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_5);
 			Oric_SwampdragonInfo_OneTime = TRUE;
 		}
 		else if((Npc_IsDead(RockDragon) == FALSE) && (Oric_RockdragonInfo_OneTime == FALSE))
 		{
 			AI_Output(self,other,"DIA_Oric_DragonPlettBericht_11_04");	//Es gibt da eine Felsenfestung im Süden, noch weit hinter dem Vulkan.
 			AI_Output(self,other,"DIA_Oric_DragonPlettBericht_11_05");	//Unsere Späher haben berichtet, dass die Festung schwer bewacht ist. Vielleicht verbirgt sich dort einer von ihnen.
-			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_8);
+			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_6);
 			Oric_RockdragonInfo_OneTime = TRUE;
 		}
 		else if((Npc_IsDead(FireDragon) == FALSE) && (Oric_FiredragonInfo_OneTime == FALSE))
 		{
 			AI_Output(self,other,"DIA_Oric_DragonPlettBericht_11_06");	//Nach dem letzten Angriff der Drachen soll einer von ihnen bei dem Vulkan im Süden verschwunden sein. Ich würde dort nach ihm suchen.
-			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_9);
+			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_7);
 			Oric_FiredragonInfo_OneTime = TRUE;
 		}
 		else if((Npc_IsDead(IceDragon) == FALSE) && (Oric_IcedragonInfo_OneTime == FALSE))
 		{
 			AI_Output(self,other,"DIA_Oric_DragonPlettBericht_11_07");	//Es gibt eine sehr weitläufige Eisregion im Westen. Würde mich nicht überraschen, wenn sich einer der Drachen dort versteckt hielte.
-			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_10);
+			B_LogEntry(TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_8);
 			Oric_IcedragonInfo_OneTime = TRUE;
 		};
 		Oric_DragonCounter = MIS_KilledDragons;

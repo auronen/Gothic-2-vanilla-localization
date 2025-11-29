@@ -581,7 +581,7 @@ func void DIA_Parlan_Aufgabe_Info()
 	MIS_ParlanFegen = LOG_Running;
 	Log_CreateTopic(Topic_ParlanFegen,LOG_MISSION);
 	Log_SetTopicStatus(Topic_ParlanFegen,LOG_Running);
-	B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_6);
+	B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_7);
 };
 
 
@@ -652,7 +652,7 @@ func void DIA_Parlan_LEARN_Info()
 	AI_Output(other,self,"DIA_Parlan_LEARN_15_00");	//Wie kann ich die Kunst der Magie lernen?
 	AI_Output(self,other,"DIA_Parlan_LEARN_05_01");	//Du bist nicht hier, um die Gabe der Magie zu empfangen, du bist hier, um Innos zu dienen.
 	AI_Output(self,other,"DIA_Parlan_LEARN_05_02");	//Aber ich kann dir zeigen, wie du deine magische Kraft steigern kannst.
-	B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_7);
+	B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_9);
 };
 
 

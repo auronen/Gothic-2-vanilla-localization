@@ -106,7 +106,7 @@ func void DIA_MAtteo_SellWhat_Info()
 	if(Knows_Matteo == FALSE)
 	{
 		Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_9);
+		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_8);
 		Knows_Matteo = TRUE;
 	};
 };
@@ -520,7 +520,7 @@ func void DIA_MAtteo_Zustimmung_Info()
 		AI_Output(self,other,"DIA_Matteo_Zustimmung_09_01");	//Mach dir keine Sorgen. Ich werde mich an meinen Teil der Abmachung halten.
 		AI_Output(self,other,"DIA_Matteo_Zustimmung_09_02");	//Die anderen Meister werden von mir nur das Beste über dich zu hören bekommen.
 		B_GivePlayerXP(XP_Zustimmung);
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_9);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_8);
 		DIA_Matteo_Zustimmung_perm = TRUE;
 	}
 	else
@@ -559,7 +559,7 @@ func void DIA_MAtteo_HowCanYouHelp_Info()
 	};
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_10);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_9);
 };
 
 
@@ -591,8 +591,8 @@ func void DIA_MAtteo_WoAlsLehrling_Info()
 	AI_Output(self,other,"DIA_Matteo_WoAlsLehrling_09_04");	//Aber es ist wichtig, dass die anderen Meister zustimmen. Das ist seit jeher Brauch hier in Khorinis.
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_10);
 	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_11);
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_12);
 };
 
 
@@ -620,7 +620,7 @@ func void DIA_MAtteo_WieZustimmung_Info()
 	AI_Output(other,self,"DIA_Matteo_WieZustimmung_15_00");	//Wie bekomme ich die Zustimmung der anderen Meister?
 	AI_Output(self,other,"DIA_Matteo_WieZustimmung_09_01");	//Du musst sie einfach von dir überzeugen. Geh hin und rede mit ihnen.
 	AI_Output(self,other,"DIA_Matteo_WieZustimmung_09_02");	//Aber wenn mehr als einer von ihnen gegen dich ist, hast du keine Chance! Also benimm dich!
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_13);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_12);
 };
 
 

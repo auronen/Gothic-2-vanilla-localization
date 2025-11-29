@@ -287,7 +287,7 @@ func void DIA_Buster_WannaJoin_Info()
 		Buster_Duell = TRUE;
 		Log_CreateTopic(TOPIC_SLDRespekt,LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_SLDRespekt,LOG_Running);
-		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_3);
+		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_5);
 	}
 	else
 	{
@@ -490,7 +490,7 @@ func void DIA_Buster_Teach_Info()
 	if(BusterLOG == FALSE)
 	{
 		Log_CreateTopic(Topic_SoldierTeacher,LOG_NOTE);
-		B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_3);
+		B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_6);
 		BusterLOG = TRUE;
 	};
 	Info_ClearChoices(DIA_Buster_Teach);

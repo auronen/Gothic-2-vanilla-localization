@@ -4,8 +4,8 @@ const string TOPIC_Bronkoeingeschuechtert_1 = "Till kann Bronko nicht zur Arbeit
 
 
 const string TOPIC_BalthasarsSchafe = "Die verbotene Weide";
-const string TOPIC_BalthasarsSchafe_1 = "Der Bauer Bengar hat dem Schafhirten Balthasar verboten seine Schafe auf´s Weidenplateau zu führen.";
-const string TOPIC_BalthasarsSchafe_2 = "Wenn ich Bengar überzeugen will, dass er Balthasar wieder auf seine Weide läßt, werde ich etwas für ihn tun müssen. Die Gelegenheit wird sich sicherlich noch ergeben.";
+const string TOPIC_BalthasarsSchafe_1 = "Wenn ich Bengar überzeugen will, dass er Balthasar wieder auf seine Weide läßt, werde ich etwas für ihn tun müssen. Die Gelegenheit wird sich sicherlich noch ergeben.";
+const string TOPIC_BalthasarsSchafe_2 = "Der Bauer Bengar hat dem Schafhirten Balthasar verboten seine Schafe auf´s Weidenplateau zu führen.";
 
 
 const string TOPIC_AkilsSLDStillthere = "Bauer in Not";
@@ -21,7 +21,7 @@ const string TOPIC_Wettsaufen_1 = "In der Taverne wird gewettet.";
 const string TOPIC_Wettsaufen_2 = "Randolph erzählte mir von Rukhar und seinem Wettsaufen. Randolph hat nicht genug Geld um nochmal gegen Rukhar anzutreten.";
 const string TOPIC_Wettsaufen_3 = "Randolph hat den Verdacht, dass Rukhar beim Wettsaufen betrügt. Randolph würde die Flasche Wacholder in Rukhars Truhe am liebsten mit einer Flasche Wasser vertauschen.";
 const string TOPIC_Wettsaufen_4 = "Die Wette läuft. Das sollte ich weiter beobachten.";
-const string TOPIC_Wettsaufen_5 = "Rukhar nennt sein kleines Spielchen, LEERE DEN KRUG IN EINEM ZUG. Kein Interesse. Ich werde ihm jemanden anderes suchen, den er verarschen kann.";
+const string TOPIC_Wettsaufen_6 = "Rukhar nennt sein kleines Spielchen, LEERE DEN KRUG IN EINEM ZUG. Kein Interesse. Ich werde ihm jemanden anderes suchen, den er verarschen kann.";
 
 
 const string TOPIC_GaanSchnaubi = "Die Schnaubende Kreatur";
@@ -46,40 +46,40 @@ const string TOPIC_HannaRetrieveLetter_1 = "Hanna vermisst ein Schriftstück. Es
 
 const string TOPIC_INNOSEYE = "Das Auge Innos";
 const string TOPIC_INNOSEYE_1 = "Diese schwarzen Kerle gehen mir langsam auf die Nerven. Sie haben das Auge Innos zerstört. Kein Ahnung, wie ich das nun wieder regeln soll.";
-const string TOPIC_INNOSEYE_2 = "Das hatte ich mir eigentlich ein bisschen einfacher vorgestellt, aber freiwillig und ohne Unterstützung der Paladine wird Pyrokar das Auge nicht rausrücken.";
-const string TOPIC_INNOSEYE_3 = "Klasse. Hätte ich mir ja denken können. Ich bin zu spät gekommen, die Hohlköpfe im Kloster haben sich das Auge von einem Novizen klauen lassen und ich kann dem Verräter Pedro jetzt hinterher rennen und hoffen, dass er es noch nicht an irgendwen verkauft hat.";
-const string TOPIC_INNOSEYE_4 = "Pyrokar will, dass ich den Wassermagier Vatras in der Satdt um Rat frage, was mit dem zerstörten Auge nun zu tun ist.";
-const string TOPIC_INNOSEYE_5 = "Pyrokar bekommt bei dem Gedanken an Xardas kalte Füsse. Ich werde mit Xardas darüber reden müssen, wie ich ihn zum Ritual am Sonnenkreis bewegen kann.";
-const string TOPIC_INNOSEYE_6 = "Endlich hat Pyrokar eingewilligt zum Sonnenkreis zu gehen.";
-const string TOPIC_INNOSEYE_7 = "In der Stadt Khorinis lagert eine Gruppe von Paladinen. Sie verfügen über ein mächtiges Artefakt: 'Das Auge Innos'. Seine Macht soll uns gegen die Bedrohung durch die Drachen helfen. Ich werde die Paladine überzeugen müssen, uns in dieser Sache zu unterstützen.";
-const string TOPIC_INNOSEYE_8 = "Der Feind hat erfahren, dass ich auf der Suche nach dem Auge Innos bin. Es wird Zeit, dass ich es endlich finde, bevor es zu spät ist.";
-const string TOPIC_INNOSEYE_9 = "Das Auge befindet sich im Kloster der Feuermagier. Lord Hagen wird mir hoffentlich Zugang dazu gewähren, wenn ich ihm das Schreiben von Lord Garond überreiche. Nur mit Hagens Zustimmung wird mich der oberste Feuermagier Pyrokar an das Amulett heran lassen.";
-const string TOPIC_INNOSEYE_10 = "Xardas war nicht gerade glücklich darüber, dass das Auge Innos zerstört ist. Der Wassermagier Vatras in der Stadt Khorinis scheint nun die einizige Hoffnung zu sein.";
-const string TOPIC_INNOSEYE_11 = "Xardas hat zugestimmt, bei dem Ritual am Sonnenkreis zu erscheinen.";
-const string TOPIC_INNOSEYE_12 = "Xardas gab mir einen Schlüssel für eine Truhe auf Sekobs Bauernhof. Ich soll das Buch darin zu Pyrokar bringen.";
-const string TOPIC_INNOSEYE_13 = "Lord Hagen hat mir ein Schreiben mitgegeben. Damit wird mir Meister Pyrokar im Kloster das Auge Innos überreichen.";
-const string TOPIC_INNOSEYE_14 = "Bennet ist der Schmied, den ich suche um das Amulett zu reparieren.";
-const string TOPIC_INNOSEYE_15 = "Die Fassung des Amuletts ist wieder intakt. Bennet hat ganze Arbeit geleistet.";
-const string TOPIC_INNOSEYE_16 = "Vatras will ein Ritual am Sonnenkreis abhalten um das Auge wieder zu heilen. Ich muss Xardas und Pyrokar überzeugen, daran teilzunehmen. Ausserdem muss ich einen Schmied finden, der mir die zerbrochene Fassung des Amuletts repariert.";
-const string TOPIC_INNOSEYE_17 = "Das Auge ist geheilt. Pyrokar wird es mir überreichen und dann auf zur Drachenjagd.";
+const string TOPIC_INNOSEYE_2 = "Lord Hagen hat mir ein Schreiben mitgegeben. Damit wird mir Meister Pyrokar im Kloster das Auge Innos überreichen.";
+const string TOPIC_INNOSEYE_3 = "Vatras will ein Ritual am Sonnenkreis abhalten um das Auge wieder zu heilen. Ich muss Xardas und Pyrokar überzeugen, daran teilzunehmen. Ausserdem muss ich einen Schmied finden, der mir die zerbrochene Fassung des Amuletts repariert.";
+const string TOPIC_INNOSEYE_4 = "Das Auge ist geheilt. Pyrokar wird es mir überreichen und dann auf zur Drachenjagd.";
+const string TOPIC_INNOSEYE_5 = "In der Stadt Khorinis lagert eine Gruppe von Paladinen. Sie verfügen über ein mächtiges Artefakt: 'Das Auge Innos'. Seine Macht soll uns gegen die Bedrohung durch die Drachen helfen. Ich werde die Paladine überzeugen müssen, uns in dieser Sache zu unterstützen.";
+const string TOPIC_INNOSEYE_6 = "Der Feind hat erfahren, dass ich auf der Suche nach dem Auge Innos bin. Es wird Zeit, dass ich es endlich finde, bevor es zu spät ist.";
+const string TOPIC_INNOSEYE_7 = "Das Auge befindet sich im Kloster der Feuermagier. Lord Hagen wird mir hoffentlich Zugang dazu gewähren, wenn ich ihm das Schreiben von Lord Garond überreiche. Nur mit Hagens Zustimmung wird mich der oberste Feuermagier Pyrokar an das Amulett heran lassen.";
+const string TOPIC_INNOSEYE_8 = "Xardas war nicht gerade glücklich darüber, dass das Auge Innos zerstört ist. Der Wassermagier Vatras in der Stadt Khorinis scheint nun die einizige Hoffnung zu sein.";
+const string TOPIC_INNOSEYE_9 = "Xardas hat zugestimmt, bei dem Ritual am Sonnenkreis zu erscheinen.";
+const string TOPIC_INNOSEYE_10 = "Die Fassung des Amuletts ist wieder intakt. Bennet hat ganze Arbeit geleistet.";
+const string TOPIC_INNOSEYE_11 = "Xardas gab mir einen Schlüssel für eine Truhe auf Sekobs Bauernhof. Ich soll das Buch darin zu Pyrokar bringen.";
+const string TOPIC_INNOSEYE_12 = "Das hatte ich mir eigentlich ein bisschen einfacher vorgestellt, aber freiwillig und ohne Unterstützung der Paladine wird Pyrokar das Auge nicht rausrücken.";
+const string TOPIC_INNOSEYE_13 = "Klasse. Hätte ich mir ja denken können. Ich bin zu spät gekommen, die Hohlköpfe im Kloster haben sich das Auge von einem Novizen klauen lassen und ich kann dem Verräter Pedro jetzt hinterher rennen und hoffen, dass er es noch nicht an irgendwen verkauft hat.";
+const string TOPIC_INNOSEYE_14 = "Pyrokar will, dass ich den Wassermagier Vatras in der Satdt um Rat frage, was mit dem zerstörten Auge nun zu tun ist.";
+const string TOPIC_INNOSEYE_15 = "Pyrokar bekommt bei dem Gedanken an Xardas kalte Füsse. Ich werde mit Xardas darüber reden müssen, wie ich ihn zum Ritual am Sonnenkreis bewegen kann.";
+const string TOPIC_INNOSEYE_16 = "Endlich hat Pyrokar eingewilligt zum Sonnenkreis zu gehen.";
+const string TOPIC_INNOSEYE_17 = "Bennet ist der Schmied, den ich suche um das Amulett zu reparieren.";
 
 
 
 var int topic_end_innoseye;
 
 const string TOPIC_DEMENTOREN = "Die Suchenden";
-const string TOPIC_DEMENTOREN_1 = "Vino ist besessen. Ich habe ihn zur Heilung ins Kloster geschickt. Hoffentlich kommt er dort auch heil an.";
-const string TOPIC_DEMENTOREN_2 = "Pyrokar erzählte mir von den Suchenden. Männer in schwarzen Roben. Die Schergen Beliars. Er warnte mich vor ihrer Fähigkeit, mich besessen zu machen. Ich soll sofort ins Kloster zurückkehren, sollte mir das einmal passieren.";
-const string TOPIC_DEMENTOREN_3 = "Pyrokar hat Karras damit beauftragt, sich mit der Bedrohung durch die Suchenden zu beschäftigen.";
-const string TOPIC_DEMENTOREN_4 = "Pyrokar will die Almanachs der Besessenen unschädlich machen. Dazu gab er mir eine Liste derer, die die Suchenden zu übernehmen planen. Auf Pyrokars Liste sollen später vielleicht noch mehr Namen zu lesen sein.";
-const string TOPIC_DEMENTOREN_5 = "Karras soll mir helfen, einen Schutz gegen die mentalen Angriffe der Suchenden zu finden.";
-const string TOPIC_DEMENTOREN_6 = "Karras braucht etwas, das in direkten Kontakt mit den Suchenden stand, damit er seine Nachforschungen über sie weiter führen kann.";
-const string TOPIC_DEMENTOREN_7 = "Karras konnte mit einem Almanach der Besessenen weiter forschen. Ich soll später nochmal zu ihm kommen.";
-const string TOPIC_DEMENTOREN_8 = "Karras Studium war sehr aufschlussreich. Zwischen den Suchenden und der Bruderschaft des Schläfers scheint es einen Zusammenhang zu geben.";
-const string TOPIC_DEMENTOREN_9 = "Karras kann mir einen Schutz gegen die mentalen Angriffe der Suchenden beschaffen. Dazu benötigt er Gestein aus gesegneter Erde. Einige Schreine sind aus diesem Gestein gefertigt.";
-const string TOPIC_DEMENTOREN_10 = "Karras will mir ein Schutzamulett gegen die Mentalen Angriffe der Suchenden geben. Das wird die Sache erleichtern.";
-const string TOPIC_DEMENTOREN_11 = "Ich erhielt von Karras ein Schutzamulett gegen den schwarzen Blick der Suchenden.";
-const string TOPIC_DEMENTOREN_12 = "Xardas kannte die Männer in ihren schwarzen Roben. Die Suchenden seien die eigentlichen Fädenzieher des Feindes und sehr gefährlich.";
+const string TOPIC_DEMENTOREN_1 = "Xardas kannte die Männer in ihren schwarzen Roben. Die Suchenden seien die eigentlichen Fädenzieher des Feindes und sehr gefährlich.";
+const string TOPIC_DEMENTOREN_2 = "Vino ist besessen. Ich habe ihn zur Heilung ins Kloster geschickt. Hoffentlich kommt er dort auch heil an.";
+const string TOPIC_DEMENTOREN_3 = "Pyrokar erzählte mir von den Suchenden. Männer in schwarzen Roben. Die Schergen Beliars. Er warnte mich vor ihrer Fähigkeit, mich besessen zu machen. Ich soll sofort ins Kloster zurückkehren, sollte mir das einmal passieren.";
+const string TOPIC_DEMENTOREN_4 = "Pyrokar hat Karras damit beauftragt, sich mit der Bedrohung durch die Suchenden zu beschäftigen.";
+const string TOPIC_DEMENTOREN_5 = "Pyrokar will die Almanachs der Besessenen unschädlich machen. Dazu gab er mir eine Liste derer, die die Suchenden zu übernehmen planen. Auf Pyrokars Liste sollen später vielleicht noch mehr Namen zu lesen sein.";
+const string TOPIC_DEMENTOREN_6 = "Karras soll mir helfen, einen Schutz gegen die mentalen Angriffe der Suchenden zu finden.";
+const string TOPIC_DEMENTOREN_7 = "Karras braucht etwas, das in direkten Kontakt mit den Suchenden stand, damit er seine Nachforschungen über sie weiter führen kann.";
+const string TOPIC_DEMENTOREN_8 = "Karras konnte mit einem Almanach der Besessenen weiter forschen. Ich soll später nochmal zu ihm kommen.";
+const string TOPIC_DEMENTOREN_9 = "Karras Studium war sehr aufschlussreich. Zwischen den Suchenden und der Bruderschaft des Schläfers scheint es einen Zusammenhang zu geben.";
+const string TOPIC_DEMENTOREN_10 = "Karras kann mir einen Schutz gegen die mentalen Angriffe der Suchenden beschaffen. Dazu benötigt er Gestein aus gesegneter Erde. Einige Schreine sind aus diesem Gestein gefertigt.";
+const string TOPIC_DEMENTOREN_11 = "Karras will mir ein Schutzamulett gegen die Mentalen Angriffe der Suchenden geben. Das wird die Sache erleichtern.";
+const string TOPIC_DEMENTOREN_12 = "Ich erhielt von Karras ein Schutzamulett gegen den schwarzen Blick der Suchenden.";
 const string TOPIC_DEMENTOREN_13 = "Mein Verdacht hat sich bestätigt. Selbst Lester zweifelt nicht daran, dass es sich bei den Suchenden um die Anhänger des Schläfers aus dem ehemaligen Sumpflager handelt.";
 
 
@@ -141,9 +141,9 @@ const string TOPIC_MinenAnteile_4 = "Ich soll Salandril, einen Alchemisten im ob
 var int TOPIC_END_MinenAnteile;
 
 const string TOPIC_RichterLakai = "Des Richters Lakai";
-const string TOPIC_RichterLakai_1 = "Ich habe den Anführer der Flüchtlinge Morgahard gefunden.";
-const string TOPIC_RichterLakai_2 = "Morgahard gab mir den Auftrag des Richters. Dieses Papier beweist eindeutig, dass der Richter den Statthalter Larius hat ausrauben lassen. Ich denke, das ist genau das, was ich für Lee suchen sollte.";
-const string TOPIC_RichterLakai_3 = "Lee will, dass ich etwas Belastendes gegen den Richter von Khorinis finde. Ich soll dem Richter meine Dienste anbieten und dabei die Augen offen halten.";
+const string TOPIC_RichterLakai_1 = "Lee will, dass ich etwas Belastendes gegen den Richter von Khorinis finde. Ich soll dem Richter meine Dienste anbieten und dabei die Augen offen halten.";
+const string TOPIC_RichterLakai_2 = "Ich habe den Anführer der Flüchtlinge Morgahard gefunden.";
+const string TOPIC_RichterLakai_3 = "Morgahard gab mir den Auftrag des Richters. Dieses Papier beweist eindeutig, dass der Richter den Statthalter Larius hat ausrauben lassen. Ich denke, das ist genau das, was ich für Lee suchen sollte.";
 const string TOPIC_RichterLakai_4 = "Der Richter traut mir nicht. Ich muß erst meine Loyalität ihm gegenüber unter Beweis stellen. Ich soll den heiligen Hammer aus dem Keller des Feuermagierklosters stehlen und ihn zum Richter bringen.";
 const string TOPIC_RichterLakai_5 = "Dem Richter sind einige Gefangene weg gelaufen. Ich soll sie für ihn wieder einfangen und ihren Anführer MORGAHARD töten. Sie sollen sich in die Berge verdrückt haben. Irgendwo in Richtung Xardas neuen Turm.";
 const string TOPIC_RichterLakai_6 = "Die Nachricht über Morgahards Tod hat den Richter sichtlich amüsiert. Soll er ruhig. Ich darf Lees Auftrag nicht aus dem Auge verlieren.";
@@ -172,32 +172,32 @@ const string TOPIC_Urshak_5 = "Urshak gehört wieder dem Rat der Orkshamane an. 
 const string TOPIC_DRACHENJAGD = "Drachenjagd";
 const string TOPIC_DRACHENJAGD_1 = "Die Drachen sind nicht ihr eigener Herr. Sie dienen einem Meister, über den sie sich nur sehr wage äussern. Der Meister wird kommen die Welt zu vernichten und so weiter. Das übliche eben.";
 const string TOPIC_DRACHENJAGD_2 = "Rethon der Drachenjäger faselte irgendwas von einem Drachen aus Eis.";
-const string TOPIC_DRACHENJAGD_3 = "Kjorn der Drachenjäger ist der Meinung, dass es verschiedene Arten von Drachen gibt. Einige halten sich angeblich lieber in kalten oder feuchten Gebieten auf, während andere das Feuer bevorzugen.";
-const string TOPIC_DRACHENJAGD_4 = "Ich bin nun bereit, den Drachen gegenüber zu treten. Das Auge Innos wird mir helfen sie zu bezwingen. Ich darf nur nicht vergessen, es zu tragen, wenn ich in den Kampf gegen die Biester ziehe. Erst muß ich mit den Drachen gesprochen haben, bevor ich auch nur den Hauch einer Chance gegen sie habe. Das Dumme ist nur, dass das Auge bei jedem Gespräch mit einem von ihnen seine Kraft verliert. Ich benötige das Herz eines Drachen und eine leere Laborflasche um das Extrakt des Drachenherzes mit dem geschwächten Stein des Amuletts an einem Alchemietisch zu vereinen, bevor ich mich dem nächsten Drachen stellen kann.";
-const string TOPIC_DRACHENJAGD_5 = "Garond ist sicherlich daran interessiert, wie es um die Drachen steht, obwohl er auf mich eher den EIndruck macht, als wäre es ihm völlig egal.";
-const string TOPIC_DRACHENJAGD_6 = "Garonds statigischer Offizier Oric hat veilleicht einige nützliche Informationen für mich.";
-const string TOPIC_DRACHENJAGD_7 = "Ich bekam von Oric den Hinweis, dass sich westlich der Burg ein ziemlich großes Sumpfgebiet gebildet hat in den letzten Tagen. Seiner Meinung nach sehr verdächtig.";
-const string TOPIC_DRACHENJAGD_8 = "Die Späher der Paladine haben Oric berichtet, dass die Felsenfestung im Süden hinter dem Vulkan schwer bewacht sei. Oric vermutet dort einen Drachen.";
-const string TOPIC_DRACHENJAGD_9 = "Der letzte Drache, der die Burg im Minental angegriffen hat, soll nach dem Angriff in der Nähe des Vulkans gesehen worden sein.";
-const string TOPIC_DRACHENJAGD_10 = "Die Eisregion im Westen ist laut Oric ein potentielle Behausung für einen Drachen.";
+const string TOPIC_DRACHENJAGD_3 = "Garond ist sicherlich daran interessiert, wie es um die Drachen steht, obwohl er auf mich eher den EIndruck macht, als wäre es ihm völlig egal.";
+const string TOPIC_DRACHENJAGD_4 = "Garonds statigischer Offizier Oric hat veilleicht einige nützliche Informationen für mich.";
+const string TOPIC_DRACHENJAGD_5 = "Ich bekam von Oric den Hinweis, dass sich westlich der Burg ein ziemlich großes Sumpfgebiet gebildet hat in den letzten Tagen. Seiner Meinung nach sehr verdächtig.";
+const string TOPIC_DRACHENJAGD_6 = "Die Späher der Paladine haben Oric berichtet, dass die Felsenfestung im Süden hinter dem Vulkan schwer bewacht sei. Oric vermutet dort einen Drachen.";
+const string TOPIC_DRACHENJAGD_7 = "Der letzte Drache, der die Burg im Minental angegriffen hat, soll nach dem Angriff in der Nähe des Vulkans gesehen worden sein.";
+const string TOPIC_DRACHENJAGD_8 = "Die Eisregion im Westen ist laut Oric ein potentielle Behausung für einen Drachen.";
+const string TOPIC_DRACHENJAGD_9 = "Kjorn der Drachenjäger ist der Meinung, dass es verschiedene Arten von Drachen gibt. Einige halten sich angeblich lieber in kalten oder feuchten Gebieten auf, während andere das Feuer bevorzugen.";
+const string TOPIC_DRACHENJAGD_10 = "Ich bin nun bereit, den Drachen gegenüber zu treten. Das Auge Innos wird mir helfen sie zu bezwingen. Ich darf nur nicht vergessen, es zu tragen, wenn ich in den Kampf gegen die Biester ziehe. Erst muß ich mit den Drachen gesprochen haben, bevor ich auch nur den Hauch einer Chance gegen sie habe. Das Dumme ist nur, dass das Auge bei jedem Gespräch mit einem von ihnen seine Kraft verliert. Ich benötige das Herz eines Drachen und eine leere Laborflasche um das Extrakt des Drachenherzes mit dem geschwächten Stein des Amuletts an einem Alchemietisch zu vereinen, bevor ich mich dem nächsten Drachen stellen kann.";
 
 
 const string TOPIC_Dragonhunter = "Die Drachenjäger";
-const string TOPIC_Dragonhunter_1 = "Die grosse Drachenjagd ist eröffnet und hat vermutlich viele Möchtegernabenteurer ins Minental gelockt. Ich kann nur hoffen, dass sie mir nicht im Wege stehen.";
-const string TOPIC_Dragonhunter_2 = "Das dreckige Schwein Sylvio wollte mir den Sieg über den Eisdrachen steitig machen. Es gab eine kleine Auseinandersetzung.";
-const string TOPIC_Dragonhunter_3 = "Von Cipher habe ich erfahren, daß sich im Sumpfgebiet des Minentals ein Drache aufhalten soll.";
-const string TOPIC_Dragonhunter_4 = "Cipher meinte, nachdem der Sumpfdrache tot war, daß er nun als ´Held´ das große Geld machen würde. Naja. Wir werden sehen.";
-const string TOPIC_Dragonhunter_5 = "Ich habe Angar im Minental gefunden.";
-const string TOPIC_Dragonhunter_6 = "Angar ist einfach gegangen. Bei diesen Untoten hat er das Gefühl gegen seine eigenen Leute zu kämpfen.";
-const string TOPIC_Dragonhunter_7 = "Ich habe Angar noch einmal getroffen, er sitzt immer noch im Minental fest.";
-const string TOPIC_Dragonhunter_8 = "Eine Gruppe von Drachenjägern empfing mich am Eingang des Minentals. Die Jungs sind schwer bewaffnet, aber ich fürchte, dass sie keinen grossen Eindruck auf die Drachen machen werden.";
-const string TOPIC_Dragonhunter_9 = "Sylvio ist in der Burg gewesen und hat sich später wieder aufgemacht einen Eisdrachen zu finden.";
-const string TOPIC_Dragonhunter_10 = "Der Drachenjäger Biff ist ein Söldner wie er im Buche steht. Wenn ich ihn bezahle, wird er auch für mich kämpfen.";
-const string TOPIC_Dragonhunter_11 = "Gorn sitzt am Fuße der Hochebene zur alten Felsenfestung. Von dort aus hat er sowohl die Hochebene als auch die Orkbarriere im Blickfeld.";
-const string TOPIC_Dragonhunter_12 = "Laut Gorn haust ein Drache in der alten Felsenfestung.";
-const string TOPIC_Dragonhunter_13 = "Gorn will mir helfen zur Felsenfestung über die Hochebene zu kommen.";
-const string TOPIC_Dragonhunter_14 = "Gorn ging wieder zu seinem Ausichtsplatz zurück. Er will die Orks weiter beobachten.";
-const string TOPIC_Dragonhunter_15 = "Einige Drachenjäger sind bei Talbin dem Jäger vorbei gekommen.";
+const string TOPIC_Dragonhunter_1 = "Sylvio ist in der Burg gewesen und hat sich später wieder aufgemacht einen Eisdrachen zu finden.";
+const string TOPIC_Dragonhunter_2 = "Von Cipher habe ich erfahren, daß sich im Sumpfgebiet des Minentals ein Drache aufhalten soll.";
+const string TOPIC_Dragonhunter_3 = "Cipher meinte, nachdem der Sumpfdrache tot war, daß er nun als ´Held´ das große Geld machen würde. Naja. Wir werden sehen.";
+const string TOPIC_Dragonhunter_4 = "Der Drachenjäger Biff ist ein Söldner wie er im Buche steht. Wenn ich ihn bezahle, wird er auch für mich kämpfen.";
+const string TOPIC_Dragonhunter_5 = "Einige Drachenjäger sind bei Talbin dem Jäger vorbei gekommen.";
+const string TOPIC_Dragonhunter_6 = "Die grosse Drachenjagd ist eröffnet und hat vermutlich viele Möchtegernabenteurer ins Minental gelockt. Ich kann nur hoffen, dass sie mir nicht im Wege stehen.";
+const string TOPIC_Dragonhunter_7 = "Eine Gruppe von Drachenjägern empfing mich am Eingang des Minentals. Die Jungs sind schwer bewaffnet, aber ich fürchte, dass sie keinen grossen Eindruck auf die Drachen machen werden.";
+const string TOPIC_Dragonhunter_8 = "Gorn sitzt am Fuße der Hochebene zur alten Felsenfestung. Von dort aus hat er sowohl die Hochebene als auch die Orkbarriere im Blickfeld.";
+const string TOPIC_Dragonhunter_9 = "Laut Gorn haust ein Drache in der alten Felsenfestung.";
+const string TOPIC_Dragonhunter_10 = "Gorn will mir helfen zur Felsenfestung über die Hochebene zu kommen.";
+const string TOPIC_Dragonhunter_11 = "Gorn ging wieder zu seinem Ausichtsplatz zurück. Er will die Orks weiter beobachten.";
+const string TOPIC_Dragonhunter_12 = "Das dreckige Schwein Sylvio wollte mir den Sieg über den Eisdrachen steitig machen. Es gab eine kleine Auseinandersetzung.";
+const string TOPIC_Dragonhunter_13 = "Ich habe Angar im Minental gefunden.";
+const string TOPIC_Dragonhunter_14 = "Ich habe Angar noch einmal getroffen, er sitzt immer noch im Minental fest.";
+const string TOPIC_Dragonhunter_15 = "Angar ist einfach gegangen. Bei diesen Untoten hat er das Gefühl gegen seine eigenen Leute zu kämpfen.";
 
 
 const string TOPIC_LobartsOrKProblem = "Lobarts Orkprobleme";
@@ -246,14 +246,14 @@ const string TOPIC_DRACHENEIER_6 = "Ich sollte mir eine Höhlenkarte bei Kartenz
 var int topic_end_dracheneier;
 
 const string TOPIC_OrcElite = "Die Horden der orkischen Elitekrieger";
-const string TOPIC_OrcElite_1 = "Beim orkischen Oberst fand ich eine seltsame Karte. Scheint eine strategische Kriegskarte der Orks zu sein.";
-const string TOPIC_OrcElite_2 = "Ich habe Lord Hagen von den heranrückenden Horden der orkischen Kriegsherren berichtet.";
-const string TOPIC_OrcElite_3 = "Ich konnte Hagen einen Ring der orkischen Kriegsherren als Beweis ihrer Anwesenheit bringen. Ich soll ihm alle bringen, die ich auftreiben kann.";
-const string TOPIC_OrcElite_4 = "Die Elitekrieger der Orks ist Ingmars Spezialgebiet";
-const string TOPIC_OrcElite_5 = "Hagen will mir aber nicht so recht Glauben schenken. Er verlangt einen Beweis dafür, dass die Eltekrieger die zivilisierten Landschaften angreifen. Hätte mich auch gewundert, wenn nicht.";
-const string TOPIC_OrcElite_6 = "Ingmar war sehr interessiert an der Geschichte mit den orkischen Elitekämpfern.";
-const string TOPIC_OrcElite_7 = "Ingmar erzählte etwas von einem Anführer der orkischen Kriegsherren. ";
-const string TOPIC_OrcElite_8 = "Den Oberst der Orks soll ich laut Ingmar in irgendeiner Höhle in der Umgebung von Lobarts Hof finden. Ingmar will, dass ich ihn finde und zur Strecke bringe. ";
+const string TOPIC_OrcElite_1 = "Ich habe Lord Hagen von den heranrückenden Horden der orkischen Kriegsherren berichtet.";
+const string TOPIC_OrcElite_2 = "Ich konnte Hagen einen Ring der orkischen Kriegsherren als Beweis ihrer Anwesenheit bringen. Ich soll ihm alle bringen, die ich auftreiben kann.";
+const string TOPIC_OrcElite_3 = "Die Elitekrieger der Orks ist Ingmars Spezialgebiet";
+const string TOPIC_OrcElite_4 = "Hagen will mir aber nicht so recht Glauben schenken. Er verlangt einen Beweis dafür, dass die Eltekrieger die zivilisierten Landschaften angreifen. Hätte mich auch gewundert, wenn nicht.";
+const string TOPIC_OrcElite_5 = "Ingmar war sehr interessiert an der Geschichte mit den orkischen Elitekämpfern.";
+const string TOPIC_OrcElite_6 = "Ingmar erzählte etwas von einem Anführer der orkischen Kriegsherren. ";
+const string TOPIC_OrcElite_7 = "Den Oberst der Orks soll ich laut Ingmar in irgendeiner Höhle in der Umgebung von Lobarts Hof finden. Ingmar will, dass ich ihn finde und zur Strecke bringe. ";
+const string TOPIC_OrcElite_8 = "Beim orkischen Oberst fand ich eine seltsame Karte. Scheint eine strategische Kriegskarte der Orks zu sein.";
 
 
 
@@ -296,10 +296,10 @@ const string TOPIC_KerolothsGeldbeutel_1 = "Der Paladin Keroloth vermisst seinen
 var int TOPIC_END_KerolothsGeldbeutel;
 
 const string TOPIC_BuchHallenVonIrdorath = "Der Meister der Drachen";
-const string TOPIC_BuchHallenVonIrdorath_1 = "Xardas erklärte mir in seinem Brief, wie die Worte heißen, mit der sich das Buch DIE HALLEN VON IRDORATH öffnen läßt.";
-const string TOPIC_BuchHallenVonIrdorath_2 = "Ich konnte Xardas Buch öffnen. Es befanden sich eine geheime Nachricht und ein seltsamer Schlüssel darin. Wer weiß, was ich da unten im Keller des Klosters noch so alles finden werde.";
-const string TOPIC_BuchHallenVonIrdorath_3 = "Ich habe Xardas Buch gelesen. Es ist da von einer geheimen Bibliothek die Rede. Sie muß hier irgendwo im Keller des Klosters sein.";
-const string TOPIC_BuchHallenVonIrdorath_4 = "Der Meister der Drachen soll seinen Hort im festem Fels der heiligen Hallen von Irdorath errichtet haben. Mmh. Das kommt mir bekannt vor. Wo habe ich das schon einmal gelesen?";
+const string TOPIC_BuchHallenVonIrdorath_1 = "Der Meister der Drachen soll seinen Hort im festem Fels der heiligen Hallen von Irdorath errichtet haben. Mmh. Das kommt mir bekannt vor. Wo habe ich das schon einmal gelesen?";
+const string TOPIC_BuchHallenVonIrdorath_2 = "Xardas erklärte mir in seinem Brief, wie die Worte heißen, mit der sich das Buch DIE HALLEN VON IRDORATH öffnen läßt.";
+const string TOPIC_BuchHallenVonIrdorath_3 = "Ich konnte Xardas Buch öffnen. Es befanden sich eine geheime Nachricht und ein seltsamer Schlüssel darin. Wer weiß, was ich da unten im Keller des Klosters noch so alles finden werde.";
+const string TOPIC_BuchHallenVonIrdorath_4 = "Ich habe Xardas Buch gelesen. Es ist da von einer geheimen Bibliothek die Rede. Sie muß hier irgendwo im Keller des Klosters sein.";
 const string TOPIC_BuchHallenVonIrdorath_5 = "Die Hallen von Irdorath seine laut Pyrokar ein verschollener Beschwörungstempel des Gottes Beliar. Ich muß diesen Tempel finden.";
 const string TOPIC_BuchHallenVonIrdorath_6 = "Xardas Buch DIE HALLEN VON IRDORATH liegt in den unteren Gewölben des Klosters. Talamon bewacht es. Die Magier haben es nicht geschafft es zu öffnen. Es ist magisch veriegelt und Xardas sei dafür verantwortlich.";
 const string TOPIC_BuchHallenVonIrdorath_7 = "Pyrokar hat von der geheimen Bibliothek keine Ahnung. Offensichtlich hatte nur Xardas jemals Zugang dazu.";
@@ -327,15 +327,15 @@ const string TOPIC_GeroldGiveFood_1 = "Garond hat schon wieder die Nahrungsratio
 
 
 const string TOPIC_HallenVonIrdorath = "Die Hallen von Irdorath";
-const string TOPIC_HallenVonIrdorath_1 = "In der Schriftrolle des Schwarzmagiers waren die Worte KHADOSH EMEM KADAR zu lesen. Das hört sich an wie eine Beschwörungsformel, aber worauf läßt sich das anwenden und was ist das Auge der Macht?";
-const string TOPIC_HallenVonIrdorath_2 = "In dem Tagebuch des Schwarzmagiernovizen ist von Hebelkammern, Schlüsselmeister, Schalterkombinationen und anderem Krämpel die Rede. Sollte ich im Hinterkopf behalten, vielleicht nützt es mir später noch.";
-const string TOPIC_HallenVonIrdorath_3 = "Ich stehe vor dem letzten Tor. Dieser Schwarzmagier scheint der Schlüssel dazu zu sein.";
-const string TOPIC_HallenVonIrdorath_4 = "Noch ein Feuerdrache. So langsam habe ich die Biester satt. Das einzige, was ich will, ist, über den Abgrund zu kommen, der sich hinter dem Feuerdrachen auftut.";
-const string TOPIC_HallenVonIrdorath_5 = "Der Feind ist ein untoter Drache. Ich muß ihn töten, damit ich diese verfluchte Insel wieder verlassen kann.";
-const string TOPIC_HallenVonIrdorath_6 = "Letzte Nacht hatte ich einen Traum. Xardas sprach zu mir und bat mich, den Alchemietisch auf dem Schiff aufzusuchen um dort etwas abzuholen. Sehr befremdlich und dabei ich hatte eigentlich gar nichts getrunken letzte Nacht.";
-const string TOPIC_HallenVonIrdorath_7 = "Ich habe so etwas wie einen Tempel gefunden. Er wird von einer Unmenge von untoten Wesen bewohnt. Erinnert mich alles verdammt an diesen elenden Orctempel des Schläfers. Diesmal werde ich nicht versagen. Diesmal nicht!";
-const string TOPIC_HallenVonIrdorath_8 = "Dieser Orkische Oberst ist eine verdammt harte Nuss. Irgendwo in seinem Thronsaal muss es doch weiter gehen.";
-const string TOPIC_HallenVonIrdorath_9 = "Wir haben die Insel des Feindes erreicht. Innos weiß, welche Kreaturen im Innern dieses Berges auf mich warten werden.";
+const string TOPIC_HallenVonIrdorath_1 = "Ich habe so etwas wie einen Tempel gefunden. Er wird von einer Unmenge von untoten Wesen bewohnt. Erinnert mich alles verdammt an diesen elenden Orctempel des Schläfers. Diesmal werde ich nicht versagen. Diesmal nicht!";
+const string TOPIC_HallenVonIrdorath_2 = "In der Schriftrolle des Schwarzmagiers waren die Worte KHADOSH EMEM KADAR zu lesen. Das hört sich an wie eine Beschwörungsformel, aber worauf läßt sich das anwenden und was ist das Auge der Macht?";
+const string TOPIC_HallenVonIrdorath_3 = "In dem Tagebuch des Schwarzmagiernovizen ist von Hebelkammern, Schlüsselmeister, Schalterkombinationen und anderem Krämpel die Rede. Sollte ich im Hinterkopf behalten, vielleicht nützt es mir später noch.";
+const string TOPIC_HallenVonIrdorath_4 = "Letzte Nacht hatte ich einen Traum. Xardas sprach zu mir und bat mich, den Alchemietisch auf dem Schiff aufzusuchen um dort etwas abzuholen. Sehr befremdlich und dabei ich hatte eigentlich gar nichts getrunken letzte Nacht.";
+const string TOPIC_HallenVonIrdorath_5 = "Wir haben die Insel des Feindes erreicht. Innos weiß, welche Kreaturen im Innern dieses Berges auf mich warten werden.";
+const string TOPIC_HallenVonIrdorath_6 = "Dieser Orkische Oberst ist eine verdammt harte Nuss. Irgendwo in seinem Thronsaal muss es doch weiter gehen.";
+const string TOPIC_HallenVonIrdorath_7 = "Der Feind ist ein untoter Drache. Ich muß ihn töten, damit ich diese verfluchte Insel wieder verlassen kann.";
+const string TOPIC_HallenVonIrdorath_8 = "Noch ein Feuerdrache. So langsam habe ich die Biester satt. Das einzige, was ich will, ist, über den Abgrund zu kommen, der sich hinter dem Feuerdrachen auftut.";
+const string TOPIC_HallenVonIrdorath_9 = "Ich stehe vor dem letzten Tor. Dieser Schwarzmagier scheint der Schlüssel dazu zu sein.";
 
 
 const string TOPIC_BackToShip = "Zurück zum Schiff";

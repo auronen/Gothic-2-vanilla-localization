@@ -198,7 +198,7 @@ func void DIA_Daron_Spenden_Info()
 		AI_Output(self,other,"DIA_Daron_Spenden_10_03");	//Hm, du bist ein armer Schlucker, was? Behalte das bisschen, was du hast.
 		if(MIS_Thorben_GetBlessings == LOG_Running)
 		{
-			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_1);
+			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_2);
 		};
 	}
 	else
@@ -224,7 +224,7 @@ func void DIA_Daron_Spenden_Info()
 		B_GivePlayerXP(XP_InnosSegen);
 		if(MIS_Thorben_GetBlessings == LOG_Running)
 		{
-			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_2);
+			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_4);
 		};
 	};
 };
@@ -432,7 +432,7 @@ func void DIA_Daron_Spende_50()
 		Daron_Segen = TRUE;
 		if(MIS_Thorben_GetBlessings == LOG_Running)
 		{
-			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_2);
+			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_4);
 		};
 	}
 	else
@@ -453,7 +453,7 @@ func void DIA_Daron_Spende_100()
 		Daron_Segen = TRUE;
 		if(MIS_Thorben_GetBlessings == LOG_Running)
 		{
-			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_2);
+			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_4);
 		};
 	}
 	else
@@ -474,7 +474,7 @@ func void DIA_Daron_Spende_200()
 		Daron_Segen = TRUE;
 		if(MIS_Thorben_GetBlessings == LOG_Running)
 		{
-			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_2);
+			B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_4);
 		};
 	}
 	else

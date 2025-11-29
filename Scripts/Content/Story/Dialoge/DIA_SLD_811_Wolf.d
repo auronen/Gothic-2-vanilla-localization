@@ -76,7 +76,7 @@ func void DIA_Wolf_WannaJoin_Info()
 	AI_Output(self,other,"DIA_Wolf_WannaJoin_08_04");	//Hätte dich auch fast nicht erkannt, siehst ziemlich abgemagert aus.
 	AI_Output(other,self,"DIA_Wolf_WannaJoin_15_05");	//Als die Barriere eingestürzt ist, hätte es mich fast erwischt.
 	AI_Output(self,other,"DIA_Wolf_WannaJoin_08_06");	//Da hast du ja noch mal Glück gehabt.
-	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_8);
+	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_6);
 };
 
 
@@ -135,7 +135,7 @@ func void DIA_Wolf_WannaLearn_Info()
 	AI_Output(self,other,"DIA_Wolf_WannaLearn_08_01");	//Ich kann dir ein paar Tricks im Umgang mit dem Bogen zeigen, wenn du willst. Hab sowieso zurzeit nichts Besseres vor.
 	Wolf_TeachBow = TRUE;
 	Log_CreateTopic(Topic_SoldierTeacher,LOG_NOTE);
-	B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_6);
+	B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_4);
 };
 
 

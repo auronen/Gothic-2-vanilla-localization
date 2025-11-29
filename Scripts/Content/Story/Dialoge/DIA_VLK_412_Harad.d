@@ -77,7 +77,7 @@ func void DIA_Harad_Arbeit_Info()
 	};
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_1);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_3);
 };
 
 
@@ -159,11 +159,11 @@ func void DIA_Harad_OrcRunning_TooHard()
 	Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
 	if(MIS_HakonBandits != LOG_Running)
 	{
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_2);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_4);
 	}
 	else
 	{
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_3);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_17);
 	};
 	Info_ClearChoices(DIA_Harad_OrcRunning);
 };
@@ -243,7 +243,7 @@ func void DIA_Harad_OrcSuccess_Info()
 	};
 	MIS_Harad_Orc = LOG_SUCCESS;
 	B_GivePlayerXP(XP_Harad_Orc);
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_4);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_6);
 };
 
 
@@ -407,11 +407,11 @@ func void DIA_Harad_LEHRLING_OK()
 	Harad_Lehrling_Day = Wld_GetDay();
 	Wld_AssignRoomToGuild("schmied",GIL_NONE);
 	MIS_Apprentice = LOG_SUCCESS;
+	B_LogEntry(Topic_Bonus,Topic_Bonus_3);
 	B_LogEntry(Topic_Bonus,Topic_Bonus_4);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_5);
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
 	B_GivePlayerXP(XP_Lehrling);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_9);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_12);
 	Info_ClearChoices(DIA_Harad_LEHRLING);
 };
 
@@ -464,7 +464,7 @@ func void DIA_Harad_Zustimmung_Info()
 			B_GivePlayerXP(XP_Zustimmung);
 			DIA_Harad_Zustimmung_Permanent = TRUE;
 		};
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_5);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_7);
 		if(!Npc_IsDead(Brian))
 		{
 			AI_Output(self,other,"DIA_Harad_Zustimmung_12_04");	//Brian wird noch 'ne Weile hier sein. Und es wird sich schon ein starker Bursche finden, der seinen Platz einnimmt.

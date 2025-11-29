@@ -99,7 +99,7 @@ func void DIA_Hilda_WasZuEssen_Info()
 					Hilda_Stew_Day = Wld_GetDay();
 					Rueben_TagNull = TRUE;
 					Log_CreateTopic(Topic_Bonus,LOG_NOTE);
-					B_LogEntry(Topic_Bonus,Topic_Bonus_3);
+					B_LogEntry(Topic_Bonus,Topic_Bonus_6);
 				}
 				else
 				{

@@ -487,20 +487,20 @@ func void DIA_MiltenNW_KnowWhereEnemy_Info()
 	if(Npc_IsDead(DiegoNW) == FALSE)
 	{
 		AI_Output(self,other,"DIA_MiltenNW_KnowWhereEnemy_03_02");	//Hast du schon mit Diego darüber gesprochen? Ich denke, er wird dich begleiten wollen.
-		B_LogEntry(Topic_Crew,Topic_Crew_6);
+		B_LogEntry(Topic_Crew,Topic_Crew_9);
 	};
 	if(Npc_IsDead(GornNW_nach_DJG) == FALSE)
 	{
 		AI_Output(self,other,"DIA_MiltenNW_KnowWhereEnemy_03_03");	//Was ist mit Gorn? Rede mal mit ihm. Ich habe gehört, dass er wieder aus dem Minental zurückgekehrt ist.
-		B_LogEntry(Topic_Crew,Topic_Crew_7);
+		B_LogEntry(Topic_Crew,Topic_Crew_10);
 	};
 	if(Npc_IsDead(Lester) == FALSE)
 	{
 		AI_Output(self,other,"DIA_MiltenNW_KnowWhereEnemy_03_04");	//Und vergiss Lester nicht. Wenn du ihn nicht aus seinem Tal heraus holst, wird er da noch vergammeln.
-		B_LogEntry(Topic_Crew,Topic_Crew_8);
+		B_LogEntry(Topic_Crew,Topic_Crew_11);
 	};
 	AI_Output(self,other,"DIA_MiltenNW_KnowWhereEnemy_03_05");	//Meine Rolle dabei kenne ich auch schon. Ich kann dein Mana steigern und im Runenbau behilflich sein wenn wir gegen den Feind antreten. Wann geht's los?
-	B_LogEntry(Topic_Crew,Topic_Crew_9);
+	B_LogEntry(Topic_Crew,Topic_Crew_12);
 	if(Crewmember_Count >= Max_Crew)
 	{
 		AI_Output(other,self,"DIA_MiltenNW_KnowWhereEnemy_15_06");	//Nicht so schnell, ich hab schon genug Leute beisammen.
@@ -570,7 +570,7 @@ func void DIA_MiltenNW_WhereCaptain_Info()
 	AI_Output(self,other,"DIA_MiltenNW_WhereCaptain_03_03");	//Sprich am besten mal mit Lee oder geh zum Hafen von Khorinis. Was Besseres fällt mir im Moment nicht ein.
 	Log_CreateTopic(Topic_Captain,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Captain,LOG_Running);
-	B_LogEntry(Topic_Captain,Topic_Captain_1);
+	B_LogEntry(Topic_Captain,Topic_Captain_4);
 };
 
 

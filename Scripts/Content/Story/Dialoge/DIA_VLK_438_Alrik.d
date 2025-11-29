@@ -625,7 +625,7 @@ func void DIA_Alrik_Ausbilden_Info()
 		};
 		Alrik_Teach1H = TRUE;
 		Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_14);
+		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_5);
 	};
 };
 

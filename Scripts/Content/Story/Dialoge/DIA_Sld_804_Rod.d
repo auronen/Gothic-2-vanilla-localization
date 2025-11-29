@@ -196,7 +196,7 @@ func void DIA_Rod_WannaJoin_Info()
 			AI_Output(self,other,"DIA_Rod_WannaJoin_06_05");	//Na ja, du kannst ein ordentliches Schwert führen. Den Rest wirst du noch lernen.
 		};
 		AI_Output(self,other,"DIA_Rod_WannaJoin_06_06");	//Meinetwegen kannst du mitmachen.
-		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_5);
+		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_2);
 	}
 	else
 	{

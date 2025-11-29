@@ -91,7 +91,7 @@ func void DIA_Fenia_Hallo_Info()
 	};
 	AI_Output(self,other,"DIA_Fenia_Hallo_17_02");	//Komm ruhig näher. Bei mir wirst du finden, was du suchst!
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_20);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_1);
 };
 
 

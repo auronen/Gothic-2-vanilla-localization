@@ -165,7 +165,7 @@ func void DIA_Elena_AUFGABE_Info()
 	AI_Output(self,other,"DIA_Elena_AUFGABE_16_01");	//Ich verkaufe die Waren unseres Hofes. Wenn du etwas kaufen möchtest, musst du's mir nur sagen.
 	AI_Output(self,other,"DIA_Elena_AUFGABE_16_02");	//Aber ich warne dich. Bei mir wird nicht gefeilscht und nicht gestohlen, klar?
 	Log_CreateTopic(Topic_SoldierTrader,LOG_NOTE);
-	B_LogEntry(Topic_SoldierTrader,Topic_SoldierTrader_1);
+	B_LogEntry(Topic_SoldierTrader,Topic_SoldierTrader_2);
 };
 
 

@@ -121,7 +121,7 @@ func void DIA_Sergio_Aufgabe_Info()
 	Wld_InsertNpc(BlackWolf,"NW_PATH_TO_MONASTER_AREA_01");
 	Log_CreateTopic(Topic_IsgarothWolf,LOG_MISSION);
 	Log_SetTopicStatus(Topic_IsgarothWolf,LOG_Running);
-	B_LogEntry(Topic_IsgarothWolf,Topic_IsgarothWolf_2);
+	B_LogEntry(Topic_IsgarothWolf,Topic_IsgarothWolf_1);
 };
 
 
@@ -179,7 +179,7 @@ func void DIA_Sergio_Babo_Info()
 	AI_Output(self,other,"DIA_Sergio_Babo_04_03");	//Verstehe. Gut, wenn es ihm soviel bedeutet, werde ich mit ihm von nun an jeden Morgen zwei Stunden trainieren. Wir beginnen um 5 Uhr. Sag ihm das.
 	Npc_ExchangeRoutine(self,"TRAIN");
 	B_StartOtherRoutine(Babo,"TRAIN");
-	B_LogEntry(Topic_BaboTrain,Topic_BaboTrain_2);
+	B_LogEntry(Topic_BaboTrain,Topic_BaboTrain_1);
 };
 
 

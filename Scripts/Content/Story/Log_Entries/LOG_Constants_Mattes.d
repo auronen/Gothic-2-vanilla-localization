@@ -40,39 +40,39 @@ const string TOPIC_City_4 = "Ich habe einen Passierschein vom Händler Canthar, 
 
 
 const string TOPIC_BecomeMIL = "Aufnahme bei der Miliz.";
-const string TOPIC_BecomeMIL_1 = "Lobarts Felder werden von Feldräubern heimgesucht. Er will, daß ich sie alle vertreibe.";
-const string TOPIC_BecomeMIL_2 = "Lobart ist seine Feldräuber los geworden. Ich habe sie beseitigt";
-const string TOPIC_BecomeMIL_3 = "Um bei der Stadtwache aufgenommen zu werden, muss ich erst Bürger der Stadt werden.";
-const string TOPIC_BecomeMIL_4 = "Es gibt noch eine andere Möglichkeit, um bei der Stadtwache aufgenommen zu werden. Ich muss die Diebesgilde in Khorinis finden und zur Strecke bringen.";
-const string TOPIC_BecomeMIL_5 = "Wenn ich die Diebesgilde ausfindig machen will, sollte ich mich vielleicht im Hafenviertel umhören.";
-const string TOPIC_BecomeMIL_6 = "Wenn ich einen Handlanger der Diebesgilde erwische, liefere ich am Besten an Lord Andre aus. Um die Diebesgilde zur Strecke zu bringen, muss ich ihr Versteck finden.";
+const string TOPIC_BecomeMIL_1 = "Um bei der Stadtwache aufgenommen zu werden, muss ich erst Bürger der Stadt werden.";
+const string TOPIC_BecomeMIL_2 = "Es gibt noch eine andere Möglichkeit, um bei der Stadtwache aufgenommen zu werden. Ich muss die Diebesgilde in Khorinis finden und zur Strecke bringen.";
+const string TOPIC_BecomeMIL_3 = "Wenn ich die Diebesgilde ausfindig machen will, sollte ich mich vielleicht im Hafenviertel umhören.";
+const string TOPIC_BecomeMIL_4 = "Wenn ich einen Handlanger der Diebesgilde erwische, liefere ich am Besten an Lord Andre aus. Um die Diebesgilde zur Strecke zu bringen, muss ich ihr Versteck finden.";
+const string TOPIC_BecomeMIL_5 = "Lobarts Felder werden von Feldräubern heimgesucht. Er will, daß ich sie alle vertreibe.";
+const string TOPIC_BecomeMIL_6 = "Lobart ist seine Feldräuber los geworden. Ich habe sie beseitigt";
 
 
 const string TOPIC_Lehrling = "Lehrling in Khorinis.";
-const string TOPIC_Lehrling_1 = "Wenn ich Harad überzeuge, das ich kein Taugenichts bin, wird er mich als Lehrling aufnehmen.";
-const string TOPIC_Lehrling_2 = "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt. Ich sollte mal mit Hakon sprechen. Vielleicht weiß er mehr über den Aufenthaltsort dieser Banditen. ";
-const string TOPIC_Lehrling_3 = "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt.";
-const string TOPIC_Lehrling_4 = "Harad wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.";
-const string TOPIC_Lehrling_5 = "Harad gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
-const string TOPIC_Lehrling_6 = "Bosper sucht einen neuen Lehrling. Bei ihm könnte ich anfangen.";
-const string TOPIC_Lehrling_7 = "Bosper gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
-const string TOPIC_Lehrling_8 = "Bosper wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.";
-const string TOPIC_Lehrling_9 = "Matteo gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
-const string TOPIC_Lehrling_10 = "Matteo kann sich dafür einsetzen, das ich bei einem Handwerksmeister als Lehrling aufgenommen werde.";
-const string TOPIC_Lehrling_11 = "ALs Lehrling könnte ich anfangen, bei: Bosper dem Bogner, Harad dem Schmied, Thorben dem Tischler oder Constantino dem Alchemisten.";
-const string TOPIC_Lehrling_12 = "Um als Lehrling aufgenommen zu werden, brauche ich auch die Zustimmung der anderen Meister.";
-const string TOPIC_Lehrling_13 = "Um die Zustimmung der anderen Meister zu bekommen, muss ich sie von mir überzeugen.";
-const string TOPIC_Lehrling_14 = "Constantino gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will, solange ich nicht in der Stadt eines Verbrechens angeklagt bin.";
-const string TOPIC_Lehrling_15 = "Constantino wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.";
-const string TOPIC_Lehrling_16 = "Thorben wird mich nicht als Lehrling aufnehmen.";
-const string TOPIC_Lehrling_17 = "Thorben gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
+const string TOPIC_Lehrling_1 = "Constantino gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will, solange ich nicht in der Stadt eines Verbrechens angeklagt bin.";
+const string TOPIC_Lehrling_2 = "Constantino wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.";
+const string TOPIC_Lehrling_3 = "Wenn ich Harad überzeuge, das ich kein Taugenichts bin, wird er mich als Lehrling aufnehmen.";
+const string TOPIC_Lehrling_4 = "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt. Ich sollte mal mit Hakon sprechen. Vielleicht weiß er mehr über den Aufenthaltsort dieser Banditen. ";
+const string TOPIC_Lehrling_5 = "Bosper wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.";
+const string TOPIC_Lehrling_6 = "Harad wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.";
+const string TOPIC_Lehrling_7 = "Harad gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
+const string TOPIC_Lehrling_8 = "Matteo gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
+const string TOPIC_Lehrling_9 = "Matteo kann sich dafür einsetzen, das ich bei einem Handwerksmeister als Lehrling aufgenommen werde.";
+const string TOPIC_Lehrling_10 = "ALs Lehrling könnte ich anfangen, bei: Bosper dem Bogner, Harad dem Schmied, Thorben dem Tischler oder Constantino dem Alchemisten.";
+const string TOPIC_Lehrling_11 = "Um als Lehrling aufgenommen zu werden, brauche ich auch die Zustimmung der anderen Meister.";
+const string TOPIC_Lehrling_12 = "Um die Zustimmung der anderen Meister zu bekommen, muss ich sie von mir überzeugen.";
+const string TOPIC_Lehrling_13 = "Thorben wird mich nicht als Lehrling aufnehmen.";
+const string TOPIC_Lehrling_14 = "Thorben gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
+const string TOPIC_Lehrling_15 = "Bosper sucht einen neuen Lehrling. Bei ihm könnte ich anfangen.";
+const string TOPIC_Lehrling_16 = "Bosper gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
+const string TOPIC_Lehrling_17 = "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt.";
 
 
 const string TOPIC_OV = "Der Weg in's obere Viertel.";
-const string TOPIC_OV_1 = "Um Zugang zum oberen Viertel zu bekommen, muss ich ein angesehener Bürger sein, oder eine Arbeit haben.";
-const string TOPIC_OV_2 = "Wenn ich in's obere Viertel will, brauche ich die Hilfe der einflußreichen Bürger in der Unterstadt.";
-const string TOPIC_OV_3 = "Der Händler Matteo ist einer der einflußreichen Bürger in der Unterstadt.";
-const string TOPIC_OV_4 = "Ich sollte versuchen, bei einem der Handwerksmeister als Lehrling anzufangen. ";
+const string TOPIC_OV_1 = "Wenn ich in's obere Viertel will, brauche ich die Hilfe der einflußreichen Bürger in der Unterstadt.";
+const string TOPIC_OV_2 = "Der Händler Matteo ist einer der einflußreichen Bürger in der Unterstadt.";
+const string TOPIC_OV_3 = "Ich sollte versuchen, bei einem der Handwerksmeister als Lehrling anzufangen. ";
+const string TOPIC_OV_4 = "Um Zugang zum oberen Viertel zu bekommen, muss ich ein angesehener Bürger sein, oder eine Arbeit haben.";
 
 
 const string TOPIC_Matteo = "Matteo und Gritta.";
@@ -80,10 +80,10 @@ const string TOPIC_Matteo_1 = "Gritta, die Nichte des Tischlers Thorben, hat sch
 
 
 const string TOPIC_Thorben = "Der Segen der Götter.";
-const string TOPIC_Thorben_1 = "Daron, der Feuermagier hat mich nicht gesegnet. Jetzt muss ich wohl Gold auftreiben und bei ihm spenden, damit er mich doch noch segnet.";
-const string TOPIC_Thorben_2 = "Daron, der Feuermagier, hat mir seinen Segen gegeben.";
-const string TOPIC_Thorben_3 = "Vatras, der Wassermagier, hat mich gesegnet.";
-const string TOPIC_Thorben_4 = "Thorben gibt mir seine Zustimmung, wenn ich mich von einem Priester Adanos und einem Priester Innos segnen lasse.";
+const string TOPIC_Thorben_1 = "Vatras, der Wassermagier, hat mich gesegnet.";
+const string TOPIC_Thorben_2 = "Daron, der Feuermagier hat mich nicht gesegnet. Jetzt muss ich wohl Gold auftreiben und bei ihm spenden, damit er mich doch noch segnet.";
+const string TOPIC_Thorben_3 = "Thorben gibt mir seine Zustimmung, wenn ich mich von einem Priester Adanos und einem Priester Innos segnen lasse.";
+const string TOPIC_Thorben_4 = "Daron, der Feuermagier, hat mir seinen Segen gegeben.";
 
 
 const string TOPIC_HaradOrk = "Eine große Herausforderung.";
@@ -127,10 +127,10 @@ const string TOPIC_JoraDieb_1 = "Rengaru hat den Händler Jora bestohlen. Wenn i
 
 
 const string TOPIC_Nagur = "Der falsche Bote";
-const string TOPIC_Nagur_1 = "Die Lieferung habe ich. Ich könnte sie jetzt zu Nagur bringen...";
-const string TOPIC_Nagur_2 = "Baltram hat mich als Bote eingestellt. Jetzt muss ich die Lieferung von Akils Hof abholen.";
-const string TOPIC_Nagur_3 = "Ich soll mich von Baltram als neuen Boten einstellen lassen. Dann soll ich die Lieferung von Bauer Akil abholen und zu Nagur bringen.";
-const string TOPIC_Nagur_4 = "Nagur hat die Lieferung bekommen. Morgen will er mir mein Gold für den Job zahlen.";
+const string TOPIC_Nagur_1 = "Ich soll mich von Baltram als neuen Boten einstellen lassen. Dann soll ich die Lieferung von Bauer Akil abholen und zu Nagur bringen.";
+const string TOPIC_Nagur_2 = "Nagur hat die Lieferung bekommen. Morgen will er mir mein Gold für den Job zahlen.";
+const string TOPIC_Nagur_3 = "Die Lieferung habe ich. Ich könnte sie jetzt zu Nagur bringen...";
+const string TOPIC_Nagur_4 = "Baltram hat mich als Bote eingestellt. Jetzt muss ich die Lieferung von Akils Hof abholen.";
 
 
 const string TOPIC_Baltram = "Baltram's Lieferung.";
@@ -173,8 +173,8 @@ const string TOPIC_Peck_1 = "Peck ist irgendwo in der Stadt. Wenn ich ihn zurüc
 
 const string TOPIC_Warehouse = "Ein Paket voller Kraut";
 const string TOPIC_Warehouse_1 = "Im Hafen ist ein Paket mit Sumpfkraut angekommen. Das hat Mortis dort in der Kneipe ausgeschnappt. Ich soll das Paket finden und zu Lord Andre bringen.";
-const string TOPIC_Warehouse_2 = "Mortis hat in der Hafenkneipe mitbekommen, das sich Kardif, der Wirt und ein anderer Typ über das Paket unterhalten haben. Es  ging um einen Lagerplatz für das Kraut.";
-const string TOPIC_Warehouse_3 = "Kardif hat sich mit einem Söldner unterhalten. Dieser hatte ein Sumpfkaut - Paket, das er verkaufen wollte.";
+const string TOPIC_Warehouse_3 = "Mortis hat in der Hafenkneipe mitbekommen, das sich Kardif, der Wirt und ein anderer Typ über das Paket unterhalten haben. Es  ging um einen Lagerplatz für das Kraut.";
+const string TOPIC_Warehouse_2 = "Kardif hat sich mit einem Söldner unterhalten. Dieser hatte ein Sumpfkaut - Paket, das er verkaufen wollte.";
 
 
 const string TOPIC_Redlight = "Der Kraut - Handel";
@@ -208,19 +208,19 @@ const string Topic_NeorasPflanzen_1 = "Ich soll Meister Neoars dem Alchemisten s
 
 
 const string Topic_IsgarothWolf = "Isgaroth's Problem. ";
-const string Topic_IsgarothWolf_1 = "Am Schrein treibt sich ein dunkler Wolf herum. Ich soll ihn aufspüren und erlegen.";
-const string Topic_IsgarothWolf_2 = "Meister Isgaroth am Schrein braucht Hilfe. Ich sollte ihn mal aufsuchen.";
+const string Topic_IsgarothWolf_1 = "Meister Isgaroth am Schrein braucht Hilfe. Ich sollte ihn mal aufsuchen.";
+const string Topic_IsgarothWolf_2 = "Am Schrein treibt sich ein dunkler Wolf herum. Ich soll ihn aufspüren und erlegen.";
 
 
 const string Topic_ParlanFegen = "Die Kammern der Novizen.";
-const string Topic_ParlanFegen_1 = "Der Novize, der im Keller fegt, hilft mir, wenn ich einen weiteren Novizen gefunden habe, der bereit ist, die Kammern zu fegen.";
-const string Topic_ParlanFegen_2 = "Der Novize aus dem Keller hilft mir jetzt, die Kammern zu fegen.";
-const string Topic_ParlanFegen_3 = "Der Novize vor der Kirche hilft mir, wenn ich ihm 50 Goldstücke gebe.";
-const string Topic_ParlanFegen_4 = "Der Novize vor der Kirche hilft mir jetzt, die Kammern zu fegen.";
-const string Topic_ParlanFegen_5 = "Ich habe einen Novizen gefunden, der mir hilft, die Kamemrn zu fegen.";
-const string Topic_ParlanFegen_6 = "Meister Parlan wünscht, das ich die vier Novizenkammern ausfege. Eine Aufgabe für die ich alleine bestimmt eine Ewigkeit brauche. ";
-const string Topic_ParlanFegen_7 = "Babo hilft mir, die Novizenkammern zu fegen, wenn ich ihm eine Spruchrolle Windfaust bringe.";
-const string Topic_ParlanFegen_8 = "Babo hilft mir jetzt, die Novizenkammern zu fegen.";
+const string Topic_ParlanFegen_1 = "Ich habe einen Novizen gefunden, der mir hilft, die Kamemrn zu fegen.";
+const string Topic_ParlanFegen_2 = "Babo hilft mir, die Novizenkammern zu fegen, wenn ich ihm eine Spruchrolle Windfaust bringe.";
+const string Topic_ParlanFegen_3 = "Babo hilft mir jetzt, die Novizenkammern zu fegen.";
+const string Topic_ParlanFegen_4 = "Der Novize, der im Keller fegt, hilft mir, wenn ich einen weiteren Novizen gefunden habe, der bereit ist, die Kammern zu fegen.";
+const string Topic_ParlanFegen_5 = "Der Novize aus dem Keller hilft mir jetzt, die Kammern zu fegen.";
+const string Topic_ParlanFegen_6 = "Der Novize vor der Kirche hilft mir, wenn ich ihm 50 Goldstücke gebe.";
+const string Topic_ParlanFegen_7 = "Meister Parlan wünscht, das ich die vier Novizenkammern ausfege. Eine Aufgabe für die ich alleine bestimmt eine Ewigkeit brauche. ";
+const string Topic_ParlanFegen_8 = "Der Novize vor der Kirche hilft mir jetzt, die Kammern zu fegen.";
 
 
 const string Topic_GoraxEssen = "Wurst verteilen.";
@@ -240,8 +240,8 @@ const string Topic_OpolosRezept_1 = "Opolos will einen kurzen Blick auf ein Reze
 
 
 const string Topic_BaboTrain = "Kampftraining für Babo.";
-const string Topic_BaboTrain_1 = "Wenn ich den Paladin Sergio überrede, mit Babo ein paar Kampfübungen durchzuführen, trainiert er mich im zweihändigen Kampf.";
-const string Topic_BaboTrain_2 = "Sergio hat zugesagt, von nun an jeden Morgen mit Babo zwei Stunden zu trainieren. ";
+const string Topic_BaboTrain_1 = "Sergio hat zugesagt, von nun an jeden Morgen mit Babo zwei Stunden zu trainieren. ";
+const string Topic_BaboTrain_2 = "Wenn ich den Paladin Sergio überrede, mit Babo ein paar Kampfübungen durchzuführen, trainiert er mich im zweihändigen Kampf.";
 
 
 const string Topic_KarrasCharm = "Ein Gang in die Stadt.";
@@ -259,9 +259,9 @@ const string TOPIC_Golem_1 = "Serpentes hat mich seine Prüfung auferlegt. Ich s
 
 
 const string TOPIC_Rune = "Die Rune des Feuers.";
-const string TOPIC_Rune_1 = "Ulthar hat mir seine Prüfung auferlegt. Ich soll eine Feuerpfeil Rune erschaffen.";
-const string TOPIC_Rune_2 = "Hyglas ist bereit mir die Formel für die Feuerpfeil Rune beizubringen, wenn ich alle Rohstoffe zusammen habe.";
-const string TOPIC_Rune_3 = "Ich habe eine Feuerpfeil - Rune hergestellt.";
+const string TOPIC_Rune_1 = "Hyglas ist bereit mir die Formel für die Feuerpfeil Rune beizubringen, wenn ich alle Rohstoffe zusammen habe.";
+const string TOPIC_Rune_2 = "Ich habe eine Feuerpfeil - Rune hergestellt.";
+const string TOPIC_Rune_3 = "Ulthar hat mir seine Prüfung auferlegt. Ich soll eine Feuerpfeil Rune erschaffen.";
 
 
 const string TOPIC_Schnitzeljagd = "Der Pfad der Gläubigen.";
@@ -282,31 +282,31 @@ const string Topic_OpolosStudy_1 = "Opolos hütet die Schafe. Er würde gerne di
 
 
 const string Topic_KlosterTrader = "Händler im Kloster.";
-const string Topic_KlosterTrader_1 = "Meister Karras kann mich im Kloster mit Spruchrollen versorgen. Allerdings muss ich Magier des Feuers sein.";
+const string Topic_KlosterTrader_1 = "Meister Isgaroth handelt mit nützlichen, magischen Gegenständen, am Schrein vor dem Kloster.";
 const string Topic_KlosterTrader_2 = "Meister Gorax kann mich im Kloster mit allem versorgen, was ich benötige.";
-const string Topic_KlosterTrader_3 = "Meister Isgaroth handelt mit nützlichen, magischen Gegenständen, am Schrein vor dem Kloster.";
+const string Topic_KlosterTrader_3 = "Meister Karras kann mich im Kloster mit Spruchrollen versorgen. Allerdings muss ich Magier des Feuers sein.";
 
 
 const string Topic_KlosterTeacher = "Lehrer im Kloster.";
-const string Topic_KlosterTeacher_1 = "Bruder Parlan wird mich in die ersten Kreise der Magie einweihen.";
-const string Topic_KlosterTeacher_2 = "Bruder Karras unterrichtet die Formeln der Beschwörungen und Anrufungen.";
-const string Topic_KlosterTeacher_3 = "Bruder Hyglas kann mich in die Geheimnisse des Feuers einweihen.";
-const string Topic_KlosterTeacher_4 = "Bruder Marduk kann mir die Mächte von Eis und Donner beibringen.";
-const string Topic_KlosterTeacher_5 = "Bruder Parlan unterrichtet verschiedene, andere Formeln.";
-const string Topic_KlosterTeacher_6 = "In den sechsten Kreis der Magie wird Meister Pyrokar mich einweihen.";
-const string Topic_KlosterTeacher_7 = "Meister Parlan kann mir dabei helfen, meine magische Kraft zu steigern.";
-const string Topic_KlosterTeacher_8 = "Bruder Parlan hat mich die ersten drei Kreise gelehrt. In die nächsten Kreise wird mich Bruder Karras geleiten.";
-const string Topic_KlosterTeacher_9 = "Opolos kann mir dabei helfen, stärker zu werden.";
-const string Topic_KlosterTeacher_10 = "Babo kann mich im zweihändigen Kampf trainieren.";
+const string Topic_KlosterTeacher_1 = "Opolos kann mir dabei helfen, stärker zu werden.";
+const string Topic_KlosterTeacher_2 = "In den sechsten Kreis der Magie wird Meister Pyrokar mich einweihen.";
+const string Topic_KlosterTeacher_3 = "Babo kann mich im zweihändigen Kampf trainieren.";
+const string Topic_KlosterTeacher_4 = "Bruder Parlan wird mich in die ersten Kreise der Magie einweihen.";
+const string Topic_KlosterTeacher_5 = "Bruder Karras unterrichtet die Formeln der Beschwörungen und Anrufungen.";
+const string Topic_KlosterTeacher_6 = "Bruder Hyglas kann mich in die Geheimnisse des Feuers einweihen.";
+const string Topic_KlosterTeacher_7 = "Bruder Marduk kann mir die Mächte von Eis und Donner beibringen.";
+const string Topic_KlosterTeacher_8 = "Bruder Parlan unterrichtet verschiedene, andere Formeln.";
+const string Topic_KlosterTeacher_9 = "Meister Parlan kann mir dabei helfen, meine magische Kraft zu steigern.";
+const string Topic_KlosterTeacher_10 = "Bruder Parlan hat mich die ersten drei Kreise gelehrt. In die nächsten Kreise wird mich Bruder Karras geleiten.";
 
 
 const string TOPIC_BecomeSLD = "Aufnahme bei den Söldnern.";
-const string TOPIC_BecomeSLD_1 = "Onar hat mir sein Einverständnis gegeben. Jetzt steht meiner Aufnahme bei den Söldnern nichts mehr im Weg.";
-const string TOPIC_BecomeSLD_2 = "Um bei den Söldnern aufgenommen zu werden, brauche ich das Einverständnis von Onar, wenn ich die Söldner überzeugt habe.";
-const string TOPIC_BecomeSLD_3 = "Um bei den Söldnern aufgenommen zu werden, wird Torlof mich auf die Probe stellen und ich muss mir den Respekt der anderen Söldner verdienen.";
-const string TOPIC_BecomeSLD_4 = "Jetzt muss ich nur noch das Einverständnis von Onar einholen.";
-const string TOPIC_BecomeSLD_5 = "Ich habe genug Respekt bei den Söldnern. Jetzt sollte ich mal mit Lee sprechen.";
-const string TOPIC_BecomeSLD_6 = "Die Aufgabe, die Torlof mir gestellt hat, habe ich erfüllt.";
+const string TOPIC_BecomeSLD_1 = "Um bei den Söldnern aufgenommen zu werden, brauche ich das Einverständnis von Onar, wenn ich die Söldner überzeugt habe.";
+const string TOPIC_BecomeSLD_2 = "Um bei den Söldnern aufgenommen zu werden, wird Torlof mich auf die Probe stellen und ich muss mir den Respekt der anderen Söldner verdienen.";
+const string TOPIC_BecomeSLD_3 = "Jetzt muss ich nur noch das Einverständnis von Onar einholen.";
+const string TOPIC_BecomeSLD_4 = "Onar hat mir sein Einverständnis gegeben. Jetzt steht meiner Aufnahme bei den Söldnern nichts mehr im Weg.";
+const string TOPIC_BecomeSLD_5 = "Die Aufgabe, die Torlof mir gestellt hat, habe ich erfüllt.";
+const string TOPIC_BecomeSLD_6 = "Ich habe genug Respekt bei den Söldnern. Jetzt sollte ich mal mit Lee sprechen.";
 
 
 const string TOPIC_TorlofPacht = "Pacht eintreiben";
@@ -318,16 +318,16 @@ const string TOPIC_TorlofMiliz_1 = "Torlaof hat mich beauftragt, die Miliz von B
 
 
 const string TOPIC_SLDRespekt = "Respekt der Söldner.";
-const string TOPIC_SLDRespekt_1 = "Damit die Söldner mich respektieren, sollte ich die Aufgabe erledigen, die Torlof mir stellt. Zudem werden die Söldner von mir überzeugt sein, wenn ich ihnen helfe oder sie im Duell besiege.";
-const string TOPIC_SLDRespekt_2 = "Die Duellregeln: Ein Duell muss durch eine Herausforderung begonnen werden, dann wird sich auch kein anderer einmischen. Beim Duell darf nicht getötet werden.";
-const string TOPIC_SLDRespekt_3 = "Nachdem ich Buster besiegt habe, hat er nichts dagegen einzuwenden, das ich mich den Söldnern anschließe.";
+const string TOPIC_SLDRespekt_1 = "Cord's Stimme habe ich im Sack.";
+const string TOPIC_SLDRespekt_2 = "Rod' Stimme habe ich, wenn ich mich den Söldnern anschließen will.";
+const string TOPIC_SLDRespekt_3 = "Jarvis stimmt für mich, wenn ich mich den Söldnern anschließen will.";
 const string TOPIC_SLDRespekt_4 = "Cipher stimmt für mich, wenn ich mich den Söldnern anschließe.";
-const string TOPIC_SLDRespekt_5 = "Rod' Stimme habe ich, wenn ich mich den Söldnern anschließen will.";
-const string TOPIC_SLDRespekt_6 = "Cord's Stimme habe ich im Sack.";
-const string TOPIC_SLDRespekt_7 = "Jarvis stimmt für mich, wenn ich mich den Söldnern anschließen will.";
-const string TOPIC_SLDRespekt_8 = "Wolf hat nichts dagegen einzuwenden, das ich mich den Söldnern anschließe.";
-const string TOPIC_SLDRespekt_9 = "Sentenza hat nichts dagegen, daß ich mich den Söldnern anschließe.";
-const string TOPIC_SLDRespekt_10 = "Raoul hat nichts dagegen, dass ich mich den Söldnern anschließe.";
+const string TOPIC_SLDRespekt_5 = "Nachdem ich Buster besiegt habe, hat er nichts dagegen einzuwenden, das ich mich den Söldnern anschließe.";
+const string TOPIC_SLDRespekt_6 = "Wolf hat nichts dagegen einzuwenden, das ich mich den Söldnern anschließe.";
+const string TOPIC_SLDRespekt_7 = "Raoul hat nichts dagegen, dass ich mich den Söldnern anschließe.";
+const string TOPIC_SLDRespekt_8 = "Damit die Söldner mich respektieren, sollte ich die Aufgabe erledigen, die Torlof mir stellt. Zudem werden die Söldner von mir überzeugt sein, wenn ich ihnen helfe oder sie im Duell besiege.";
+const string TOPIC_SLDRespekt_9 = "Die Duellregeln: Ein Duell muss durch eine Herausforderung begonnen werden, dann wird sich auch kein anderer einmischen. Beim Duell darf nicht getötet werden.";
+const string TOPIC_SLDRespekt_10 = "Sentenza hat nichts dagegen, daß ich mich den Söldnern anschließe.";
 
 
 const string TOPIC_JarvisSLDKo = "Mit freundlichen Grüßen.";
@@ -346,9 +346,9 @@ const string Topic_CipherHerb_1 = "Cipher gibt mir seine Stimme, wenn ich ihm ei
 
 
 const string Topic_CipherPaket = "Das Krautpaket";
-const string Topic_CipherPaket_1 = "Dem Söldner Cipher ist ein Paket mit Sumpfkraut abhanden gekommen.";
-const string Topic_CipherPaket_2 = "Er vermutet, das Bodo es gestohlen hat.";
-const string Topic_CipherPaket_3 = "Dar hat zugegeben, das er das Krautpaket gestohlen hat. Er hat es im Hafenviertel von Khorinis verkauft, in der Nähe des Bootsbauers.";
+const string Topic_CipherPaket_1 = "Dar hat zugegeben, das er das Krautpaket gestohlen hat. Er hat es im Hafenviertel von Khorinis verkauft, in der Nähe des Bootsbauers.";
+const string Topic_CipherPaket_2 = "Dem Söldner Cipher ist ein Paket mit Sumpfkraut abhanden gekommen.";
+const string Topic_CipherPaket_3 = "Er vermutet, das Bodo es gestohlen hat.";
 
 
 const string Topic_RodWette = "Rod's Schwert";
@@ -377,8 +377,8 @@ const string TOPIC_KickBullco_1 = "Bullco hätte auf die Schafe von Pepe aufpass
 
 
 const string TOPIC_Frieden = "Das Friedensangebot";
-const string TOPIC_Frieden_1 = "Lord Hagen ist breit, Lee Aboslution zu erteilen. Aber keinem anderen der Söldner.";
-const string TOPIC_Frieden_2 = "Lee schickt mich mit einem Friedensangebot zu Lord Hagen. Damit werde ich bei den Paladinen vorgelassen.";
+const string TOPIC_Frieden_1 = "Lee schickt mich mit einem Friedensangebot zu Lord Hagen. Damit werde ich bei den Paladinen vorgelassen.";
+const string TOPIC_Frieden_2 = "Lord Hagen ist breit, Lee Aboslution zu erteilen. Aber keinem anderen der Söldner.";
 
 
 const string Topic_MISOLDWORLD = "Beweise";
@@ -388,17 +388,17 @@ const string Topic_MISOLDWORLD_3 = "Kommandant Garond hat mir einen Brief ausgeh
 
 
 const string TOPIC_ScoutMine = "Schürfer und Erz";
-const string TOPIC_ScoutMine_1 = "Der Paladin Marcos bewacht in einem kleinen Tal VIER Kisten mit Erz.";
+const string TOPIC_ScoutMine_1 = "Die Schürfer von Fajeth haben bisher ZWEI Kisten Erz gefördert.";
 const string TOPIC_ScoutMine_2 = "Kommandant Garond hat mir eine Aufgabe zugewiesen. Er hat drei Schürftrupps auf die Suche nach dem magischen Erz geschickt. Bisher haben sie nichts geliefert. ";
 const string TOPIC_ScoutMine_3 = "Ich soll die drei Schürftrupps aufsuchen und herausfinden, wieviel Erz sie gelagert haben.";
 const string TOPIC_ScoutMine_4 = "Der Paladin Parcival kann mich mit Informationen über die Schürfer versorgen.";
-const string TOPIC_ScoutMine_5 = "Die Schürfgruppen werden von jeweils einem Paladin angeführt. Marcos, Fajeth und Sivestro.";
-const string TOPIC_ScoutMine_6 = "Die Gruppe von Marcos ist in Richtung der ehemaligen alten Mine aufgebrochen. Unter der ortskundigen Führung des Buddlers Grimes.";
-const string TOPIC_ScoutMine_7 = "Die beiden anderen Gruppen sind zusammen losgezogen. Sie haben ihre Lager in der Nähe eines großen Turms errichtet.";
-const string TOPIC_ScoutMine_8 = "Diego ist bei den Schürfern unter dem Kommando von Paladin Silvestro.";
-const string TOPIC_ScoutMine_9 = "Es erscheint sinnvoll, nicht den direkten Weg zu den Schürfern zu nehmen. Vor allem Wälder und Orks sollte ich meiden.";
-const string TOPIC_ScoutMine_10 = "Die Schürfer von Fajeth haben bisher ZWEI Kisten Erz gefördert.";
-const string TOPIC_ScoutMine_11 = "Diego hat VIER Kisten Erz von Silvestro's Schürfern in Sicherheit gebracht.";
+const string TOPIC_ScoutMine_5 = "Diego hat VIER Kisten Erz von Silvestro's Schürfern in Sicherheit gebracht.";
+const string TOPIC_ScoutMine_6 = "Der Paladin Marcos bewacht in einem kleinen Tal VIER Kisten mit Erz.";
+const string TOPIC_ScoutMine_7 = "Die Schürfgruppen werden von jeweils einem Paladin angeführt. Marcos, Fajeth und Sivestro.";
+const string TOPIC_ScoutMine_8 = "Die Gruppe von Marcos ist in Richtung der ehemaligen alten Mine aufgebrochen. Unter der ortskundigen Führung des Buddlers Grimes.";
+const string TOPIC_ScoutMine_9 = "Die beiden anderen Gruppen sind zusammen losgezogen. Sie haben ihre Lager in der Nähe eines großen Turms errichtet.";
+const string TOPIC_ScoutMine_10 = "Diego ist bei den Schürfern unter dem Kommando von Paladin Silvestro.";
+const string TOPIC_ScoutMine_11 = "Es erscheint sinnvoll, nicht den direkten Weg zu den Schürfern zu nehmen. Vor allem Wälder und Orks sollte ich meiden.";
 
 
 const string Topic_MarcosJungs = "Unterstützung für Marcos.";
@@ -406,17 +406,17 @@ const string Topic_MarcosJungs_1 = "Marcos will, das Garond ihm Unterstützung s
 
 
 const string TOPIC_RescueGorn = "Die Befreiung von Gorn.";
-const string TOPIC_RescueGorn_1 = "Garond verlangt eintausend Goldstücke für die Freilassung von Gorn.";
-const string TOPIC_RescueGorn_2 = "Ich habe Garond bezahlt. Jetzt kann ich Gorn aus dem Knast holen. Der Wächter Gerold wird ihn freilassen. ";
-const string TOPIC_RescueGorn_3 = "Wenn ich Gerold eine Wurst, Brot, Wein und Honig bringe, wird er die Nachricht an Gorn weiterleiten.";
-const string TOPIC_RescueGorn_4 = "Gerold hat bekommen was er wollte und wird sich um die Nachricht kümmern.";
-const string TOPIC_RescueGorn_5 = "Gorn läßt uns ausrichten, das sein Gold am Südtor liegt.";
-const string TOPIC_RescueGorn_6 = "Gerold hat mir den Schlüssel für den Knast gegeben.";
-const string TOPIC_RescueGorn_7 = "Kommandant Garond hat Gorn einsperren lassen. Vielleicht läßt er sich auf ein Geschäft ein und wir können ihn freikaufen.";
-const string TOPIC_RescueGorn_8 = "Milten hat mir 250 Goldstücke für die Befreiung von Gorn gegeben.";
-const string TOPIC_RescueGorn_9 = "Milten hat mir eine Nachricht für Gorn mitgegeben. Wenn ich sie in den Knast schmuggeln kann, kann er uns vielleicht mitteilen, ob er noch irgendwo Gold versteckt hat.";
-const string TOPIC_RescueGorn_10 = "Rechts neben der Orkramme ist das ehemalige Südtor. Dort liegt irgendwo Gorn's Gold.";
-const string TOPIC_RescueGorn_11 = "Diego hat 300 Goldstücke zur Befreiung von Gorn beigetragen.";
+const string TOPIC_RescueGorn_1 = "Wenn ich Gerold eine Wurst, Brot, Wein und Honig bringe, wird er die Nachricht an Gorn weiterleiten.";
+const string TOPIC_RescueGorn_2 = "Gerold hat bekommen was er wollte und wird sich um die Nachricht kümmern.";
+const string TOPIC_RescueGorn_3 = "Gorn läßt uns ausrichten, das sein Gold am Südtor liegt.";
+const string TOPIC_RescueGorn_4 = "Gerold hat mir den Schlüssel für den Knast gegeben.";
+const string TOPIC_RescueGorn_5 = "Garond verlangt eintausend Goldstücke für die Freilassung von Gorn.";
+const string TOPIC_RescueGorn_6 = "Ich habe Garond bezahlt. Jetzt kann ich Gorn aus dem Knast holen. Der Wächter Gerold wird ihn freilassen. ";
+const string TOPIC_RescueGorn_7 = "Diego hat 300 Goldstücke zur Befreiung von Gorn beigetragen.";
+const string TOPIC_RescueGorn_8 = "Kommandant Garond hat Gorn einsperren lassen. Vielleicht läßt er sich auf ein Geschäft ein und wir können ihn freikaufen.";
+const string TOPIC_RescueGorn_9 = "Milten hat mir 250 Goldstücke für die Befreiung von Gorn gegeben.";
+const string TOPIC_RescueGorn_10 = "Milten hat mir eine Nachricht für Gorn mitgegeben. Wenn ich sie in den Knast schmuggeln kann, kann er uns vielleicht mitteilen, ob er noch irgendwo Gold versteckt hat.";
+const string TOPIC_RescueGorn_11 = "Rechts neben der Orkramme ist das ehemalige Südtor. Dort liegt irgendwo Gorn's Gold.";
 
 
 const string TOPIC_FajethKillSnapper = "Snapperjagd";

@@ -85,7 +85,7 @@ func void DIA_Babo_Anliegen_Info()
 	AI_Output(other,self,"DIA_Babo_Anliegen_15_03");	//Ich werde mal sehen, was sich machen lässt.
 	Log_CreateTopic(Topic_BaboTrain,LOG_MISSION);
 	Log_SetTopicStatus(Topic_BaboTrain,LOG_Running);
-	B_LogEntry(Topic_BaboTrain,Topic_BaboTrain_1);
+	B_LogEntry(Topic_BaboTrain,Topic_BaboTrain_2);
 };
 
 
@@ -117,7 +117,7 @@ func void DIA_Babo_Sergio_Info()
 	Babo_Training = TRUE;
 	B_GivePlayerXP(XP_Ambient * 2);
 	Log_CreateTopic(Topic_KlosterTeacher,LOG_NOTE);
-	B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_10);
+	B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_3);
 };
 
 
@@ -401,7 +401,7 @@ func void DIA_Babo_Fegen_Info()
 	AI_Output(self,other,"DIA_Babo_Fegen_03_01");	//Da hast du dir ja viel Arbeit aufgehalst. Weißt du was - ich helfe dir. Alleine schaffst du das nie.
 	AI_Output(self,other,"DIA_Babo_Fegen_03_02");	//Aber ich brauche unbedingt eine 'Windfaust'-Spruchrolle - weißt du, ich hatte das Glück und durfte ein Buch darüber lesen.
 	AI_Output(self,other,"DIA_Babo_Fegen_03_03");	//Und jetzt will ich den Zauber natürlich auch mal anwenden. Also besorge mir die Spruchrolle, dann helfe ich dir.
-	B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_7);
+	B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_2);
 };
 
 
@@ -439,7 +439,7 @@ func void DIA_Babo_Windfaust_Info()
 		B_GivePlayerXP(XP_Feger);
 		AI_StopProcessInfos(self);
 		Npc_ExchangeRoutine(self,"FEGEN");
-		B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_8);
+		B_LogEntry(Topic_ParlanFegen,Topic_ParlanFegen_3);
 	}
 	else
 	{

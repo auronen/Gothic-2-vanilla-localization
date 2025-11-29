@@ -175,7 +175,7 @@ func void DIA_Constantino_Trade_Info()
 	if(Constantino_Logpatch1 == FALSE)
 	{
 		Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_10);
+		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_3);
 		Constantino_Logpatch1 = TRUE;
 	};
 };
@@ -246,7 +246,7 @@ func void DIA_Constantino_ZUSTIMMUNG_Info()
 	{
 		Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_14);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_1);
 		Constantino_Logpatch2 = TRUE;
 	};
 };
@@ -339,7 +339,7 @@ func void DIA_Constantino_HerbsRunning_Success()
 	B_GivePlayerXP(XP_Constantino_Herbs);
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_15);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_2);
 	Info_ClearChoices(DIA_Constantino_HerbsRunning);
 };
 
@@ -492,7 +492,7 @@ func void DIA_Constantino_LEHRLING_Yes()
 	Wld_AssignRoomToGuild("alchemist",GIL_NONE);
 	MIS_Apprentice = LOG_SUCCESS;
 	B_GivePlayerXP(XP_Lehrling);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_8);
+	B_LogEntry(Topic_Bonus,Topic_Bonus_1);
 	Info_ClearChoices(DIA_Constantino_LEHRLING);
 };
 
@@ -621,7 +621,7 @@ func void DIA_Constantino_Mushrooms_Info()
 	AI_Output(self,other,"DIA_Constantino_Mushrooms_10_02");	//Für Pilze allerdings werde ich dir einen besonderen Preis zahlen.
 	MIS_Constantino_Mushrooms = LOG_Running;
 	Log_CreateTopic(Topic_Bonus,LOG_NOTE);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_9);
+	B_LogEntry(Topic_Bonus,Topic_Bonus_2);
 };
 
 
@@ -752,7 +752,7 @@ func void DIA_Constantino_Alchemy_Info()
 	AI_Output(self,other,"DIA_Constantino_Alchemy_10_08");	//Du kannst nicht alles auf einmal lernen. Also wähle mit Bedacht, welches Wissen du dir aneignen willst.
 	Constantino_TeachAlchemy = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_11);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_1);
 };
 
 
@@ -784,7 +784,7 @@ func void DIA_Constantino_NewRecipes_Info()
 	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_04");	//Ich denke, ich kann dir einige Rezepturen verraten. Es kommt natürlich darauf an, was du wissen willst.
 	Constantino_TeachAlchemy = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_11);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_1);
 };
 
 

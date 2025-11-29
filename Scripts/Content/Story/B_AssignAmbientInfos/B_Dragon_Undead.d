@@ -68,7 +68,7 @@ func void DIA_Dragon_Undead_Hello_Info()
 	Info_AddChoice(DIA_Dragon_Undead_Hello,"In welchem Auftrag führst du deine Schergen in den Krieg gegen die Menschen?",DIA_Dragon_Undead_Hello_Auftraggeber);
 	Info_AddChoice(DIA_Dragon_Undead_Hello,"Warum bist du hier?",DIA_Dragon_Undead_Hello_warum);
 	Info_AddChoice(DIA_Dragon_Undead_Hello,"Wer bist du?",DIA_Dragon_Undead_Hello_wer);
-	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_5);
+	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_7);
 };
 
 func void DIA_Dragon_Undead_Hello_wer()

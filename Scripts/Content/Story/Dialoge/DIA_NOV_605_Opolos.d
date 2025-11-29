@@ -215,7 +215,7 @@ func void DIA_Opolos_rezept_Info()
 		Opolos_Rezept = LOG_SUCCESS;
 		B_GivePlayerXP(XP_Ambient);
 		Log_CreateTopic(Topic_KlosterTeacher,LOG_NOTE);
-		B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_9);
+		B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_1);
 	}
 	else if(MIS_NeorasRezept == LOG_SUCCESS)
 	{
@@ -225,7 +225,7 @@ func void DIA_Opolos_rezept_Info()
 		DIA_Opolos_rezept_permanent = TRUE;
 		Opolos_TeachSTR = TRUE;
 		Log_CreateTopic(Topic_KlosterTeacher,LOG_NOTE);
-		B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_9);
+		B_LogEntry(Topic_KlosterTeacher,Topic_KlosterTeacher_1);
 	}
 	else
 	{

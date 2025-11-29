@@ -72,7 +72,7 @@ func void DIA_Angar_NW_KnowWhereEnemy_Info()
 	AI_Output(self,other,"DIA_Angar_NW_KnowWhereEnemy_04_01");	//Je weiter ich von dem Minental weg komme, um so besser. Wann geht's los?
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_1);
+	B_LogEntry(Topic_Crew,Topic_Crew_5);
 	if(Crewmember_Count >= Max_Crew)
 	{
 		AI_Output(other,self,"DIA_Angar_NW_KnowWhereEnemy_15_02");	//Momentan habe ich schon genug Leute für das Schiff zusammen. Ich komme vielleicht später noch einmal auf dich zurück.

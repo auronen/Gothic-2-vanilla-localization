@@ -120,7 +120,7 @@ func void DIA_Zuris_GREET_Info()
 	AI_Output(self,other,"DIA_Zuris_GREET_14_00");	//Ich bin Zuris, Meister der Tränke.
 	AI_Output(self,other,"DIA_Zuris_GREET_14_01");	//Benötigst du eine Essenz der Heilung oder ein magisches Elixier? Dann bist du bei mir richtig.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_4);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_20);
 };
 
 

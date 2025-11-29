@@ -70,7 +70,7 @@ func void DIA_Meldor_Interessantes_Info()
 	AI_Output(self,other,"DIA_Meldor_Interessantes_07_01");	//Hier gibt's 'nen Puff und 'ne Kneipe. Der Wirt heißt Kardif. Wenn du Informationen willst, dann sprich mit ihm. Er ist der richtige Mann dafür.
 	AI_Output(self,other,"DIA_Meldor_Interessantes_07_02");	//Brauchst du eigentlich Geld?
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_8);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_5);
 };
 
 

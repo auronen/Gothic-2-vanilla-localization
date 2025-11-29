@@ -224,7 +224,7 @@ func void DIA_Brutus_Gold_Info()
 		AI_Output(self,other,"DIA_Brutus_Gold_06_01");	//Ausgezeichnet. Wenn du willst, kann ich dich trainieren.
 		Brutus_TeachSTR = TRUE;
 		Log_CreateTopic(TOPIC_Teacher_OC,LOG_NOTE);
-		B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_4);
+		B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_1);
 		B_GivePlayerXP(XP_Ambient);
 	}
 	else

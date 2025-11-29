@@ -79,7 +79,7 @@ func void DIA_Halvor_Hallo_Info()
 {
 	AI_Output(self,other,"DIA_Halvor_Hallo_06_00");	//Hey, brauchst du Fisch? Bei mir bekommst du Fisch, ganz frisch aus den Tiefen des Meeres!
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_18);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_12);
 };
 
 

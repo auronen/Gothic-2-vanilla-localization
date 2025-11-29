@@ -194,7 +194,7 @@ func void Use_ItWr_LastDoorToUndeadDrgDI_MIS()
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetMargins(nDocID,-1,200,50,50,50,1);
 	Doc_Show(nDocID);
-	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_1);
+	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_2);
 };
 
 

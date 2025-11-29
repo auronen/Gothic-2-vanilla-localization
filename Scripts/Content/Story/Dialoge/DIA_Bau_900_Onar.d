@@ -277,7 +277,7 @@ func void DIA_Onar_LeeSentMe_Info()
 	AI_Output(self,other,"DIA_Onar_LeeSentMe_14_06");	//Alles weitere kannst du mit Lee abklären.
 	AI_Output(self,other,"DIA_Onar_LeeSentMe_14_07");	//WIR müssen uns nur noch über deinen Sold unterhalten ...
 	Onar_Approved = TRUE;
-	B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_1);
+	B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_4);
 };
 
 
@@ -352,7 +352,7 @@ func void DIA_Onar_HowMuch_More()
 	AI_Output(self,other,"DIA_Onar_HowMuch_More_14_01");	//Du kannst natürlich auch umsonst für mich arbeiten.
 	AI_Output(self,other,"DIA_Onar_HowMuch_More_14_02");	//Mehr bekommst du jedenfalls nicht!
 	Log_CreateTopic(Topic_Bonus,LOG_NOTE);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_2);
+	B_LogEntry(Topic_Bonus,Topic_Bonus_7);
 	Info_ClearChoices(DIA_Onar_HowMuch);
 };
 
@@ -361,7 +361,7 @@ func void DIA_Onar_HowMuch_Ok()
 	AI_Output(other,self,"DIA_Onar_HowMuch_Ok_15_00");	//Klingt in Ordnung!
 	AI_Output(self,other,"DIA_Onar_HowMuch_Ok_14_01");	//Das denke ich auch! Jetzt geh zu Lee!
 	Log_CreateTopic(Topic_Bonus,LOG_NOTE);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_2);
+	B_LogEntry(Topic_Bonus,Topic_Bonus_7);
 	Info_ClearChoices(DIA_Onar_HowMuch);
 };
 

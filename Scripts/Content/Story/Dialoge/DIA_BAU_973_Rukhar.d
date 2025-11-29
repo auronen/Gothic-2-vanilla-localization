@@ -128,7 +128,7 @@ func void DIA_Rukhar_HOLERANDOLPH_Info()
 	AI_Output(self,other,"DIA_Rukhar_HOLERANDOLPH_12_01");	//Sicherlich. Wenn du es schaffst, dass endlich mal jemand den Mut hat, gegen mich anzutreten, dann würde ich mit dir wetten.
 	AI_Output(self,other,"DIA_Rukhar_HOLERANDOLPH_12_02");	//Jeder zahlt den gleichen Betrag in einen Topf. Wer gewinnt, bekommt alles. Wie hoch dein Einsatz ist, das hängt von deinem Geldbeutel ab.
 	AI_Output(self,other,"DIA_Rukhar_HOLERANDOLPH_12_03");	//Bring mir jemanden, der es wagt, gegen mich anzutreten, und du hast deine Wette.
-	B_LogEntry(TOPIC_Wettsaufen,TOPIC_Wettsaufen_5);
+	B_LogEntry(TOPIC_Wettsaufen,TOPIC_Wettsaufen_6);
 };
 
 

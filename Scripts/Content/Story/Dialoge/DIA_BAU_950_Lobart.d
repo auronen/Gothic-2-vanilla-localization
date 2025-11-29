@@ -642,7 +642,7 @@ func void DIA_Lobart_ANDREHELPLOBART_Info()
 	AI_Output(other,self,"DIA_Lobart_ANDREHELPLOBART_15_00");	//Andre schickt mich zu dir. Kann ich irgendwas für dich tun?
 	AI_Output(self,other,"DIA_Lobart_ANDREHELPLOBART_05_01");	//Ja, klar. Diese verdammten Feldräuber machen mich noch ganz krank.
 	AI_Output(self,other,"DIA_Lobart_ANDREHELPLOBART_05_02");	//Mach sie alle kalt. Wie du das anstellst, ist mir egal!
-	Log_AddEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_1);
+	Log_AddEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_5);
 	MIS_LobartKillBugs = LOG_Running;
 	AI_StopProcessInfos(self);
 };
@@ -681,7 +681,7 @@ func void DIA_Lobart_BUGDEAD_Info()
 		B_GiveInvItems(self,other,ItMi_Gold,20);
 		MIS_LobartKillBugs = LOG_SUCCESS;
 		MIS_AndreHelpLobart = LOG_SUCCESS;
-		Log_AddEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_2);
+		Log_AddEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_6);
 		DIA_Lobart_BUGDEAD_noPerm = TRUE;
 	}
 	else

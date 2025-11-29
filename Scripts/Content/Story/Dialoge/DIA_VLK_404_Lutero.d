@@ -51,7 +51,7 @@ func void DIA_Lutero_Hallo_Info()
 	AI_Output(other,self,"DIA_Lutero_Hallo_15_01");	//Welche Ware bietest du an?
 	AI_Output(self,other,"DIA_Lutero_Hallo_13_02");	//Nun, vor allem seltene und ausgefallene Dinge. Bisher ist es mir immer gelungen, die Wünsche meiner Kunden zu erfüllen.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_1);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_19);
 };
 
 

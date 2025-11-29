@@ -190,7 +190,7 @@ func void DIA_Dar_WoPaket_Info()
 		AI_Output(self,other,"DIA_Dar_WoPaket_03_04");	//Ehrlich, Mann, ich war total dicht. Hab keine Ahnung mehr, wie der Kerl aussah.
 		AI_Output(self,other,"DIA_Dar_WoPaket_03_05");	//Es war am Hafen in der Nähe des Bootsbauers. An mehr kann ich mich nicht erinnern.
 		Dar_Dieb = TRUE;
-		B_LogEntry(Topic_CipherPaket,Topic_CipherPaket_3);
+		B_LogEntry(Topic_CipherPaket,Topic_CipherPaket_1);
 	}
 	else
 	{

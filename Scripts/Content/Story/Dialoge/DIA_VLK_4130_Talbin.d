@@ -216,7 +216,7 @@ func void DIA_Talbin_AskTeacher_Info()
 	AI_Output(self,other,"DIA_Talbin_AskTeacher_07_03");	//Hast du irgendwas anderes zu essen als Lurkerfleisch? Vielleicht ein Stück Käse. Ja, ein Stück Käse. Ich würde sterben für ein Stück ...
 	AI_Output(other,self,"DIA_Talbin_AskTeacher_15_04");	//Mal sehen.
 	Log_CreateTopic(TOPIC_Teacher,LOG_NOTE);
-	B_LogEntry(TOPIC_Teacher,TOPIC_Teacher_4);
+	B_LogEntry(TOPIC_Teacher,TOPIC_Teacher_3);
 };
 
 
@@ -451,7 +451,7 @@ func void DIA_Talbin_KAP4_WASWOLLTENDJG_Info()
 	AI_Output(self,other,"DIA_Talbin_KAP4_WASWOLLTENDJG_07_02");	//Erzählten was von Drachen töten und so'n Zeug. Wer weiß, wo die Jungs herkommen, aber besonders vertrauenserweckend sahen sie nicht aus!
 	if(Kapitel == 4)
 	{
-		B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_15);
+		B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_5);
 	};
 };
 

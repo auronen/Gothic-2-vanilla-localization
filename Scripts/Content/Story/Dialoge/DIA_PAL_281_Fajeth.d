@@ -297,7 +297,7 @@ func void DIA_Fajeth_BELOHNUNG_Info()
 	AI_Output(other,self,"DIA_Fajeth_BELOHNUNG_15_04");	//Verstehe. Ich sag ihm Bescheid.
 	AI_Output(self,other,"DIA_Fajeth_BELOHNUNG_12_05");	//Gut. Dann liegt jetzt alles weitere bei dir. Wir werden hier die Stellung halten, so lange wir können.
 	Fajeth_Ore = TRUE;
-	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_10);
+	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_1);
 	AI_StopProcessInfos(self);
 };
 

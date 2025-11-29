@@ -104,7 +104,7 @@ func void DIA_Sarah_HALLO_Info()
 	AI_Output(self,other,"DIA_Sarah_HALLO_16_03");	//Dazu kommt noch, dass die Nahrungsversorgung durch die Bauern ausbleibt - und alles teurer geworden ist.
 	AI_Output(self,other,"DIA_Sarah_Add_16_00");	//Da ist es nur ein kleiner Trost, daß die Paladine meine Hotelrechnung bezahlen.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_19);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_2);
 };
 
 

@@ -70,7 +70,7 @@ func void DIA_Sagitta_HALLO_Heil()
 	AI_Output(other,self,"DIA_Sagitta_HALLO_Heil_15_00");	//Kannst du mich heilen?
 	AI_Output(self,other,"DIA_Sagitta_HALLO_Heil_17_01");	//Deswegen bist du doch gekommen, oder? Du musst es mir nur sagen, wenn dir etwas fehlt.
 	Log_CreateTopic(Topic_SoldierTrader,LOG_NOTE);
-	B_LogEntry(Topic_SoldierTrader,Topic_SoldierTrader_2);
+	B_LogEntry(Topic_SoldierTrader,Topic_SoldierTrader_1);
 };
 
 func void DIA_Sagitta_HALLO_ende()

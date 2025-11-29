@@ -94,7 +94,7 @@ func void DIA_Brahim_GREET_Info()
 	AI_Output(self,other,"DIA_Brahim_GREET_07_02");	//Da du hier neu bist, kannst du vielleicht eine Karte der Stadt gebrauchen.
 	AI_Output(self,other,"DIA_Brahim_GREET_07_03");	//Sie ist sehr günstig - und bis du dich eingewöhnt hast, äußerst nützlich.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_14);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_6);
 };
 
 

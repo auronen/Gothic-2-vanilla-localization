@@ -111,7 +111,7 @@ func void DIA_GornDJG_WHATSUP_Info()
 	Info_ClearChoices(DIA_GornDJG_WHATSUP);
 	Info_AddChoice(DIA_GornDJG_WHATSUP,"Vielleicht Lester?",DIA_GornDJG_WHATSUP_Lester);
 	Info_AddChoice(DIA_GornDJG_WHATSUP,"Ein Drache?",DIA_GornDJG_WHATSUP_A_Dragon);
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_11);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_8);
 };
 
 func void DIA_GornDJG_WHATSUP_Lester()
@@ -126,7 +126,7 @@ func void DIA_GornDJG_WHATSUP_A_Dragon()
 	AI_Output(self,other,"DIA_GornDJG_WHATSUP_A_Dragon_12_01");	//Höchstwahrscheinlich. Die Hochebene da oben wird bewacht wie die verdammte Schatzkammer des Königs. Leider ist das der einzige Weg zur Festung.
 	AI_Output(self,other,"DIA_GornDJG_WHATSUP_A_Dragon_12_02");	//Als ob die Drachen noch nicht schlimm genug wären. Sie haben anscheinend noch einige weitere Unholde im Schlepptau.
 	GornDJG_WhatMonsters = TRUE;
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_12);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_9);
 	Info_ClearChoices(DIA_GornDJG_WHATSUP);
 };
 
@@ -209,7 +209,7 @@ func void DIA_GornDJG_HELPKILLDRACONIANS_Info()
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_04");	//Was soll's! Wozu bin ich hierher gekommen? Lass uns die Ebene stürmen und den Weg zur Festung frei kämpfen.
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_05");	//Ein bisschen Bewegung kann nicht schaden. Außerdem will ich mir die Biester da oben mal aus der Nähe ansehen.
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_06");	//Sag Bescheid, wenn's los geht!
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_13);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_10);
 };
 
 
@@ -262,7 +262,7 @@ func void DIA_GornDJG_BISHIERHIN_Info()
 	AI_Output(self,other,"DIA_GornDJG_BISHIERHIN_12_00");	//War ja ein Kinderspiel. So, mein Freund, den Rest musst du allein erledigen. Heiz ihnen ordentlich ein! Ich werde zurückgehen, die Orks im Auge behalten.
 	AI_Output(other,self,"DIA_GornDJG_BISHIERHIN_15_01");	//Kein Problem. Ich seh dich!
 	AI_Output(self,other,"DIA_GornDJG_BISHIERHIN_12_02");	//Hoffentlich!
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_14);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_11);
 	B_GivePlayerXP(XP_GornDJGPlateauClear);
 	AI_StopProcessInfos(self);
 	self.aivar[AIV_PARTYMEMBER] = FALSE;

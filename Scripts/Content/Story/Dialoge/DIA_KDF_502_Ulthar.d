@@ -140,7 +140,7 @@ func void DIA_Ulthar_TEST_Info()
 	MIS_RUNE = LOG_Running;
 	Log_CreateTopic(TOPIC_Rune,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Rune,LOG_Running);
-	B_LogEntry(TOPIC_Rune,TOPIC_Rune_1);
+	B_LogEntry(TOPIC_Rune,TOPIC_Rune_3);
 	AI_StopProcessInfos(self);
 };
 

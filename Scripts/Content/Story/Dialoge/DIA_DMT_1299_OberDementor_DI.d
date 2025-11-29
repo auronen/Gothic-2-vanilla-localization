@@ -24,7 +24,7 @@ func void DIA_Schwarzmagier_HELLO_Info()
 	AI_Output(self,other,"DIA_Schwarzmagier_HELLO_09_02");	//Ich bin der Wächter der Hallen von Irdorath. Die mächtigste Quelle Beliars Macht auf Erden. Durch meine Hände fließt die göttliche Kraft des Meisters.
 	AI_Output(self,other,"DIA_Schwarzmagier_HELLO_09_03");	//Nur ein Wort von mir und du wirst auf ewig dem Wahnsinn verfallen.
 	AI_Output(other,self,"DIA_Schwarzmagier_HELLO_15_04");	//Verstehe. Noch so ein Unterhändler, den ich aus dem Weg räumen muss.
-	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_3);
+	B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_9);
 	Info_ClearChoices(DIA_Schwarzmagier_HELLO);
 	Info_AddChoice(DIA_Schwarzmagier_HELLO,"Bring mich zu deinem Meister.",DIA_Schwarzmagier_HELLO_meister);
 	Info_AddChoice(DIA_Schwarzmagier_HELLO,"Wieviel von eurer Sorte muß ich denn noch töten?",DIA_Schwarzmagier_HELLO_dmt);

@@ -74,7 +74,7 @@ func void DIA_Parlaf_ENGOR_Info()
 	AI_Output(other,self,"DIA_Parlaf_ENGOR_15_03");	//Und das kannst du dir nicht leisten?
 	AI_Output(self,other,"DIA_Parlaf_ENGOR_03_04");	//Für den geringen Sold, den wir kassieren, kriege ich höchstens ein paar Rüben!
 	Log_CreateTopic(TOPIC_Trader_OC,LOG_NOTE);
-	Log_AddEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_3);
+	Log_AddEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_7);
 };
 
 

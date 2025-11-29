@@ -24,7 +24,7 @@ func void enter_di_firsttime_trigger()
 			{
 				Wld_InsertItem(ItSe_XardasNotfallBeutel_MIS,"FP_ITEM_SHIP_12");
 				SC_InnosEyeVergessen_DI = TRUE;
-				B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_6);
+				B_LogEntry(TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_4);
 			};
 			Wld_InsertItem(ItMi_Flask,"FP_ITEM_SHIP_06");
 			if(((Npc_HasItems(hero,ItAt_IcedragonHeart) >= 1) || (Npc_HasItems(hero,ItAt_RockdragonHeart) >= 1) || (Npc_HasItems(hero,ItAt_FiredragonHeart) >= 1) || (Npc_HasItems(hero,ItAt_SwampdragonHeart) >= 1)) == FALSE)

@@ -379,7 +379,7 @@ func void DIA_Jack_BEMYCAPTAIN_seaman()
 	AI_Output(self,other,"DIA_Jack_BEMYCAPTAIN_seaman_14_03");	//(lacht) Das wär ja was. Na schön. Aber meinen Leuchtturm werde ich nicht so einfach aufgeben. Mmh. Was machen wir denn da?
 	Log_CreateTopic(Topic_Captain,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Captain,LOG_Running);
-	B_LogEntry(Topic_Captain,Topic_Captain_8);
+	B_LogEntry(Topic_Captain,Topic_Captain_5);
 	Info_ClearChoices(DIA_Jack_BEMYCAPTAIN);
 	Info_AddChoice(DIA_Jack_BEMYCAPTAIN,"Schon gut. War nur so eine Idee.",DIA_Jack_BEMYCAPTAIN_no);
 	Info_AddChoice(DIA_Jack_BEMYCAPTAIN,"Was wäre, wenn ich dir jemanden bringe...?",DIA_Jack_BEMYCAPTAIN_seaman_NewOfficer);

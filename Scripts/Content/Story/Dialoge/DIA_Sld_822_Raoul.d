@@ -213,7 +213,7 @@ func void DIA_Raoul_Stimme_Info()
 	AI_Output(self,other,"DIA_Raoul_Stimme_01_01");	//Ach, mach doch, was du willst ...
 	Log_CreateTopic(TOPIC_SLDRespekt,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_SLDRespekt,LOG_Running);
-	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_10);
+	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_7);
 };
 
 

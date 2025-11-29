@@ -109,7 +109,7 @@ func void DIA_Gaertner_Plants_Info()
 	AI_Output(self,other,"DIA_Gaertner_Plants_09_01");	//Wenig. Ich hab Feuerkraut und Feuernesseln angebaut. Hab auch mal Sumpfkraut probiert, aber das wächst hier nur mäßig.
 	AI_Output(self,other,"DIA_Gaertner_Plants_09_02");	//Na ja, ich hab gerade geerntet. Also, wenn du was kaufen willst ...
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_6);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_18);
 };
 
 

@@ -585,7 +585,7 @@ func void DIA_Lares_DEX_Info()
 	AI_Output(self,other,"DIA_Lares_DEX_09_01");	//Klar. Wenn du willst, helfe ich dir, geschickter zu werden.
 	Lares_TeachDEX = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_13);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_4);
 };
 
 

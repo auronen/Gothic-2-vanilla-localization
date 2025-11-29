@@ -136,7 +136,7 @@ func void DIA_Thorben_Arbeit_Info()
 	AI_Output(self,other,"DIA_Thorben_Arbeit_06_06");	//Und für einen Lehrling habe ich kein Geld.
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_16);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_13);
 };
 
 
@@ -184,7 +184,7 @@ func void B_Thorben_GetBlessings()
 	MIS_Thorben_GetBlessings = LOG_Running;
 	Log_CreateTopic(TOPIC_Thorben,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Thorben,LOG_Running);
-	B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_4);
+	B_LogEntry(TOPIC_Thorben,TOPIC_Thorben_3);
 };
 
 func void DIA_Thorben_OtherMasters_Devoutly()
@@ -240,7 +240,7 @@ func void DIA_Thorben_ZUSTIMMUNG_Info()
 			B_GivePlayerXP(XP_Zustimmung);
 			Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 			Log_SetTopicStatus(TOPIC_Lehrling,LOG_Running);
-			B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_17);
+			B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_14);
 		}
 		else
 		{

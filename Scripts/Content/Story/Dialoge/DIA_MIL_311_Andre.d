@@ -554,7 +554,7 @@ func void DIA_Andre_AskToJoin_Info()
 	AI_Output(self,other,"DIA_Andre_AskToJoin_08_07");	//Du musst also zuerst Bürger der Stadt werden - über den Sinn dieser Regel lässt sich sicherlich streiten, aber Befehl ist Befehl.
 	Log_CreateTopic(TOPIC_BecomeMIL,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BecomeMIL,LOG_Running);
-	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_3);
+	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_1);
 };
 
 
@@ -645,7 +645,7 @@ func void DIA_Andre_GuildOfThieves_Info()
 		AI_Output(self,other,"DIA_Andre_GuildOfThieves_08_05");	//Aber du musst über unsere Abmachung schweigen!
 	};
 	MIS_Andre_GuildOfThieves = LOG_Running;
-	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_4);
+	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_2);
 };
 
 
@@ -676,7 +676,7 @@ func void DIA_Andre_WhereThieves_Info()
 	AI_Output(self,other,"DIA_Andre_WhereThieves_08_03");	//Die Leute dort sind auch nicht sehr gesprächig, vor allem nicht, wenn man die Rüstung eines Paladins trägt.
 	AI_Output(self,other,"DIA_Andre_WhereThieves_08_04");	//Aber du bist von außerhalb, dir werden sie nicht so schnell misstrauen.
 	AI_Output(self,other,"DIA_Andre_WhereThieves_08_05");	//Du könntest dich zuerst am Hafen umhören. Aber sei vorsichtig. Wenn die Leute dort mitbekommen, dass du für die Paladine arbeitest, erfährst du NICHTS!
-	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_5);
+	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_3);
 };
 
 
@@ -707,7 +707,7 @@ func void DIA_Andre_WhatToDo_Info()
 	AI_Output(self,other,"DIA_Andre_WhatToDo_08_03");	//Bei einem offenen Kampf könnten die Stadtwachen einschreiten und du wirst keine Gelegenheit haben, ihnen zu erklären, was Sache ist.
 	AI_Output(self,other,"DIA_Andre_WhatToDo_08_04");	//Außerdem gibt es für jeden schrägen Vogel, den du hinter Gitter bringst, ein Kopfgeld.
 	AI_Output(self,other,"DIA_Andre_WhatToDo_08_05");	//Wenn du allerdings das Versteck der Drahtzieher findest - nun - dann wirst du vermutlich nicht um einen Kampf herumkommen.
-	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_6);
+	B_LogEntry(TOPIC_BecomeMIL,TOPIC_BecomeMIL_4);
 };
 
 

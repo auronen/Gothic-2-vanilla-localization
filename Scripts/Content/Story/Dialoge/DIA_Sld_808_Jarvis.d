@@ -407,7 +407,7 @@ func void DIA_Jarvis_HowManyLeft_Info()
 		MIS_Jarvis_SldKO = LOG_SUCCESS;
 		self.aivar[AIV_IGNORE_Murder] = FALSE;
 		B_GivePlayerXP(XP_Ambient * victories);
-		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_7);
+		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_3);
 	};
 };
 

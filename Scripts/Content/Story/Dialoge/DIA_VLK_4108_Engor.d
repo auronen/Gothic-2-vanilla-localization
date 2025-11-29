@@ -47,7 +47,7 @@ func void DIA_Engor_HALLO_Info()
 	AI_Output(self,other,"DIA_Engor_HALLO_13_03");	//Glaub mal ja nicht, dass du von mir irgendwas umsonst kriegst!
 	AI_Output(self,other,"DIA_Engor_HALLO_13_04");	//Aber wenn du Gold in der Tasche hast - bin ich für einen kleinen Handel immer zu haben.
 	Log_CreateTopic(TOPIC_Trader_OC,LOG_NOTE);
-	B_LogEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_3);
+	B_LogEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_7);
 };
 
 

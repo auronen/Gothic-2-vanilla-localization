@@ -51,9 +51,9 @@ func void DIA_Parcival_Schurfer_Info()
 	AI_Output(self,other,"DIA_Parcival_Schurfer_13_03");	//Die Gruppe von Marcos ist in Richtung einer alten Mine aufgebrochen - ein alter Buddler namens Grimes hat sie dorthin geführt.
 	AI_Output(self,other,"DIA_Parcival_Schurfer_13_04");	//Die anderen beiden Gruppen sind zusammen losgezogen.
 	AI_Output(self,other,"DIA_Parcival_Schurfer_13_05");	//Jergan, einer unserer Späher hat berichtet, dass sie ihre Lager in der Nähe eines großen Turms aufgeschlagen haben.
-	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_5);
-	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_6);
 	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_7);
+	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_8);
+	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_9);
 };
 
 
@@ -80,7 +80,7 @@ func void DIA_Parcival_Diego_Info()
 {
 	AI_Output(other,self,"DIA_Parcival_Diego_15_00");	//Bei welcher Schürfergruppe ist Diego?
 	AI_Output(self,other,"DIA_Parcival_Diego_13_01");	//Dieser Sträfling - Diego? Er ist bei der Gruppe von Paladin Silvestro.
-	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_8);
+	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_10);
 };
 
 
@@ -108,7 +108,7 @@ func void DIA_Parcival_Weg_Info()
 	AI_Output(other,self,"DIA_Parcival_Weg_15_00");	//Kennst du einen Weg zu den Schürfstellen?
 	AI_Output(self,other,"DIA_Parcival_Weg_13_01");	//Es gibt keinen sicheren Weg in diesem Tal. Aber es erscheint mir sinnvoll, nicht den direkten Weg zu gehen.
 	AI_Output(self,other,"DIA_Parcival_Weg_13_02");	//Halte dich von den Orks und den Wäldern fern - und möge Innos dich schützen.
-	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_9);
+	B_LogEntry(TOPIC_ScoutMine,TOPIC_ScoutMine_11);
 };
 
 

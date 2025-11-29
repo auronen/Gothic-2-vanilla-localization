@@ -400,7 +400,7 @@ func void B_ENTER_OLDWORLD_Kapitel_4()
 		Wld_InsertItem(ItMi_KerolothsGeldbeutel_MIS,"FP_OC_KEROLOTHS_GELDBEUTEL");
 		Log_CreateTopic(TOPIC_Dragonhunter,LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Dragonhunter,LOG_Running);
-		B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_1);
+		B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_6);
 		IntroduceChapter(KapWechsel_4,KapWechsel_4_Text,"chapter4.tga","chapter_01.wav",6000);
 		EnterOW_Kapitel4 = TRUE;
 	};

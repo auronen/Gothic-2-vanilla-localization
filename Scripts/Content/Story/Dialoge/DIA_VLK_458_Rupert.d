@@ -135,8 +135,8 @@ func void DIA_Rupert_HelpMeIntoOV_Info()
 	AI_Output(self,other,"DIA_Rupert_HelpMeIntoOV_03_03");	//Matteo, mein Boss, ist einer von ihnen. Vielleicht solltest du mal mit ihm reden.
 	Log_CreateTopic(TOPIC_OV,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_OV,LOG_Running);
+	B_LogEntry(TOPIC_OV,TOPIC_OV_1);
 	B_LogEntry(TOPIC_OV,TOPIC_OV_2);
-	B_LogEntry(TOPIC_OV,TOPIC_OV_3);
 };
 
 
@@ -166,7 +166,7 @@ func void DIA_Rupert_WoMatteo_Info()
 	if(Knows_Matteo == FALSE)
 	{
 		Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_9);
+		B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_8);
 		Knows_Matteo = TRUE;
 	};
 };
@@ -197,7 +197,7 @@ func void DIA_Rupert_WerEinfluss_Info()
 	AI_Output(self,other,"DIA_Rupert_WerEinfluss_03_01");	//Die Händler und Handwerksmeister hier an der Hauptstraße sind die wichtigsten Persönlichkeiten der Stadt.
 	AI_Output(self,other,"DIA_Rupert_WerEinfluss_03_02");	//Du solltest versuchen, bei einem von ihnen als Lehrling angenommen zu werden - so wie ich.
 	AI_Output(self,other,"DIA_Rupert_WerEinfluss_03_03");	//Seit ich bei Matteo arbeite, behandeln mich die Leute in der Stadt mit Respekt!
-	B_LogEntry(TOPIC_OV,TOPIC_OV_4);
+	B_LogEntry(TOPIC_OV,TOPIC_OV_3);
 };
 
 

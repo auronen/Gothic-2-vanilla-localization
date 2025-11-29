@@ -117,9 +117,9 @@ func void DIA_Cord_WannaJoin_Info()
 		AI_Output(self,other,"DIA_Cord_WannaJoin_14_11");	//Was dir noch an Wissen fehlt, kannst du von mir lernen.
 		Cord_Approved = TRUE;
 		B_GivePlayerXP(XP_Cord_Approved);
-		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_6);
+		B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_1);
 		Log_CreateTopic(Topic_SoldierTeacher,LOG_NOTE);
-		B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_4);
+		B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_3);
 	}
 	else
 	{

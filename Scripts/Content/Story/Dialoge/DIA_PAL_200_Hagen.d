@@ -310,7 +310,7 @@ func void DIA_Lord_Hagen_Frieden_Info()
 	{
 		AI_Output(self,other,"DIA_Lord_Hagen_Frieden_04_06");	//War das alles?
 	};
-	B_LogEntry(TOPIC_Frieden,TOPIC_Frieden_1);
+	B_LogEntry(TOPIC_Frieden,TOPIC_Frieden_2);
 };
 
 
@@ -550,7 +550,7 @@ func void DIA_Hagen_CanTeach_Info()
 	AI_Output(other,self,"DIA_Hagen_CanTeach_15_00");	//Ich suche einen Schwertmeister.
 	AI_Output(self,other,"DIA_Hagen_CanTeach_04_01");	//So? Du hast einen gefunden.
 	LordHagen_Teach2H = TRUE;
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_4);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_8);
 };
 
 
@@ -863,7 +863,7 @@ func void DIA_Lord_Hagen_BACKINTOWN_Info()
 	B_GiveInvItems(self,other,ItWr_PermissionToWearInnosEye_MIS,1);
 	MIS_InnosEyeStolen = TRUE;
 	MIS_OLDWORLD = LOG_SUCCESS;
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_13);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_2);
 	Wld_InsertNpc(VLK_4250_Jorgen,"NW_MONASTERY_BRIDGE_01");
 	Wld_InsertNpc(BDT_1050_Landstreicher,"NW_TROLLAREA_NOVCHASE_01");
 	Wld_InsertNpc(BDT_1051_Wegelagerer,"NW_TROLLAREA_RITUALFOREST_09");
@@ -962,7 +962,7 @@ func void DIA_Lord_Hagen_RescueBennet_WhySure()
 	AI_Output(self,other,"DIA_Lord_Hagen_RescueBennet_Witness_04_01");	//Cornelius, der Sekretär des Statthalters, hat den Mord gesehen.
 	AI_Output(self,other,"DIA_Lord_Hagen_RescueBennet_Witness_04_02");	//Seine Beschreibung trifft zweifelsfrei auf Bennet zu. Damit ist die Sache für mich erledigt.
 	AI_Output(self,other,"DIA_Lord_Hagen_RescueBennet_Witness_04_03");	//Der Söldner wird wegen Landesverrats hängen.
-	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_4);
+	B_LogEntry(TOPIC_RescueBennet,TOPIC_RescueBennet_5);
 	RecueBennet_KnowsCornelius = TRUE;
 };
 
@@ -1116,7 +1116,7 @@ func void DIA_Lord_Hagen_ANTIPALADINE_Info()
 	AI_Output(other,self,"DIA_Lord_Hagen_ANTIPALADINE_15_00");	//Die Elitekämpfer der Orks greifen das Land an.
 	Log_CreateTopic(TOPIC_OrcElite,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_OrcElite,LOG_Running);
-	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_2);
+	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_1);
 	if((TalkedTo_AntiPaladin == TRUE) && (MIS_KillOrkOberst == 0))
 	{
 		AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_01");	//Wie kommst du darauf?
@@ -1137,12 +1137,12 @@ func void DIA_Lord_Hagen_ANTIPALADINE_Info()
 		AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_12");	//Wenn sie ihre Führer verlieren, wird auch ihre Kampfmoral sinken.
 		AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_13");	//Du hast einen neuen Auftrag, Ritter. Geh und töte die Anführer, die du hier in der Gegend finden kannst.
 		AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_14");	//Bringe mir ihre Ringe. Das wird die Orks auf eine harte Probe stellen.
-		B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_3);
+		B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_2);
 		if((Npc_IsDead(Ingmar) == FALSE) && (MIS_KillOrkOberst == 0))
 		{
 			AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_15");	//Frag Ingmar danach. Er kann dir einige taktische Tipps geben, was die Anführer der Orks angeht.
 			AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_16");	//Die Elitekrieger der Orks sind sein Spezialgebiet. Er hatte schon öfter mit ihnen zu tun.
-			B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_4);
+			B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_3);
 		};
 		Hagen_SawOrcRing = TRUE;
 		B_GivePlayerXP(XP_PAL_OrcRing);
@@ -1154,7 +1154,7 @@ func void DIA_Lord_Hagen_ANTIPALADINE_Info()
 			AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_17");	//Deine Aussage allein, dass du den obersten Kriegsherr der Orks getötet hast, reicht mir nicht.
 		};
 		AI_Output(self,other,"DIA_Lord_Hagen_ANTIPALADINE_04_18");	//Ich brauche schon ein paar handfestere Indizien, wenn ich darauf reagieren soll.
-		B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_5);
+		B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_4);
 	};
 };
 

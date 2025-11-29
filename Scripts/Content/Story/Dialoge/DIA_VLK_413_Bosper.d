@@ -46,7 +46,7 @@ func void DIA_Bosper_HALLO_Info()
 	AI_Output(self,other,"DIA_Bosper_HALLO_11_01");	//Ich bin Bosper. Ich baue Bögen und handele mit Fellen.
 	AI_Output(self,other,"DIA_Bosper_HALLO_11_02");	//Was treibt dich nach Khorinis?
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_7);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_10);
 };
 
 
@@ -81,7 +81,7 @@ func void DIA_Bosper_IntoOV_Info()
 	};
 	Log_CreateTopic(TOPIC_OV,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_OV,LOG_Running);
-	B_LogEntry(TOPIC_OV,TOPIC_OV_1);
+	B_LogEntry(TOPIC_OV,TOPIC_OV_4);
 };
 
 
@@ -118,7 +118,7 @@ func void DIA_Bosper_SeekWork_Info()
 		AI_Output(other,self,"DIA_Bosper_SeekWork_15_07");	//Ich kann dir Felle besorgen, wenn du DAS meinst.
 		AI_Output(self,other,"DIA_Bosper_SeekWork_11_08");	//Ausgezeichnet! Bring mir so viele Tierfelle, wie du kriegen kannst - ich werde sie dir für einen guten Preis abkaufen!.
 	};
-	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_6);
+	B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_15);
 };
 
 
@@ -264,7 +264,7 @@ func void DIA_Bosper_LEHRLING_OK()
 	Wld_AssignRoomToGuild("gritta",GIL_NONE);
 	MIS_Apprentice = LOG_SUCCESS;
 	B_GivePlayerXP(XP_Lehrling);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_6);
+	B_LogEntry(Topic_Bonus,Topic_Bonus_9);
 	Info_ClearChoices(DIA_Bosper_LEHRLING);
 };
 
@@ -380,7 +380,7 @@ func void DIA_Bosper_ZUSTIMMUNG_Info()
 			B_GivePlayerXP(XP_Zustimmung);
 			Bosper_Zustimmung_Once = TRUE;
 		};
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_7);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_16);
 	}
 	else
 	{
@@ -420,7 +420,7 @@ func void DIA_Bosper_Job_Info()
 	{
 		AI_Output(self,other,"DIA_Bosper_Job_11_01");	//Ich werd dir beibringen, wie man Tieren das Fell abzieht und du besorgst mir - sagen wir - ein halbes Dutzend Wolfsfelle.
 		Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_10);
+		B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_17);
 	}
 	else
 	{
@@ -479,7 +479,7 @@ func void DIA_Bosper_BringFur_Info()
 		B_GiveInvItems(self,other,ItMi_Gold,Value_WolfFur * 6);
 		AI_Output(self,other,"DIA_Bosper_BringFur_11_05");	//Und? Was denkst du? Ist die Arbeit nicht besser, als den ganzen Tag auf Schwertern rumzuhämmern oder im staubigen Kämmerlein Fläschchen abzufüllen?
 		MIS_Bosper_WolfFurs = LOG_SUCCESS;
-		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_8);
+		B_LogEntry(TOPIC_Lehrling,TOPIC_Lehrling_5);
 	}
 	else
 	{
@@ -762,7 +762,7 @@ func void DIA_Bosper_Aufgaben_Info()
 		AI_Output(self,other,"DIA_Bosper_Aufgaben_11_05");	//Ich hab hier keinen Platz für dich. Im Hotel am Marktplatz findest du bestimmt noch ein Bett.
 	};
 	Log_CreateTopic(Topic_Bonus,LOG_NOTE);
-	B_LogEntry(Topic_Bonus,Topic_Bonus_7);
+	B_LogEntry(Topic_Bonus,Topic_Bonus_8);
 };
 
 

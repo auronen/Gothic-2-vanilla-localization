@@ -151,7 +151,7 @@ func void DIA_Xardas_TODO_Info()
 	AI_Output(self,other,"DIA_Xardas_TODO_14_05");	//Berichte den Paladinen von der Bedrohung. Du MUSST ihren Anführer überzeugen, uns zu helfen!
 	Log_CreateTopic(TOPIC_INNOSEYE,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_INNOSEYE,LOG_Running);
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_7);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_5);
 };
 
 
@@ -529,7 +529,7 @@ func void DIA_Xardas_DMTSINDDA_Info()
 	AI_Output(self,other,"DIA_Xardas_DMTSINDDA_14_02");	//Der Feind hat erfahren, wer du wirklich bist, und dass du das Auge Innos' in deinen Besitz bringen willst.
 	AI_Output(self,other,"DIA_Xardas_DMTSINDDA_14_03");	//Er hat die Bedrohung erkannt. Er sah sich gezwungen, aus seiner Deckung hervor zu treten und offen anzugreifen.
 	AI_Output(self,other,"DIA_Xardas_DMTSINDDA_14_04");	//Das Versteckspiel hat ein Ende. Während gestern noch nicht klar war, wie der Angriff des Gegners aussehen würde, kann man es jetzt kaum noch übersehen.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_8);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_6);
 	Info_ClearChoices(DIA_Xardas_DMTSINDDA);
 	Info_AddChoice(DIA_Xardas_DMTSINDDA,"Ich bin von Magiern in schwarzer Robe angegriffen worden.",DIA_Xardas_DMTSINDDA_DMT);
 	Info_AddChoice(DIA_Xardas_DMTSINDDA,"Ich habe den Beweis für Lord Hagen.",DIA_Xardas_DMTSINDDA_Beweis);
@@ -545,7 +545,7 @@ func void DIA_Xardas_DMTSINDDA_DMT()
 	{
 		Log_CreateTopic(TOPIC_DEMENTOREN,LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_DEMENTOREN,LOG_Running);
-		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_12);
+		B_LogEntry(TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_1);
 	};
 };
 
@@ -605,7 +605,7 @@ func void DIA_Xardas_INNOSEYEBROKEN_wasnun()
 	AI_Output(other,self,"DIA_Xardas_INNOSEYEBROKEN_wasnun_15_00");	//Was nun?
 	AI_Output(self,other,"DIA_Xardas_INNOSEYEBROKEN_wasnun_14_01");	//Das ist ein harter Schlag. Wir müssen uns neu orientieren. Ich werde mich zurückziehen und darüber nachdenken.
 	AI_Output(self,other,"DIA_Xardas_INNOSEYEBROKEN_wasnun_14_02");	//Du solltest inzwischen in die Stadt gehen und dort mit dem Wassermagier Vatras sprechen. Ich könnte mir vorstellen, dass er weiß, was zu tun ist.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_10);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_8);
 	MIS_Xardas_GoToVatrasInnoseye = LOG_Running;
 };
 
@@ -639,7 +639,7 @@ func void DIA_Xardas_RITUALREQUEST_Info()
 	{
 		AI_Output(self,other,"DIA_Xardas_RITUALREQUEST_14_05");	//Ich werde Vatras nicht warten lassen und mache mich sofort auf den Weg. Erledige deine Aufgaben und komm dann später nach.
 		AI_StopProcessInfos(self);
-		B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_11);
+		B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_9);
 		B_GivePlayerXP(XP_Ambient);
 		Npc_ExchangeRoutine(self,"RitualInnosEyeRepair");
 		Xardas_GoesToRitualInnosEye = TRUE;
@@ -720,7 +720,7 @@ func void DIA_Xardas_BEREIT_Info()
 	AI_Output(other,self,"DIA_Xardas_BEREIT_15_00");	//Ich bin bereit für den Kampf gegen die Drachen.
 	AI_Output(self,other,"DIA_Xardas_BEREIT_14_01");	//Dann lass uns keine Zeit verlieren. Ich werde umgehend zum Sonnenkreis aufbrechen. Erledige deine Aufgaben. Wir treffen uns dann dort.
 	AI_StopProcessInfos(self);
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_11);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_9);
 	B_GivePlayerXP(XP_Ambient);
 	Npc_ExchangeRoutine(self,"RitualInnosEyeRepair");
 	Xardas_GoesToRitualInnosEye = TRUE;
@@ -789,7 +789,7 @@ func void DIA_Xardas_PYROWILLNICHT_Info()
 	B_GiveInvItems(self,other,ItKe_CHEST_SEKOB_XARDASBOOK_MIS,1);
 	AI_Output(self,other,"DIA_Xardas_PYROWILLNICHT_14_12");	//Es ist ein sehr altes Buch dabei. Wenn Pyrokar dieses Buch bekommt, wird er wissen, dass es von mir kommt.
 	AI_Output(self,other,"DIA_Xardas_PYROWILLNICHT_14_13");	//Ich habe keine Verwendung mehr dafür. Vielleicht erfüllt es ja somit noch einen Zweck.
-	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_12);
+	B_LogEntry(TOPIC_INNOSEYE,TOPIC_INNOSEYE_11);
 };
 
 

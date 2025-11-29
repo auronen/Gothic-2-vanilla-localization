@@ -100,7 +100,7 @@ func void DIA_Salandril_Hallo_Info()
 	AI_Output(self,other,"DIA_Salandril_PERM_13_00");	//Willkommen, Reisender. Suchst einen guten Trank?
 	AI_Output(self,other,"DIA_Salandril_PERM_13_01");	//Mein Angebot ist groß und meine Ware günstig. Und ich verkaufe weitaus bessere Tränke als dieser Zuris.
 	Log_CreateTopic(TOPIC_CityTrader,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_12);
+	B_LogEntry(TOPIC_CityTrader,TOPIC_CityTrader_9);
 };
 
 

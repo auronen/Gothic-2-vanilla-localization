@@ -93,7 +93,7 @@ func void DIA_Ruga_Hallo_Info()
 	AI_Output(other,self,"DIA_Ruga_Hallo_15_00");	//Was machst du hier?
 	AI_Output(self,other,"DIA_Ruga_Hallo_11_01");	//Ich trainiere die Jungs im Umgang mit der Armbrust und sorge dafür, dass sie ein bisschen beweglicher werden.
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_3);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_7);
 };
 
 

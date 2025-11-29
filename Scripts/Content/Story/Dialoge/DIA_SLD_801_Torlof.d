@@ -110,7 +110,7 @@ func void DIA_Torlof_Probe_Info()
 		Npc_ExchangeRoutine(self,"Start");
 		Log_CreateTopic(TOPIC_BecomeSLD,LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_BecomeSLD,LOG_Running);
-		B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_3);
+		B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_2);
 	}
 	else
 	{
@@ -150,7 +150,7 @@ func void DIA_Torlof_Respekt_Info()
 	AI_Output(self,other,"DIA_Torlof_Respekt_01_05");	//Wenn du gewinnst, wird das den meisten Respekt beibringen. Aber achte darauf, dass du nicht versehentlich einen dabei umbringst. Denn dann hast du ein fettes Problem.
 	Log_CreateTopic(TOPIC_SLDRespekt,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_SLDRespekt,LOG_Running);
-	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_1);
+	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_8);
 };
 
 
@@ -180,7 +180,7 @@ func void DIA_Torlof_Duellregeln_Info()
 	AI_Output(self,other,"DIA_Torlof_Duellregeln_01_02");	//Du kannst nicht einfach hingehen und einem der Männer ohne Warnung eins überbraten.
 	AI_Output(self,other,"DIA_Torlof_Duellregeln_01_03");	//Es muss eine Art Herausforderung ausgesprochen werden. Eine Beleidigung oder ein anderer Grund zu kämpfen.
 	AI_Output(self,other,"DIA_Torlof_Duellregeln_01_04");	//Keiner der anderen Männer wird sich in so einen Kampf einmischen. Es sei denn, einer der beiden wird bei dem Duell getötet.
-	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_2);
+	B_LogEntry(TOPIC_SLDRespekt,TOPIC_SLDRespekt_9);
 };
 
 
@@ -401,7 +401,7 @@ func void DIA_Torlof_RUF_Info()
 		AI_Output(self,other,"DIA_Torlof_RUF_01_30");	//Die meisten Söldner sind für dich - von unserer Seite aus kannst du jederzeit bei uns anfangen.
 		AI_Output(self,other,"DIA_Torlof_RUF_01_31");	//Geh zu Lee. Er wird dir alles weitere erzählen.
 		Torlof_GenugStimmen = TRUE;
-		B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_5);
+		B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_6);
 	}
 	else if(Points_Sld >= 7)
 	{
@@ -561,7 +561,7 @@ func void DIA_Torlof_SekobSuccess_Info()
 		};
 		MIS_Torlof_HolPachtVonSekob = LOG_SUCCESS;
 		B_GivePlayerXP(XP_Torlof_SekobsKohlebekommen);
-		B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_6);
+		B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_5);
 	}
 	else
 	{
@@ -605,7 +605,7 @@ func void DIA_Torlof_BengarSuccess_Info()
 	};
 	MIS_Torlof_BengarMilizKlatschen = LOG_SUCCESS;
 	B_GivePlayerXP(XP_Bengar_MILIZKLATSCHEN);
-	B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_6);
+	B_LogEntry(TOPIC_BecomeSLD,TOPIC_BecomeSLD_5);
 };
 
 
@@ -736,7 +736,7 @@ func void DIA_Torlof_WhatCanYouTeach_Info()
 	AI_Output(self,other,"DIA_Torlof_WhatCanYouTeach_01_02");	//Viele Kämpfer sind sehr schwach, weil sie die Technik nicht beherrschen, ihre Stärke richtig einzusetzen.
 	AI_Output(self,other,"DIA_Torlof_WhatCanYouTeach_01_03");	//Dasselbe gilt für Geschicklichkeit und Fernwaffen.
 	Log_CreateTopic(Topic_SoldierTeacher,LOG_NOTE);
-	B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_2);
+	B_LogEntry(Topic_SoldierTeacher,Topic_SoldierTeacher_5);
 };
 
 
@@ -1031,7 +1031,7 @@ func void DIA_Torlof_BEMYCAPTAIN_Info()
 	AI_Output(self,other,"DIA_Torlof_BEMYCAPTAIN_01_07");	//Geh in die Burg im Minental. Klaue der Torwache den Schlüssel für das Haupttor und öffne es. Den Rest werden die Orks besorgen!
 	Log_CreateTopic(Topic_Captain,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Captain,LOG_Running);
-	B_LogEntry(Topic_Captain,Topic_Captain_3);
+	B_LogEntry(Topic_Captain,Topic_Captain_6);
 };
 
 
@@ -1101,7 +1101,7 @@ func void DIA_Torlof_BEMYCAPTAIN3_zuViel()
 	AI_Output(self,other,"DIA_Torlof_BEMYCAPTAIN3_zuViel_01_01");	//Tja. Guter Dienst ist eben teuer. Du hast gar keine andere Wahl. Du wirst in dieser Gegend keinen anderen finden, der ein Schiff führen kann.
 	AI_Output(self,other,"DIA_Torlof_BEMYCAPTAIN3_zuViel_01_02");	//Also zahl das Gold und mach hier keine Zicken.
 	Info_ClearChoices(DIA_Torlof_BEMYCAPTAIN3);
-	B_LogEntry(Topic_Captain,Topic_Captain_4);
+	B_LogEntry(Topic_Captain,Topic_Captain_7);
 };
 
 func void DIA_Torlof_BEMYCAPTAIN3_ok()
@@ -1111,7 +1111,7 @@ func void DIA_Torlof_BEMYCAPTAIN3_ok()
 	{
 		AI_Output(self,other,"DIA_Torlof_BEMYCAPTAIN3_ok_01_01");	//Wunderbar. Jetzt musst du mir nur noch genau sagen, was ich machen soll.
 		Torlof_PaidToBeCaptain = TRUE;
-		B_LogEntry(Topic_Captain,Topic_Captain_5);
+		B_LogEntry(Topic_Captain,Topic_Captain_8);
 	}
 	else
 	{

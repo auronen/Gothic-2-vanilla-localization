@@ -383,7 +383,7 @@ func void DIA_SylvioDJG_WHATNEXT_ATTACK()
 	Npc_SetRefuseTalk(self,60);
 	Npc_ExchangeRoutine(self,"Start");
 	B_StartOtherRoutine(DJG_Bullco,"Start");
-	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_2);
+	B_LogEntry(TOPIC_Dragonhunter,TOPIC_Dragonhunter_12);
 	B_Attack(self,other,AR_NONE,1);
 	B_Attack(DJG_Bullco,other,AR_NONE,1);
 };

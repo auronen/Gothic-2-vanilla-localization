@@ -239,9 +239,9 @@ func void DIA_Cassia_Lernen_Info()
 	AI_Output(self,other,"DIA_Cassia_Lernen_16_03");	//Und ich kann dich im Taschendiebstahl unterweisen.
 	AI_Output(self,other,"DIA_Cassia_Lernen_16_04");	//Außerdem werde ich dir helfen, geschickter zu werden. Denn die Geschicklichkeit ist der Schlüssel zu deinen Fertigkeiten.
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_18);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_19);
-	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_20);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_13);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_14);
+	B_LogEntry(TOPIC_CityTeacher,TOPIC_CityTeacher_15);
 };
 
 

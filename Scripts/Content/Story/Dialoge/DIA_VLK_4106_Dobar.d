@@ -125,7 +125,7 @@ func void DIA_Dobar_beibringen_Info()
 	AI_Output(self,other,"DIA_Dobar_beibringen_08_02");	//Dann wirst du in der Lage sein, bessere Waffen herzustellen.
 	Dobar_Learnsmith = TRUE;
 	Log_CreateTopic(TOPIC_Teacher_OC,LOG_NOTE);
-	B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_5);
+	B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_2);
 };
 
 

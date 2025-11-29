@@ -76,7 +76,7 @@ func void DIA_GornNW_nach_DJG_KnowWhereEnemy_Info()
 	AI_Output(self,other,"DIA_GornNW_nach_DJG_KnowWhereEnemy_12_03");	//(Lacht) Klar. Sofort. Sag mir nur, was ich tun muss.
 	Log_CreateTopic(Topic_Crew,LOG_MISSION);
 	Log_SetTopicStatus(Topic_Crew,LOG_Running);
-	B_LogEntry(Topic_Crew,Topic_Crew_5);
+	B_LogEntry(Topic_Crew,Topic_Crew_13);
 	if(Crewmember_Count >= Max_Crew)
 	{
 		AI_Output(other,self,"DIA_GornNW_nach_DJG_KnowWhereEnemy_15_04");	//Im Moment ist meine Mannschaft schon komplett, aber ich werde darüber nachdenken, dich noch mit an Bord zu holen.

@@ -77,7 +77,7 @@ func void DIA_Keroloth_WantTeach_Info()
 	AI_Output(self,other,"DIA_Keroloth_WantTeach_07_03");	//Wende dich an Ritter Tandor. Er wird dich versorgen.
 	Keroloth_TeachPlayer = TRUE;
 	Log_CreateTopic(TOPIC_Teacher_OC,LOG_NOTE);
-	B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_1);
+	B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_4);
 	Log_CreateTopic(TOPIC_Trader_OC,LOG_NOTE);
 	B_LogEntry(TOPIC_Trader_OC,TOPIC_Trader_OC_1);
 };
@@ -240,7 +240,7 @@ func void DIA_Keroloth_Udar_Info()
 	AI_Output(other,self,"DIA_Keroloth_Udar_15_02");	//Kannst du mir das auch beibringen?
 	AI_Output(self,other,"DIA_Keroloth_Udar_07_03");	//Nein, aber du kannst ja mal Udar fragen, er ist ein guter - nein, er ist der BESTE Armbrustschütze, den ich kenne.
 	Log_CreateTopic(TOPIC_Teacher_OC,LOG_NOTE);
-	B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_2);
+	B_LogEntry(TOPIC_Teacher_OC,TOPIC_Teacher_OC_5);
 };
 
 

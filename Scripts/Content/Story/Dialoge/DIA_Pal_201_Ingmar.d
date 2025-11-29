@@ -267,7 +267,7 @@ func void DIA_Ingmar_ORKELITE_Info()
 	Info_AddChoice(DIA_Ingmar_ORKELITE,"Was hat das zu bedeuten?",DIA_Ingmar_ORKELITE_wieso);
 	Log_CreateTopic(TOPIC_OrcElite,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_OrcElite,LOG_Running);
-	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_6);
+	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_5);
 	MIS_KillOrkOberst = LOG_Running;
 };
 
@@ -285,7 +285,7 @@ func void DIA_Ingmar_ORKELITE_wieso()
 	AI_Output(self,other,"DIA_Ingmar_ORKELITE_wieso_06_02");	//Normalerweise kommen auf einen Kriegsherr eine ganze Horde von Orkkriegern. Nur selten sieht man sie selbst zu zweit oder mehreren.
 	AI_Output(self,other,"DIA_Ingmar_ORKELITE_wieso_06_03");	//Das tun sie aus gutem Grund. Ihre Anführer sind die Herzstücke ihrer Angriffsstrategie und werden normalerweise von den Orkkriegern umringt.
 	AI_Output(self,other,"DIA_Ingmar_ORKELITE_wieso_06_04");	//Somit ist es sehr schwer, an einen von ihnen näher heran zu kommen, ohne sich durch eine Horde von mindestens 30 Kriegern kämpfen zu müssen.
-	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_7);
+	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_6);
 };
 
 func void DIA_Ingmar_ORKELITE_wasTun()
@@ -296,7 +296,7 @@ func void DIA_Ingmar_ORKELITE_wasTun()
 	AI_Output(self,other,"DIA_Ingmar_ORKELITE_wasTun_06_03");	//Wenn wir an diesen Oberst heran kommen könnten, hätten wir einen entscheidenden Vorteil.
 	AI_Output(self,other,"DIA_Ingmar_ORKELITE_wasTun_06_04");	//Ein Oberst der Orks hält sich gerne in der Nähe seiner Feinde auf. Es wäre ratsam, in der näheren Umgebung der Stadt nach seiner Höhle zu suchen.
 	AI_Output(self,other,"DIA_Ingmar_ORKELITE_wasTun_06_05");	//Bei Lobarts Hof sind einige Orks gesehen worden. Vielleicht solltest du dort deine Suche beginnen.
-	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_8);
+	B_LogEntry(TOPIC_OrcElite,TOPIC_OrcElite_7);
 	Info_ClearChoices(DIA_Ingmar_ORKELITE);
 };
 
