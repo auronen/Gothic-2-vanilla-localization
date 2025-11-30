@@ -23,6 +23,7 @@ gothic_dat:
     - TRADE_CURRENCY_INSTANCE
     - NAME_SPL_Reserved_*
     - RAKEPLACE_WP_*
+    - .*_CHECKPOINT$
 menu_dat:
   member_variables:
     - text
