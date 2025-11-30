@@ -292,7 +292,7 @@ instance ItKe_Bromor(C_Item)
 
 instance ITKE_RUNE_MIS(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 0;

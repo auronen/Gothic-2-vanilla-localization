@@ -411,6 +411,7 @@ const string NAME_Amulett = "Amulett";
 const string NAME_Trank = "Trank";
 const string NAME_Rune = "Rune";
 const string NAME_Spruchrolle = "Spruchrolle";
+const string NAME_Key = "Schlüssel";
 const string NAME_Currency = "Gold: ";
 const string PRINT_Trade_Not_Enough_Gold = "Du hast nicht genug Gold um den Gegenstand zu kaufen.";
 const string NAME_Value = "Wert:";
@@ -511,6 +512,8 @@ const string PRINT_LearnBow1 = "Bogen + 1";
 const string PRINT_LearnBow5 = "Bogen + 5";
 const string PRINT_LearnCrossBow1 = "Armbrust + 1";
 const string PRINT_LearnCrossBow5 = "Armbrust + 5";
+
+const string NAME_STONE_GOLEM = "Steingolem";
 const string PRINT_SleepOver = "Du hast geschlafen und bist ausgeruht!";
 const string PRINT_SleepOverObsessed = "Alpträume verwehren dir Erholung!";
 const string PRINT_SmithSuccess = "Waffe hergestellt!";

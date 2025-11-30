@@ -170,7 +170,7 @@ instance ItWr_CorneliusTagebuch_Mis(C_Item)
 	visual = "ItWr_Book_01.3ds";
 	material = MAT_LEATHER;
 	scemeName = "MAP";
-	description = "Tagebuch";
+	description = name;
 	text[0] = "Das Tagebuch von Cornelius";
 	text[5] = NAME_Value;
 	count[5] = value;

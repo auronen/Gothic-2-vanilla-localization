@@ -1,7 +1,7 @@
 
 instance ItKe_Xardas(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;
@@ -172,7 +172,7 @@ func void UnEquip_ValentinosRing()
 
 instance ItKe_Dexter(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;
@@ -580,7 +580,7 @@ instance ItKe_ThiefGuildKey_Hotel_MIS(C_Item)
 
 instance ItKe_Innos_MIS(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 0;
@@ -593,7 +593,7 @@ instance ItKe_Innos_MIS(C_Item)
 
 instance ItKe_KlosterSchatz(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;
@@ -606,7 +606,7 @@ instance ItKe_KlosterSchatz(C_Item)
 
 instance ItKe_KlosterStore(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;
@@ -619,7 +619,7 @@ instance ItKe_KlosterStore(C_Item)
 
 instance ItKe_KDFPlayer(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;
@@ -632,7 +632,7 @@ instance ItKe_KDFPlayer(C_Item)
 
 instance ItKe_KlosterBibliothek(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;
@@ -1076,7 +1076,7 @@ instance ItKe_PaladinTruhe(C_Item)
 
 instance ItKe_ThiefTreasure(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION | ITEM_MULTI;
 	value = Value_Key_01;
@@ -1088,7 +1088,7 @@ instance ItKe_ThiefTreasure(C_Item)
 
 instance ItKe_Fingers(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_01;

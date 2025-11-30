@@ -1,7 +1,7 @@
 
 prototype Mst_Default_StoneGolem(C_Npc)
 {
-	name = "Steingolem";
+	name = NAME_STONE_GOLEM;
 	guild = GIL_STONEGOLEM;
 	aivar[AIV_MM_REAL_ID] = ID_STONEGOLEM;
 	level = 18;

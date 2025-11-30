@@ -49,7 +49,7 @@ func void Use_XardasLetterToOpenBook()
 
 instance ItKe_MonastarySecretLibrary_Mis(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Key_02;

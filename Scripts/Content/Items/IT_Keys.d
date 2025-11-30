@@ -19,7 +19,7 @@ instance ItKE_lockpick(C_Item)
 
 instance ItKe_Key_01(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Key_01;
@@ -32,7 +32,7 @@ instance ItKe_Key_01(C_Item)
 
 instance ItKe_Key_02(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Key_02;
@@ -45,7 +45,7 @@ instance ItKe_Key_02(C_Item)
 
 instance ItKe_Key_03(C_Item)
 {
-	name = "Schlüssel";
+	name = NAME_Key;
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Key_03;

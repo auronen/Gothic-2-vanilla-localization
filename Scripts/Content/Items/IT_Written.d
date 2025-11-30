@@ -38,7 +38,7 @@ instance StandardBuch(C_Item)
 	visual = "ItWr_Book_02_05.3ds";
 	material = MAT_LEATHER;
 	scemeName = "MAP";
-	description = "StandardBuch";
+	description = name;
 	text[5] = NAME_Value;
 	count[5] = value;
 	on_state[0] = UseStandardBuch;
