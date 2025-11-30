@@ -351,7 +351,7 @@ instance ItAm_Dex_Strg_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItAm_Dex_Strg_01;
 	on_unequip = UnEquip_ItAm_Dex_Strg_01;
-	description = "Amulett der Macht";
+	description = name;
 	text[2] = NAME_Bonus_Dex;
 	count[2] = Am_DexStrg_Dex;
 	text[3] = NAME_Bonus_Str;
@@ -386,7 +386,7 @@ instance ItAm_Hp_Mana_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItAm_Hp_Mana_01;
 	on_unequip = UnEquip_ItAm_Hp_Mana_01;
-	description = "Amulett der Erleuchtung";
+	description = name;
 	text[2] = NAME_Bonus_HP;
 	count[2] = Am_HpMana_Hp;
 	text[3] = NAME_Bonus_Mana;

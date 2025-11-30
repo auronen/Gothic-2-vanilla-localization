@@ -34,7 +34,7 @@ instance ItPo_Mana_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Mana_01;
 	scemeName = "POTIONFAST";
-	description = "Mana Essenz";
+	description = NAME_ManaPotion1;
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Essenz;
 	text[5] = NAME_Value;
@@ -58,7 +58,7 @@ instance ItPo_Mana_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Mana_02;
 	scemeName = "POTIONFAST";
-	description = "Mana Extrakt";
+	description = NAME_ManaPotion2;
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Extrakt;
 	text[5] = NAME_Value;
@@ -82,7 +82,7 @@ instance ItPo_Mana_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Mana_03;
 	scemeName = "POTIONFAST";
-	description = "Mana Elixier";
+	description = NAME_ManaPotion3;
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Elixier;
 	text[5] = NAME_Value;
@@ -106,7 +106,7 @@ instance ItPo_Health_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Health_01;
 	scemeName = "POTIONFAST";
-	description = "Essenz der Heilung";
+	description = NAME_HealthPotion1;
 	text[1] = NAME_Bonus_HP;
 	count[1] = HP_Essenz;
 	text[5] = NAME_Value;
@@ -130,7 +130,7 @@ instance ItPo_Health_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Health_02;
 	scemeName = "POTIONFAST";
-	description = "Extrakt der Heilung";
+	description = NAME_HealthPotion2;
 	text[1] = NAME_Bonus_HP;
 	count[1] = HP_Extrakt;
 	text[5] = NAME_Value;
@@ -154,7 +154,7 @@ instance ItPo_Health_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Health_03;
 	scemeName = "POTIONFAST";
-	description = "Elixier der Heilung";
+	description = NAME_HealthPotion3;
 	text[1] = NAME_Bonus_HP;
 	count[1] = HP_Elixier;
 	text[5] = NAME_Value;
@@ -178,7 +178,7 @@ instance ItPo_Perm_STR(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Perm_STR;
 	scemeName = "POTIONFAST";
-	description = "Elixier der Stärke";
+	description = NAME_Str_Permanent;
 	text[1] = NAME_Bonus_Str;
 	count[1] = STR_Elixier;
 	text[5] = NAME_Value;
@@ -202,7 +202,7 @@ instance ItPo_Perm_DEX(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Perm_DEX;
 	scemeName = "POTIONFAST";
-	description = "Elixier der Geschicklichkeit";
+	description = NAME_Dex_Permanent;
 	text[1] = NAME_Bonus_Dex;
 	count[1] = DEX_Elixier;
 	text[5] = NAME_Value;
@@ -226,7 +226,7 @@ instance ItPo_Perm_Health(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Perm_Health;
 	scemeName = "POTIONFAST";
-	description = "Elixier des Lebens";
+	description = NAME_HealthPermanent;
 	text[1] = NAME_Bonus_HpMax;
 	count[1] = HPMax_Elixier;
 	text[5] = NAME_Value;
@@ -251,7 +251,7 @@ instance ItPo_Perm_Mana(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Perm_Mana;
 	scemeName = "POTIONFAST";
-	description = "Elixier des Geistes";
+	description = NAME_ManaPermanent;
 	text[1] = NAME_Bonus_ManaMax;
 	count[1] = ManaMax_Elixier;
 	text[5] = NAME_Value;
@@ -276,7 +276,7 @@ instance ItPo_Speed(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Speed;
 	scemeName = "POTIONFAST";
-	description = "Trank der Geschwindigkeit";
+	description = NAME_Speed_Potion;
 	text[1] = "Ermöglicht kurzzeitiges Sprinten ";
 	text[3] = NAME_Duration;
 	count[3] = Time_Speed / 60000;

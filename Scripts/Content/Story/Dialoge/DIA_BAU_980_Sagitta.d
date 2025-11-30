@@ -218,37 +218,37 @@ func void DIA_Sagitta_Teach_Info()
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Health_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Essenz der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Health_01);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_HealthPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Health_01);
 		talente = talente + 1;
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Health_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_01] == TRUE))
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Extrakt der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Health_02);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_HealthPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Health_02);
 		talente = talente + 1;
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Mana Essenz",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Mana_01);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_ManaPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Mana_01);
 		talente = talente + 1;
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == TRUE))
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Mana Extrakt",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Mana_02);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_ManaPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Mana_02);
 		talente = talente + 1;
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == TRUE))
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Mana Elixier",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Mana_03);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_ManaPotion3,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Mana_03);
 		talente = talente + 1;
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_Mana] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE))
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Elixier des Geistes",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Perm_Mana);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_ManaPermanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Perm_Mana);
 		talente = talente + 1;
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_DEX] == FALSE) && ((PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE) || (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE)))
 	{
-		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString("Elixier der Geschicklichkeit",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Perm_DEX);
+		Info_AddChoice(DIA_Sagitta_Teach,B_BuildLearnString(NAME_Dex_Permanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Sagitta_Teach_Perm_DEX);
 		talente = talente + 1;
 	};
 	if(talente > 0)

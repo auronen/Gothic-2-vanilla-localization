@@ -192,35 +192,35 @@ func void DIA_Neoras_TEACH_Info()
 		Info_AddChoice(DIA_Neoras_TEACH,Dialog_Back,DIA_Neoras_TEACH_BACK);
 		if(PLAYER_TALENT_ALCHEMY[POTION_Health_01] == FALSE)
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Essenz der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_HEALTH_01);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_HealthPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_HEALTH_01);
 		};
 		if((PLAYER_TALENT_ALCHEMY[POTION_Health_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_01] == TRUE))
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Extrakt der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Health_02);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_HealthPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Health_02);
 		};
 		if((PLAYER_TALENT_ALCHEMY[POTION_Health_03] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_02] == TRUE))
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Elixier der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Health_03);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_HealthPotion3,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Health_03);
 		};
 		if((PLAYER_TALENT_ALCHEMY[POTION_Perm_Health] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE))
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Elixier des Lebens",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Perm_Health);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_HealthPermanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Perm_Health);
 		};
 		if(PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == FALSE)
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Mana Essenz",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Mana_01);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_ManaPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Mana_01);
 		};
 		if((PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == TRUE))
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Mana Extrakt",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Mana_02);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_ManaPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Mana_02);
 		};
 		if((PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == TRUE))
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Mana Elixier",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Mana_03);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_ManaPotion3,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Mana_03);
 		};
 		if((PLAYER_TALENT_ALCHEMY[POTION_Perm_Mana] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE))
 		{
-			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString("Elixier des Geistes",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Perm_Mana);
+			Info_AddChoice(DIA_Neoras_TEACH,B_BuildLearnString(NAME_ManaPermanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Neoras_TEACH_Perm_Mana);
 		};
 	}
 	else if(hero.guild == GIL_NOV)

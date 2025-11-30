@@ -300,17 +300,17 @@ func void DIA_Ignaz_Teach_Info()
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Speed] == FALSE) && ((PLAYER_TALENT_ALCHEMY[POTION_Health_01] == TRUE) || (PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == TRUE)))
 	{
-		Info_AddChoice(DIA_Ignaz_Teach,B_BuildLearnString("Trank der Geschwindigkeit",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Ignaz_Teach_Speed);
+		Info_AddChoice(DIA_Ignaz_Teach,B_BuildLearnString(NAME_Speed_Potion,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Ignaz_Teach_Speed);
 		talente = talente + 1;
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Ignaz_Teach,B_BuildLearnString("Mana Essenz",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Ignaz_Teach_Mana);
+		Info_AddChoice(DIA_Ignaz_Teach,B_BuildLearnString(NAME_ManaPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Ignaz_Teach_Mana);
 		talente = talente + 1;
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Health_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Ignaz_Teach,B_BuildLearnString("Essenz der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Ignaz_Teach_Health);
+		Info_AddChoice(DIA_Ignaz_Teach,B_BuildLearnString(NAME_HealthPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Ignaz_Teach_Health);
 		talente = talente + 1;
 	};
 	if(talente > 0)

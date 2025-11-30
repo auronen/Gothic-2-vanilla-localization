@@ -308,47 +308,47 @@ func void DIA_Vatras_DI_Talente_ALCHIMIE()
 	Info_AddChoice(DIA_Vatras_DI_Talente,Dialog_Back,DIA_Vatras_DI_Talente_BACK);
 	if(PLAYER_TALENT_ALCHEMY[POTION_Health_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Essenz der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Health_01);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_HealthPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Health_01);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Health_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_01] == TRUE))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Extrakt der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Health_02);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_HealthPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Health_02);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Health_03] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_02] == TRUE))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Elixier der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Health_03);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_HealthPotion3,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Health_03);
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Mana Essenz",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Mana_01);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_ManaPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Mana_01);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == TRUE))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Mana Extrakt",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Mana_02);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_ManaPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Mana_02);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == TRUE))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Mana Elixier",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Mana_03);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_ManaPotion3,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Mana_03);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Speed] == FALSE) && ((PLAYER_TALENT_ALCHEMY[POTION_Health_01] == TRUE) || (PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == TRUE)))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Trank der Geschwindigkeit",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Speed);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_Speed_Potion,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Speed);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_STR] == FALSE) && ((PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE) || (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE)))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Elixier der Stärke",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_STR);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_Str_Permanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_STR);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_DEX] == FALSE) && ((PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE) || (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE)))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Elixier der Geschicklichkeit",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_DEX);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_Dex_Permanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_DEX);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_Mana] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Elixier des Geistes",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_Mana);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_ManaPermanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_Mana);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_Health] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE))
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("Elixier des Lebens",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_Health);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_HealthPermanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Vatras_DI_Talente_POTION_Perm_Health);
 	};
 };
 

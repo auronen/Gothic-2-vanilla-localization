@@ -822,31 +822,31 @@ func void DIA_Constantino_TEACH_Info()
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Health_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Essenz der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Health01);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_HealthPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Health01);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Health_01] == TRUE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_02] == FALSE))
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Extrakt der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Health02);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_HealthPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Health02);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Health_02] == TRUE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_03] == FALSE))
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Elixier der Heilung",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Health03);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_HealthPotion3,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Health03);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_Health] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE))
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Elixier des Lebens",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_PermHealth);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_HealthPermanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_PermHealth);
 	};
 	if(PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == FALSE)
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Mana Essenz",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Mana01);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_ManaPotion1,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Mana01);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Mana_02] == FALSE) && (PLAYER_TALENT_ALCHEMY[POTION_Mana_01] == TRUE))
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Mana Extrakt",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Mana02);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_ManaPotion2,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_Mana02);
 	};
 	if((PLAYER_TALENT_ALCHEMY[POTION_Perm_STR] == FALSE) && ((PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE) || (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE)))
 	{
-		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString("Elixier der Stärke",B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_PermSTR);
+		Info_AddChoice(DIA_Constantino_TEACH,B_BuildLearnString(NAME_Str_Permanent,B_GetLearnCostTalent(other,NPC_TALENT_ALCHEMY)),DIA_Constantino_TEACH_PermSTR);
 	};
 };
 

@@ -513,6 +513,21 @@ const string PRINT_LearnBow5 = "Bogen + 5";
 const string PRINT_LearnCrossBow1 = "Armbrust + 1";
 const string PRINT_LearnCrossBow5 = "Armbrust + 5";
 
+const string	NAME_HealthPotion1 = "Essenz der Heilung";
+const string	NAME_HealthPotion2 = "Extrakt der Heilung";
+const string	NAME_HealthPotion3 = "Elixier der Heilung";
+const string	NAME_HealthPermanent = "Elixier des Lebens";
+
+const string	NAME_ManaPotion1 = "Mana Essenz";
+const string	NAME_ManaPotion2 = "Mana Extrakt";
+const string	NAME_ManaPotion3 = "Mana Elixier";
+const string	NAME_ManaPermanent = "Elixier des Geistes";
+
+const string	NAME_Dex_Permanent = "Elixier der Geschicklichkeit";
+const string	NAME_Str_Permanent = "Elixier der Stärke";
+const string	NAME_Speed_Potion = "Trank der Geschwindigkeit";
+
+
 const string NAME_STONE_GOLEM = "Steingolem";
 const string PRINT_SleepOver = "Du hast geschlafen und bist ausgeruht!";
 const string PRINT_SleepOverObsessed = "Alpträume verwehren dir Erholung!";
