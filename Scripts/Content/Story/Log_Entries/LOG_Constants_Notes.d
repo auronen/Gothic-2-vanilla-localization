@@ -138,7 +138,7 @@ const string TOPIC_TalentRunes_33 = "Zutaten für die Rune ´MONSTER SCHRUMPFEN�
 
 
 const string TOPIC_TalentAlchemy = "Die Tränke";
-const string TOPIC_TalentAlchemy_1 = "Um einen Trank zu brauen, brauche ich einen leere Laborflasche und die jeweilig benötigten Zutaten für den gewünschten Trank. Mit diese Zutaten kann man an einem Alchemietisch den gewünschten Trank herstellen.";
+const string TOPIC_TalentAlchemy_3 = "Um einen Trank zu brauen, brauche ich einen leere Laborflasche und die jeweilig benötigten Zutaten für den gewünschten Trank. Mit diese Zutaten kann man an einem Alchemietisch den gewünschten Trank herstellen.";
 const string TOPIC_TalentAlchemy_4 = "Zutaten ´ESSENZ DER HEILUNG´:2 Heilpflanzen und 1 Feldknöterich.";
 const string TOPIC_TalentAlchemy_5 = "Zutaten ´EXTRAKT DER HEILUNG´:2 Heilkräuter und 1 Feldknöterich.";
 const string TOPIC_TalentAlchemy_6 = "Zutaten ´ELIXIER DER HEILUNG´:2 Heilwurzel und 1 Feldknöterich.";

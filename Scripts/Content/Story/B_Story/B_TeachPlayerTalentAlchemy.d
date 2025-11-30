@@ -11,7 +11,7 @@ func int B_TeachPlayerTalentAlchemy(var C_Npc slf,var C_Npc oth,var int potion)
 	};
 	oth.lp = oth.lp - kosten;
 	Log_CreateTopic(TOPIC_TalentAlchemy,LOG_NOTE);
-	B_LogEntry(TOPIC_TalentAlchemy,TOPIC_TalentAlchemy_1);
+	B_LogEntry(TOPIC_TalentAlchemy,TOPIC_TalentAlchemy_3);
 	if(potion == POTION_Health_01)
 	{
 		PLAYER_TALENT_ALCHEMY[POTION_Health_01] = TRUE;
