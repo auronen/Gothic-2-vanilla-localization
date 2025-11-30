@@ -1,7 +1,7 @@
 
 instance Pal_201_Ingmar(Npc_Default)
 {
-	name[0] = "Ingmar";
+	name = "Ingmar";
 	guild = GIL_PAL;
 	id = 201;
 	voice = 6;

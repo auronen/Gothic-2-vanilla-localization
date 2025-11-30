@@ -1,7 +1,7 @@
 
 instance Vlk_402_Richter(Npc_Default)
 {
-	name[0] = "Richter";
+	name = "Richter";
 	guild = GIL_VLK;
 	id = 402;
 	voice = 10;

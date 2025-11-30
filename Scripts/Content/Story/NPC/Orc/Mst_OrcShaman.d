@@ -1,7 +1,7 @@
 
 prototype Mst_Default_OrcShaman(C_Npc)
 {
-	name[0] = "Ork Schamane";
+	name = "Ork Schamane";
 	guild = GIL_ORC;
 	aivar[AIV_MM_REAL_ID] = ID_ORCSHAMAN;
 	voice = 18;
@@ -47,7 +47,7 @@ instance OrcShaman_Sit(Mst_Default_OrcShaman)
 
 instance OrcShaman_Hosh_Pak(Mst_Default_OrcShaman)
 {
-	name[0] = "Hosh-Pak";
+	name = "Hosh-Pak";
 	B_SetVisuals_OrcShaman();
 	EquipItem(self,ItMw_2H_OrcAxe_01);
 	start_aistate = ZS_MM_AllScheduler;

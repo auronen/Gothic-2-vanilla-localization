@@ -1,7 +1,7 @@
 
 instance BAU_905_Bauer(Npc_Default)
 {
-	name[0] = NAME_Bauer;
+	name = NAME_Bauer;
 	guild = GIL_BAU;
 	id = 905;
 	voice = 7;

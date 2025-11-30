@@ -116,7 +116,7 @@ func void usej4oly_storyhelpletter()
 
 instance SH_Oldworld(Npc_Default)
 {
-	name[0] = "Storyhelper Oldworld";
+	name = "Storyhelper Oldworld";
 	guild = GIL_NONE;
 	id = 9998;
 	voice = 15;

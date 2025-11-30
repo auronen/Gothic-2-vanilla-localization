@@ -1,7 +1,7 @@
 
 instance BDT_1021_LeuchtturmBandit(Npc_Default)
 {
-	name[0] = "Halunke";
+	name = "Halunke";
 	guild = GIL_BDT;
 	id = 1021;
 	voice = 13;

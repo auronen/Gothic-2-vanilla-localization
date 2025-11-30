@@ -1,7 +1,7 @@
 
 instance KDF_511_Daron(Npc_Default)
 {
-	name[0] = "Daron";
+	name = "Daron";
 	guild = GIL_VLK;
 	id = 511;
 	voice = 10;

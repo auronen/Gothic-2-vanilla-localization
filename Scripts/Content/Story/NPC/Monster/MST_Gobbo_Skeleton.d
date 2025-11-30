@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Gobbo_Skeleton(C_Npc)
 {
-	name[0] = "Goblin Skelett";
+	name = "Goblin Skelett";
 	guild = GIL_GOBBO_SKELETON;
 	aivar[AIV_MM_REAL_ID] = ID_GOBBO_SKELETON;
 	level = 15;
@@ -42,7 +42,7 @@ instance Gobbo_Skeleton(Mst_Default_Gobbo_Skeleton)
 
 instance Summoned_Gobbo_Skeleton(Mst_Default_Gobbo_Skeleton)
 {
-	name[0] = "Beschworenes Skelett";
+	name = "Beschworenes Skelett";
 	guild = gil_summoned_gobbo_skeleton;
 	aivar[AIV_MM_REAL_ID] = id_summoned_gobbo_skeleton;
 	level = 0;

@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Bloodfly(C_Npc)
 {
-	name[0] = "Blutfliege";
+	name = "Blutfliege";
 	guild = GIL_BLOODFLY;
 	aivar[AIV_MM_REAL_ID] = ID_BLOODFLY;
 	level = 6;
@@ -44,7 +44,7 @@ instance Bloodfly(Mst_Default_Bloodfly)
 
 instance YBloodfly(Mst_Default_Bloodfly)
 {
-	name[0] = "Kleine Blutfliege";
+	name = "Kleine Blutfliege";
 	level = 3;
 	attribute[ATR_STRENGTH] = 5;
 	attribute[ATR_DEXTERITY] = 5;

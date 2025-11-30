@@ -1,7 +1,7 @@
 
 instance PC_Levelinspektor(Npc_Default)
 {
-	name[0] = "Levelinspektor";
+	name = "Levelinspektor";
 	npcType = npctype_main;
 	guild = GIL_NONE;
 	level = 30;

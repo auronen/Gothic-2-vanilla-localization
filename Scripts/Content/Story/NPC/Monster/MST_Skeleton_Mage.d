@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Skeleton_Mage(C_Npc)
 {
-	name[0] = "Skelettmagier";
+	name = "Skelettmagier";
 	guild = GIL_SKELETON_MAGE;
 	aivar[AIV_MM_REAL_ID] = ID_SKELETON_MAGE;
 	level = 24;

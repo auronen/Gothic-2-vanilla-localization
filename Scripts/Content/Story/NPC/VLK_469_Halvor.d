@@ -1,7 +1,7 @@
 
 instance VLK_469_Halvor(Npc_Default)
 {
-	name[0] = "Halvor";
+	name = "Halvor";
 	guild = GIL_VLK;
 	id = 469;
 	voice = 6;

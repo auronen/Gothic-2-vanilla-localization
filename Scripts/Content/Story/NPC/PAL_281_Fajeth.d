@@ -1,7 +1,7 @@
 
 instance PAL_281_Fajeth(Npc_Default)
 {
-	name[0] = "Fajeth";
+	name = "Fajeth";
 	guild = GIL_OUT;
 	id = 281;
 	voice = 12;

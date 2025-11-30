@@ -1,7 +1,7 @@
 
 instance DJG_713_Biff_NW(Npc_Default)
 {
-	name[0] = "Biff";
+	name = "Biff";
 	guild = GIL_DJG;
 	id = 7130;
 	voice = 7;

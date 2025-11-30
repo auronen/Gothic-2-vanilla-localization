@@ -1,7 +1,7 @@
 
 instance PAL_280_Tengron(Npc_Default)
 {
-	name[0] = "Tengron";
+	name = "Tengron";
 	guild = GIL_OUT;
 	id = 280;
 	voice = 7;

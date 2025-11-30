@@ -1,7 +1,7 @@
 
 instance PAL_202_Albrecht(Npc_Default)
 {
-	name[0] = "Albrecht";
+	name = "Albrecht";
 	guild = GIL_PAL;
 	id = 202;
 	voice = 3;

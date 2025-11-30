@@ -1,7 +1,7 @@
 
 instance VLK_408_Jora(Npc_Default)
 {
-	name[0] = "Jora";
+	name = "Jora";
 	guild = GIL_VLK;
 	id = 408;
 	voice = 8;

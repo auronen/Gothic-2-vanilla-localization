@@ -1,7 +1,7 @@
 
 instance PAL_2002_Leiche(Npc_Default)
 {
-	name[0] = "Silvestro";
+	name = "Silvestro";
 	guild = GIL_NONE;
 	id = 2002;
 	voice = 4;

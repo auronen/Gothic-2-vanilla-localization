@@ -1,7 +1,7 @@
 
 prototype Default_AmbientDementor(C_Npc)
 {
-	name[0] = NAME_Dementor;
+	name = NAME_Dementor;
 	guild = GIL_DMT;
 	voice = 19;
 	flags = 0;
@@ -494,7 +494,7 @@ instance CastlemineDMT(Default_AmbientDementor)
 
 instance DragonIsle_Keymaster(Default_AmbientDementor)
 {
-	name[0] = "Schlüsselmeister";
+	name = "Schlüsselmeister";
 	id = 1236;
 	aivar[AIV_EnemyOverride] = TRUE;
 	CreateInvItem(self,ItKe_EVT_UNDEAD_02);

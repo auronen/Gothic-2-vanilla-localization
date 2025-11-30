@@ -1,7 +1,7 @@
 
 instance NOV_605_Opolos(Npc_Default)
 {
-	name[0] = "Opolos";
+	name = "Opolos";
 	guild = GIL_NOV;
 	id = 605;
 	voice = 12;

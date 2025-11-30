@@ -1,7 +1,7 @@
 
 instance STRF_1109_Straefling(Npc_Default)
 {
-	name[0] = NAME_Straefling;
+	name = NAME_Straefling;
 	guild = GIL_STRF;
 	id = 1109;
 	voice = 13;

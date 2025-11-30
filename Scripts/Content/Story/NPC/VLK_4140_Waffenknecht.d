@@ -1,7 +1,7 @@
 
 instance VLK_4140_Waffenknecht(Npc_Default)
 {
-	name[0] = NAME_Waffenknecht;
+	name = NAME_Waffenknecht;
 	guild = GIL_MIL;
 	id = 4140;
 	voice = 1;

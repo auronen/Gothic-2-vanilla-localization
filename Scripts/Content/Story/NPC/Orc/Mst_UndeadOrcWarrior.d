@@ -1,7 +1,7 @@
 
 prototype Mst_Default_UndeadOrcWarrior(C_Npc)
 {
-	name[0] = "Untoter Ork";
+	name = "Untoter Ork";
 	guild = GIL_UNDEADORC;
 	aivar[AIV_MM_REAL_ID] = ID_UNDEADORCWARRIOR;
 	level = 30;

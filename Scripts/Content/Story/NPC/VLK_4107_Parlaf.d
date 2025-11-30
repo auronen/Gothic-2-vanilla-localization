@@ -1,7 +1,7 @@
 
 instance VLK_4107_Parlaf(Npc_Default)
 {
-	name[0] = "Parlaf";
+	name = "Parlaf";
 	guild = GIL_MIL;
 	id = 4107;
 	voice = 3;

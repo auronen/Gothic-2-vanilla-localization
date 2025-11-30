@@ -1,7 +1,7 @@
 
 instance Mil_309_Stadtwache(Npc_Default)
 {
-	name[0] = NAME_Stadtwache;
+	name = NAME_Stadtwache;
 	guild = GIL_MIL;
 	id = 309;
 	voice = 6;

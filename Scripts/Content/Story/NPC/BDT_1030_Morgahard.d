@@ -1,7 +1,7 @@
 
 instance BDT_1030_Morgahard(Npc_Default)
 {
-	name[0] = "Morgahard";
+	name = "Morgahard";
 	guild = GIL_OUT;
 	id = 1030;
 	voice = 7;

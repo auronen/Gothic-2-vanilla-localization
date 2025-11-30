@@ -1,7 +1,7 @@
 
 instance PC_Rockefeller(Npc_Default)
 {
-	name[0] = "Rockefeller";
+	name = "Rockefeller";
 	npcType = npctype_main;
 	guild = GIL_NONE;
 	level = 30;

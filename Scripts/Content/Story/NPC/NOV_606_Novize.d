@@ -1,7 +1,7 @@
 
 instance NOV_606_Novize(Npc_Default)
 {
-	name[0] = NAME_Novize;
+	name = NAME_Novize;
 	guild = GIL_NOV;
 	id = 606;
 	voice = 3;

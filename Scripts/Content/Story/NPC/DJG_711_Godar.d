@@ -1,7 +1,7 @@
 
 instance DJG_711_Godar(Npc_Default)
 {
-	name[0] = "Godar";
+	name = "Godar";
 	guild = GIL_DJG;
 	id = 711;
 	voice = 13;

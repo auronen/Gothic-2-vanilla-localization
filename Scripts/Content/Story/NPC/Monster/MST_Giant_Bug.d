@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Giant_Bug(C_Npc)
 {
-	name[0] = "Feldräuber";
+	name = "Feldräuber";
 	guild = GIL_GIANT_BUG;
 	aivar[AIV_MM_REAL_ID] = ID_GIANT_BUG;
 	level = 8;
@@ -43,7 +43,7 @@ instance Giant_Bug(Mst_Default_Giant_Bug)
 
 instance YGiant_Bug(Mst_Default_Giant_Bug)
 {
-	name[0] = "Junger Feldräuber";
+	name = "Junger Feldräuber";
 	level = 4;
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
@@ -63,7 +63,7 @@ instance YGiant_Bug(Mst_Default_Giant_Bug)
 
 instance YGiant_Bug_VinoRitual1(Mst_Default_Giant_Bug)
 {
-	name[0] = "Junger Feldräuber";
+	name = "Junger Feldräuber";
 	level = 4;
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
@@ -83,7 +83,7 @@ instance YGiant_Bug_VinoRitual1(Mst_Default_Giant_Bug)
 
 instance YGiant_Bug_VinoRitual2(Mst_Default_Giant_Bug)
 {
-	name[0] = "Junger Feldräuber";
+	name = "Junger Feldräuber";
 	level = 4;
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;

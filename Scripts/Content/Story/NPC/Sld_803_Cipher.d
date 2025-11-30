@@ -1,7 +1,7 @@
 
 instance Sld_803_Cipher(Npc_Default)
 {
-	name[0] = "Cipher";
+	name = "Cipher";
 	guild = GIL_SLD;
 	id = 803;
 	voice = 7;

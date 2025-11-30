@@ -1,7 +1,7 @@
 
 prototype Mst_Default_FireWaran(C_Npc)
 {
-	name[0] = "Feuerwaran";
+	name = "Feuerwaran";
 	guild = GIL_WARAN;
 	aivar[AIV_MM_REAL_ID] = ID_FIREWARAN;
 	level = 21;

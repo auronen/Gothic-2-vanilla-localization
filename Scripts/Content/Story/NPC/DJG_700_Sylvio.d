@@ -1,7 +1,7 @@
 
 instance DJG_700_Sylvio(Npc_Default)
 {
-	name[0] = "Sylvio";
+	name = "Sylvio";
 	guild = GIL_DJG;
 	id = 700;
 	voice = 9;

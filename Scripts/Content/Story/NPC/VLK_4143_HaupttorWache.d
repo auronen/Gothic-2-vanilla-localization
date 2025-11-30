@@ -1,7 +1,7 @@
 
 instance VLK_4143_HaupttorWache(Npc_Default)
 {
-	name[0] = "Haupttorwache";
+	name = "Haupttorwache";
 	guild = GIL_VLK;
 	id = 4143;
 	voice = 13;

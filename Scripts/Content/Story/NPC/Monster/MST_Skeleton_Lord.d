@@ -1,7 +1,7 @@
 
 prototype Mst_Skeleton_Lord(C_Npc)
 {
-	name[0] = "Schattenkrieger";
+	name = "Schattenkrieger";
 	guild = GIL_SKELETON;
 	aivar[AIV_MM_REAL_ID] = ID_SKELETON;
 	level = 40;
@@ -46,7 +46,7 @@ instance Skeleton_Lord(Mst_Skeleton_Lord)
 
 instance Crypt_Skeleton_Lord(Mst_Skeleton_Lord)
 {
-	name[0] = "Schattenlord Inubis";
+	name = "Schattenlord Inubis";
 	B_SetVisuals_Skeleton_Lord();
 	CreateInvItems(self,ItMi_Gold,500);
 	CreateInvItems(self,ItPo_Mana_03,2);
@@ -55,7 +55,7 @@ instance Crypt_Skeleton_Lord(Mst_Skeleton_Lord)
 
 instance Skeleton_Lord_Archol(Mst_Skeleton_Lord)
 {
-	name[0] = "Schattenlord Archol";
+	name = "Schattenlord Archol";
 	level = 60;
 	attribute[ATR_STRENGTH] = 150;
 	attribute[ATR_DEXTERITY] = 150;

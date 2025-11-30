@@ -1,7 +1,7 @@
 
 instance PAL_253_Wache(Npc_Default)
 {
-	name[0] = NAME_Ritter;
+	name = NAME_Ritter;
 	guild = GIL_PAL;
 	id = 253;
 	voice = 9;

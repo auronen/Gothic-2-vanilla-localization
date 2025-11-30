@@ -1,7 +1,7 @@
 
 instance BAU_961_Gaan(Npc_Default)
 {
-	name[0] = "Gaan";
+	name = "Gaan";
 	guild = GIL_OUT;
 	id = 961;
 	voice = 3;

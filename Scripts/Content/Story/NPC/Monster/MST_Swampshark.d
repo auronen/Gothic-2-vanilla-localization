@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Swampshark(C_Npc)
 {
-	name[0] = "Sumpfhai";
+	name = "Sumpfhai";
 	guild = GIL_SWAMPSHARK;
 	aivar[AIV_MM_REAL_ID] = ID_SWAMPSHARK;
 	level = 24;

@@ -1,7 +1,7 @@
 
 instance Mil_316_Wambo(Npc_Default)
 {
-	name[0] = "Wambo";
+	name = "Wambo";
 	guild = GIL_MIL;
 	id = 316;
 	voice = 3;

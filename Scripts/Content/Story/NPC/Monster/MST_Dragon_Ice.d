@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Dragon_Ice(C_Npc)
 {
-	name[0] = "Eisdrache";
+	name = "Eisdrache";
 	guild = GIL_DRAGON;
 	aivar[AIV_MM_REAL_ID] = ID_DRAGON_ICE;
 	level = 500;
@@ -39,7 +39,7 @@ func void B_SetVisuals_Dragon_Ice()
 
 instance Dragon_Ice(Mst_Default_Dragon_Ice)
 {
-	name[0] = "Finkregh";
+	name = "Finkregh";
 	flags = NPC_FLAG_IMMORTAL;
 	B_SetVisuals_Dragon_Ice();
 	Npc_SetToFistMode(self);

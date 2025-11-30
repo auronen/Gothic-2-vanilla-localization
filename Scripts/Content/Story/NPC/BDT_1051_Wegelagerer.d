@@ -1,7 +1,7 @@
 
 instance BDT_1051_Wegelagerer(Npc_Default)
 {
-	name[0] = "Landstreicher";
+	name = "Landstreicher";
 	guild = GIL_BDT;
 	id = 1051;
 	voice = 7;

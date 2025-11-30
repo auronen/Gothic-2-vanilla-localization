@@ -1,7 +1,7 @@
 
 instance Pal_216_Cedric(Npc_Default)
 {
-	name[0] = "Cedric";
+	name = "Cedric";
 	guild = GIL_PAL;
 	id = 216;
 	voice = 12;

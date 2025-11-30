@@ -1,7 +1,7 @@
 
 instance VLK_439_Vatras_DI(Npc_Default)
 {
-	name[0] = "Vatras";
+	name = "Vatras";
 	guild = GIL_VLK;
 	id = 4390;
 	voice = 5;

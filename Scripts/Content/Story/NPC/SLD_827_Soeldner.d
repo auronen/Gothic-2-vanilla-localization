@@ -1,7 +1,7 @@
 
 instance SLD_827_Soeldner(Npc_Default)
 {
-	name[0] = NAME_Soeldner;
+	name = NAME_Soeldner;
 	guild = GIL_SLD;
 	id = 827;
 	voice = 7;

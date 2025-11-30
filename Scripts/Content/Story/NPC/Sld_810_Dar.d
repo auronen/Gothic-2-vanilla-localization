@@ -1,7 +1,7 @@
 
 instance Sld_810_Dar(Npc_Default)
 {
-	name[0] = "Dar";
+	name = "Dar";
 	guild = GIL_SLD;
 	id = 810;
 	voice = 3;

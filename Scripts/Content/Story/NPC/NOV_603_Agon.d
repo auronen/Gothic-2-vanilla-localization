@@ -1,7 +1,7 @@
 
 instance NOV_603_Agon(Npc_Default)
 {
-	name[0] = "Agon";
+	name = "Agon";
 	guild = GIL_NOV;
 	id = 603;
 	voice = 7;

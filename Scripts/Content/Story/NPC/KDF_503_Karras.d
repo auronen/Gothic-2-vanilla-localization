@@ -1,7 +1,7 @@
 
 instance KDF_503_Karras(Npc_Default)
 {
-	name[0] = "Karras";
+	name = "Karras";
 	guild = GIL_KDF;
 	id = 503;
 	voice = 10;

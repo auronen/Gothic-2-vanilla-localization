@@ -1,7 +1,7 @@
 
 instance VLK_476_Fenia(Npc_Default)
 {
-	name[0] = "Fenia";
+	name = "Fenia";
 	guild = GIL_VLK;
 	id = 476;
 	voice = 17;

@@ -1,7 +1,7 @@
 
 instance TA_Testmodell(Npc_Default)
 {
-	name[0] = "TA_Testmodell";
+	name = "TA_Testmodell";
 	guild = GIL_NONE;
 	id = 1500;
 	voice = 1;
@@ -212,7 +212,7 @@ func void DIA_TA_Testmodell_FollowEnd_Info()
 
 instance TA_Smalltalkpartner(Npc_Default)
 {
-	name[0] = "Smalltalkpartner";
+	name = "Smalltalkpartner";
 	guild = GIL_NONE;
 	id = 1501;
 	voice = 1;

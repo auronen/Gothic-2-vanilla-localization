@@ -1,7 +1,7 @@
 
 instance VLK_493_Nagur(Npc_Default)
 {
-	name[0] = "Nagur";
+	name = "Nagur";
 	guild = GIL_VLK;
 	id = 493;
 	voice = 8;

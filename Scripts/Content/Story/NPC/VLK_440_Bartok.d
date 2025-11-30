@@ -1,7 +1,7 @@
 
 instance VLK_440_Bartok(Npc_Default)
 {
-	name[0] = "Bartok";
+	name = "Bartok";
 	guild = GIL_VLK;
 	id = 440;
 	voice = 4;

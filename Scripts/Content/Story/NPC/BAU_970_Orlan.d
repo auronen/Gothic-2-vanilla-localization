@@ -1,7 +1,7 @@
 
 instance BAU_970_Orlan(Npc_Default)
 {
-	name[0] = "Orlan";
+	name = "Orlan";
 	guild = GIL_OUT;
 	id = 970;
 	voice = 5;

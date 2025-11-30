@@ -1,7 +1,7 @@
 
 instance BAU_951_Hilda(Npc_Default)
 {
-	name[0] = "Hilda";
+	name = "Hilda";
 	guild = GIL_OUT;
 	id = 951;
 	voice = 17;

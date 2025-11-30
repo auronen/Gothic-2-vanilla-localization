@@ -1,7 +1,7 @@
 
 instance VLK_411_Gaertner(Npc_Default)
 {
-	name[0] = "Gärtner";
+	name = "Gärtner";
 	guild = GIL_VLK;
 	id = 411;
 	voice = 9;

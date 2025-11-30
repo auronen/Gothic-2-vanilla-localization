@@ -1,7 +1,7 @@
 
 instance BAU_981_Grom(Npc_Default)
 {
-	name[0] = "Grom";
+	name = "Grom";
 	guild = GIL_OUT;
 	id = 981;
 	voice = 8;

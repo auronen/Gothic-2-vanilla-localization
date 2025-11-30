@@ -1,7 +1,7 @@
 
 prototype Mst_Default_OrcWarrior(C_Npc)
 {
-	name[0] = "Ork Krieger";
+	name = "Ork Krieger";
 	guild = GIL_ORC;
 	aivar[AIV_MM_REAL_ID] = ID_ORCWARRIOR;
 	voice = 18;
@@ -55,7 +55,7 @@ instance OrcWarrior_Rest(Mst_Default_OrcWarrior)
 
 instance OrcWarrior_Harad(Mst_Default_OrcWarrior)
 {
-	name[0] = "Ork Späher";
+	name = "Ork Späher";
 	B_SetVisuals_OrcWarrior();
 	EquipItem(self,ItMw_2H_OrcAxe_01);
 	start_aistate = ZS_MM_AllScheduler;

@@ -1,7 +1,7 @@
 
 instance FH(Npc_Default)
 {
-	name[0] = "Face Helper";
+	name = "Face Helper";
 	npcType = NPCTYPE_FRIEND;
 	guild = GIL_NONE;
 	level = 999;

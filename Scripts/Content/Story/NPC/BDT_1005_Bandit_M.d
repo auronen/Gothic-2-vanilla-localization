@@ -1,7 +1,7 @@
 
 instance BDT_1005_Bandit_M(Npc_Default)
 {
-	name[0] = NAME_Bandit;
+	name = NAME_Bandit;
 	guild = GIL_BDT;
 	id = 1005;
 	voice = 1;

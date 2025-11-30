@@ -1,7 +1,7 @@
 
 instance DJG_737_ToterDrachenjaeger(Npc_Default)
 {
-	name[0] = NAME_ToterDrachenjaeger;
+	name = NAME_ToterDrachenjaeger;
 	guild = GIL_DJG;
 	id = 737;
 	voice = 5;

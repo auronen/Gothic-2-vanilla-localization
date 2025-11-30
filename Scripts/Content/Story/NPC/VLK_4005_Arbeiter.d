@@ -1,7 +1,7 @@
 
 instance VLK_4005_Arbeiter(Npc_Default)
 {
-	name[0] = NAME_Arbeiter;
+	name = NAME_Arbeiter;
 	guild = GIL_VLK;
 	id = 4005;
 	voice = 6;

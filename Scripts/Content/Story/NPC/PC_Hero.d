@@ -1,7 +1,7 @@
 
 instance PC_Hero(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_NONE;
 	id = 0;
 	voice = 15;
@@ -24,7 +24,7 @@ instance PC_Hero(Npc_Default)
 
 instance PC_L3(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_NONE;
 	id = 0;
 	voice = 15;
@@ -53,7 +53,7 @@ instance PC_L3(Npc_Default)
 
 instance PC_L9(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_MIL;
 	id = 0;
 	voice = 15;
@@ -82,7 +82,7 @@ instance PC_L9(Npc_Default)
 
 instance PC_L19(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_PAL;
 	id = 0;
 	voice = 15;
@@ -115,7 +115,7 @@ instance PC_L19(Npc_Default)
 
 instance PC_L25(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_DJG;
 	id = 0;
 	voice = 15;
@@ -150,7 +150,7 @@ instance PC_L25(Npc_Default)
 
 instance PC_L31(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_PAL;
 	id = 0;
 	voice = 15;
@@ -186,7 +186,7 @@ instance PC_L31(Npc_Default)
 
 instance PC_E3Mage(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_KDF;
 	id = 0;
 	voice = 15;
@@ -320,7 +320,7 @@ instance PC_E3Mage(Npc_Default)
 
 instance PC_E3Paladin(Npc_Default)
 {
-	name[0] = "Ich";
+	name = "Ich";
 	guild = GIL_PAL;
 	id = 0;
 	voice = 15;

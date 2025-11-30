@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Snapper(C_Npc)
 {
-	name[0] = "Snapper";
+	name = "Snapper";
 	guild = GIL_SNAPPER;
 	aivar[AIV_MM_REAL_ID] = ID_SNAPPER;
 	level = 18;
@@ -94,7 +94,7 @@ instance NewMine_LeadSnapper(Mst_Default_Snapper)
 {
 	B_SetVisuals_Snapper();
 	Npc_SetToFistMode(self);
-	name[0] = "Rudelführer";
+	name = "Rudelführer";
 	attribute[ATR_STRENGTH] = 60;
 	attribute[ATR_DEXTERITY] = 60;
 	attribute[ATR_HITPOINTS_MAX] = 160;

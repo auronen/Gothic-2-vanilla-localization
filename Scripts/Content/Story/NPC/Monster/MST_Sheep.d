@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Sheep(C_Npc)
 {
-	name[0] = "Schaf";
+	name = "Schaf";
 	guild = GIL_SHEEP;
 	aivar[AIV_MM_REAL_ID] = ID_SHEEP;
 	level = 1;
@@ -55,7 +55,7 @@ instance Hammel(Mst_Default_Sheep)
 
 instance Follow_Sheep(Mst_Default_Sheep)
 {
-	name[0] = "Liesel";
+	name = "Liesel";
 	aivar[AIV_ToughGuy] = TRUE;
 	B_SetVisuals_Sheep();
 	Npc_SetToFistMode(self);
@@ -65,7 +65,7 @@ instance Follow_Sheep(Mst_Default_Sheep)
 
 instance Follow_Sheep_AKIL(Mst_Default_Sheep)
 {
-	name[0] = "Schaf";
+	name = "Schaf";
 	aivar[AIV_ToughGuy] = TRUE;
 	B_SetVisuals_Sheep();
 	Npc_SetToFistMode(self);

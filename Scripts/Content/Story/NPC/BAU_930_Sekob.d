@@ -1,7 +1,7 @@
 
 instance BAU_930_Sekob(Npc_Default)
 {
-	name[0] = "Sekob";
+	name = "Sekob";
 	guild = GIL_OUT;
 	id = 930;
 	voice = 1;

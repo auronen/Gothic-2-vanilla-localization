@@ -1,7 +1,7 @@
 
 instance DMT_1205_Dementor(Npc_Default)
 {
-	name[0] = NAME_Dementor;
+	name = NAME_Dementor;
 	guild = GIL_DMT;
 	id = 1205;
 	voice = 19;

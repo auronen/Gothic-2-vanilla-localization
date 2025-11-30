@@ -1,7 +1,7 @@
 
 instance VLK_406_Herold(Npc_Default)
 {
-	name[0] = "Herold";
+	name = "Herold";
 	guild = GIL_VLK;
 	id = 406;
 	voice = 4;

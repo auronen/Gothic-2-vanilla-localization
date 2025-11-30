@@ -1,7 +1,7 @@
 
 instance DJG_708_Kurgan(Npc_Default)
 {
-	name[0] = "Kurgan";
+	name = "Kurgan";
 	guild = GIL_DJG;
 	id = 708;
 	voice = 1;

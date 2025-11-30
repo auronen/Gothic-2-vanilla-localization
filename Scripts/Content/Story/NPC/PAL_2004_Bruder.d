@@ -1,7 +1,7 @@
 
 instance PAL_2004_Bruder(Npc_Default)
 {
-	name[0] = NAME_Paladin;
+	name = NAME_Paladin;
 	guild = GIL_NONE;
 	id = 2004;
 	voice = 4;

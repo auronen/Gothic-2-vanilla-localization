@@ -1,7 +1,7 @@
 
 instance STRF_1116_Kervo(Npc_Default)
 {
-	name[0] = "Kervo";
+	name = "Kervo";
 	guild = GIL_STRF;
 	id = 1116;
 	voice = 13;

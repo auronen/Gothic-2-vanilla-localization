@@ -1,7 +1,7 @@
 
 prototype Mst_Default_OrcElite(C_Npc)
 {
-	name[0] = "Ork Elite";
+	name = "Ork Elite";
 	guild = GIL_ORC;
 	aivar[AIV_MM_REAL_ID] = ID_ORCELITE;
 	voice = 18;
@@ -55,7 +55,7 @@ instance OrcElite_Rest(Mst_Default_OrcElite)
 
 instance OrkElite_AntiPaladinOrkOberst(Mst_Default_OrcElite)
 {
-	name[0] = "Orkischer Oberst";
+	name = "Orkischer Oberst";
 	attribute[ATR_STRENGTH] = 120;
 	attribute[ATR_DEXTERITY] = 120;
 	attribute[ATR_HITPOINTS_MAX] = 400;
@@ -71,7 +71,7 @@ instance OrkElite_AntiPaladinOrkOberst(Mst_Default_OrcElite)
 
 instance OrcElite_AntiPaladin(Mst_Default_OrcElite)
 {
-	name[0] = NAME_Antipaldin;
+	name = NAME_Antipaldin;
 	B_SetVisuals_OrcElite();
 	EquipItem(self,ItMw_2H_OrcAxe_04);
 	CreateInvItems(self,ItRi_OrcEliteRing,1);
@@ -81,7 +81,7 @@ instance OrcElite_AntiPaladin(Mst_Default_OrcElite)
 
 instance OrcElite_AntiPaladin1(Mst_Default_OrcElite)
 {
-	name[0] = NAME_Antipaldin;
+	name = NAME_Antipaldin;
 	guild = GIL_ORC;
 	id = 111;
 	voice = 18;
@@ -97,7 +97,7 @@ instance OrcElite_AntiPaladin1(Mst_Default_OrcElite)
 
 instance OrcElite_AntiPaladin2(Mst_Default_OrcElite)
 {
-	name[0] = NAME_Antipaldin;
+	name = NAME_Antipaldin;
 	id = 112;
 	guild = GIL_ORC;
 	aivar[AIV_EnemyOverride] = TRUE;
@@ -110,7 +110,7 @@ instance OrcElite_AntiPaladin2(Mst_Default_OrcElite)
 
 instance OrcElite_AntiPaladin3(Mst_Default_OrcElite)
 {
-	name[0] = NAME_Antipaldin;
+	name = NAME_Antipaldin;
 	id = 113;
 	guild = GIL_ORC;
 	aivar[AIV_EnemyOverride] = TRUE;
@@ -123,7 +123,7 @@ instance OrcElite_AntiPaladin3(Mst_Default_OrcElite)
 
 instance OrkElite_AntiPaladinOrkOberst_DI(Mst_Default_OrcElite)
 {
-	name[0] = "Orkischer Oberst";
+	name = "Orkischer Oberst";
 	attribute[ATR_STRENGTH] = 150;
 	attribute[ATR_DEXTERITY] = 150;
 	attribute[ATR_HITPOINTS_MAX] = 450;

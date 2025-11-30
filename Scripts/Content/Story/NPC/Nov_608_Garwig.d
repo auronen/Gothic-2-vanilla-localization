@@ -1,7 +1,7 @@
 
 instance Nov_608_Garwig(Npc_Default)
 {
-	name[0] = "Garwig";
+	name = "Garwig";
 	guild = GIL_NOV;
 	id = 608;
 	voice = 6;

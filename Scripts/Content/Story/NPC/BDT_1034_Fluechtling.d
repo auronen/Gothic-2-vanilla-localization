@@ -1,7 +1,7 @@
 
 instance BDT_1034_Fluechtling(Npc_Default)
 {
-	name[0] = NAME_Fluechtling;
+	name = NAME_Fluechtling;
 	guild = GIL_OUT;
 	id = 1034;
 	voice = 6;

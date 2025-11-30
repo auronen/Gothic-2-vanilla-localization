@@ -1,7 +1,7 @@
 
 instance Mil_336_Rick(Npc_Default)
 {
-	name[0] = "Rick";
+	name = "Rick";
 	guild = GIL_MIL;
 	id = 336;
 	voice = 10;

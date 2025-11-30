@@ -1,7 +1,7 @@
 
 instance VLK_479_Lucy(Npc_Default)
 {
-	name[0] = "Lucy";
+	name = "Lucy";
 	guild = GIL_VLK;
 	id = 479;
 	voice = 17;

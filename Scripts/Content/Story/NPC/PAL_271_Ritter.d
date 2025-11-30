@@ -1,7 +1,7 @@
 
 instance PAL_271_Ritter(Npc_Default)
 {
-	name[0] = NAME_Ritter;
+	name = NAME_Ritter;
 	guild = GIL_PAL;
 	id = 271;
 	voice = 4;

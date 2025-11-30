@@ -1,7 +1,7 @@
 
 instance STRF_1152_Leiche(Npc_Default)
 {
-	name[0] = NAME_Straefling;
+	name = NAME_Straefling;
 	guild = GIL_STRF;
 	id = 1152;
 	voice = 8;

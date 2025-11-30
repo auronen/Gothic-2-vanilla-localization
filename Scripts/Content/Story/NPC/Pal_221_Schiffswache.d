@@ -1,7 +1,7 @@
 
 instance Pal_221_Schiffswache(Npc_Default)
 {
-	name[0] = NAME_Schiffswache;
+	name = NAME_Schiffswache;
 	guild = GIL_PAL;
 	id = 221;
 	voice = 9;

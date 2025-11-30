@@ -1,7 +1,7 @@
 
 instance SH(Npc_Default)
 {
-	name[0] = "Storyhelper";
+	name = "Storyhelper";
 	guild = GIL_NONE;
 	id = 9999;
 	voice = 15;

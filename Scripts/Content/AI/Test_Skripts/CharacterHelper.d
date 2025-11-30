@@ -35,7 +35,7 @@ func void UseMobsiBrief()
 
 instance CH(Npc_Default)
 {
-	name[0] = "Characterhelper";
+	name = "Characterhelper";
 	guild = GIL_NONE;
 	id = 0;
 	voice = 15;

@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Dragon_Rock(C_Npc)
 {
-	name[0] = "Felsdrache";
+	name = "Felsdrache";
 	guild = GIL_DRAGON;
 	aivar[AIV_MM_REAL_ID] = ID_DRAGON_ROCK;
 	level = 400;
@@ -39,7 +39,7 @@ func void B_SetVisuals_Dragon_Rock()
 
 instance Dragon_Rock(Mst_Default_Dragon_Rock)
 {
-	name[0] = "Pedrakhan";
+	name = "Pedrakhan";
 	flags = NPC_FLAG_IMMORTAL;
 	B_SetVisuals_Dragon_Rock();
 	Npc_SetToFistMode(self);

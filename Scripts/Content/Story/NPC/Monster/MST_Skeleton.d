@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Skeleton(C_Npc)
 {
-	name[0] = "Skelett";
+	name = "Skelett";
 	guild = GIL_SKELETON;
 	aivar[AIV_MM_REAL_ID] = ID_SKELETON;
 	level = 22;
@@ -58,7 +58,7 @@ instance Skeleton(Mst_Default_Skeleton)
 
 instance Summoned_Skeleton(Mst_Default_Skeleton)
 {
-	name[0] = "Beschworenes Skelett";
+	name = "Beschworenes Skelett";
 	guild = gil_summoned_skeleton;
 	aivar[AIV_MM_REAL_ID] = id_summoned_skeleton;
 	level = 0;
@@ -85,7 +85,7 @@ instance Summoned_Skeleton(Mst_Default_Skeleton)
 
 instance Lesser_Skeleton(Mst_Default_Skeleton)
 {
-	name[0] = "Niederes Skelett";
+	name = "Niederes Skelett";
 	level = 12;
 	attribute[ATR_STRENGTH] = 60;
 	attribute[ATR_DEXTERITY] = 60;
@@ -106,7 +106,7 @@ instance Lesser_Skeleton(Mst_Default_Skeleton)
 
 instance Crypt_Skeleton_Room_01(Mst_Default_Skeleton)
 {
-	name[0] = "Krypta-Wächter";
+	name = "Krypta-Wächter";
 	aivar[AIV_EnemyOverride] = TRUE;
 	B_SetVisuals_Skeleton();
 	EquipItem(self,ItMw_1h_MISC_Sword);
@@ -115,7 +115,7 @@ instance Crypt_Skeleton_Room_01(Mst_Default_Skeleton)
 
 instance Crypt_Skeleton_Room_02(Mst_Default_Skeleton)
 {
-	name[0] = "Krypta-Wächter";
+	name = "Krypta-Wächter";
 	aivar[AIV_EnemyOverride] = TRUE;
 	B_SetVisuals_Skeleton();
 	EquipItem(self,ItMw_2H_Sword_M_01);
@@ -124,7 +124,7 @@ instance Crypt_Skeleton_Room_02(Mst_Default_Skeleton)
 
 instance Crypt_Skeleton_Room_03(Mst_Default_Skeleton)
 {
-	name[0] = "Krypta-Wächter";
+	name = "Krypta-Wächter";
 	aivar[AIV_EnemyOverride] = TRUE;
 	B_SetVisuals_Skeleton();
 	EquipItem(self,ItMw_1h_MISC_Sword);

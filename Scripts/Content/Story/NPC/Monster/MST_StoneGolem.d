@@ -1,7 +1,7 @@
 
 prototype Mst_Default_StoneGolem(C_Npc)
 {
-	name[0] = "Steingolem";
+	name = "Steingolem";
 	guild = GIL_STONEGOLEM;
 	aivar[AIV_MM_REAL_ID] = ID_STONEGOLEM;
 	level = 18;
@@ -42,7 +42,7 @@ instance StoneGolem(Mst_Default_StoneGolem)
 
 instance Summoned_Golem(Mst_Default_StoneGolem)
 {
-	name[0] = "Beschworener Golem";
+	name = "Beschworener Golem";
 	guild = gil_summoned_golem;
 	aivar[AIV_MM_REAL_ID] = id_summoned_golem;
 	level = 0;
@@ -83,7 +83,7 @@ func void B_GolemRise()
 	{
 		AI_PlayAni(self,"T_RISE");
 		self.noFocus = FALSE;
-		self.name[0] = "Steingolem";
+		self.name = "Steingolem";
 		self.flags = 0;
 		AI_StartState(self,ZS_MM_Attack,0,"");
 		self.bodyStateInterruptableOverride = FALSE;
@@ -95,7 +95,7 @@ func void B_GolemRise()
 
 instance Shattered_Golem(Mst_Default_StoneGolem)
 {
-	name[0] = "";
+	name = "";
 	guild = GIL_STONEGOLEM;
 	aivar[AIV_MM_REAL_ID] = ID_STONEGOLEM;
 	level = 18;
@@ -110,7 +110,7 @@ instance Shattered_Golem(Mst_Default_StoneGolem)
 
 instance MagicGolem(Mst_Default_StoneGolem)
 {
-	name[0] = "Magischer Golem";
+	name = "Magischer Golem";
 	level = 10;
 	protection[PROT_BLUNT] = IMMUNE;
 	protection[PROT_EDGE] = IMMUNE;

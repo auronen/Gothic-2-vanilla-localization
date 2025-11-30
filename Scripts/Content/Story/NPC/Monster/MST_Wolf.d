@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Wolf(C_Npc)
 {
-	name[0] = "Wolf";
+	name = "Wolf";
 	guild = GIL_WOLF;
 	aivar[AIV_MM_REAL_ID] = ID_WOLF;
 	level = 6;
@@ -44,7 +44,7 @@ instance Wolf(Mst_Default_Wolf)
 
 instance Summoned_Wolf(Mst_Default_Wolf)
 {
-	name[0] = "Beschworener Wolf";
+	name = "Beschworener Wolf";
 	guild = gil_summoned_wolf;
 	aivar[AIV_MM_REAL_ID] = id_summoned_wolf;
 	level = 0;
@@ -70,7 +70,7 @@ instance Summoned_Wolf(Mst_Default_Wolf)
 instance YWolf(Mst_Default_Wolf)
 {
 	level = 3;
-	name[0] = "Junger Wolf";
+	name = "Junger Wolf";
 	attribute[ATR_STRENGTH] = 5;
 	attribute[ATR_DEXTERITY] = 5;
 	attribute[ATR_HITPOINTS_MAX] = 20;
@@ -90,7 +90,7 @@ instance YWolf(Mst_Default_Wolf)
 
 instance PEPES_YWolf1(Mst_Default_Wolf)
 {
-	name[0] = "Junger Wolf";
+	name = "Junger Wolf";
 	level = 3;
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
@@ -111,7 +111,7 @@ instance PEPES_YWolf1(Mst_Default_Wolf)
 instance PEPES_YWolf2(Mst_Default_Wolf)
 {
 	level = 3;
-	name[0] = "Junger Wolf";
+	name = "Junger Wolf";
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
 	attribute[ATR_HITPOINTS_MAX] = 40;
@@ -131,7 +131,7 @@ instance PEPES_YWolf2(Mst_Default_Wolf)
 instance PEPES_YWolf3(Mst_Default_Wolf)
 {
 	level = 3;
-	name[0] = "Junger Wolf";
+	name = "Junger Wolf";
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
 	attribute[ATR_HITPOINTS_MAX] = 40;
@@ -151,7 +151,7 @@ instance PEPES_YWolf3(Mst_Default_Wolf)
 instance PEPES_YWolf4(Mst_Default_Wolf)
 {
 	level = 3;
-	name[0] = "Junger Wolf";
+	name = "Junger Wolf";
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
 	attribute[ATR_HITPOINTS_MAX] = 40;

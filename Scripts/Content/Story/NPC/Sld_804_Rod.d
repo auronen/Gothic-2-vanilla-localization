@@ -1,7 +1,7 @@
 
 instance Sld_804_Rod(Npc_Default)
 {
-	name[0] = "Rod";
+	name = "Rod";
 	guild = GIL_SLD;
 	id = 804;
 	voice = 6;

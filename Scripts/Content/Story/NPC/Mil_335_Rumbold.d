@@ -1,7 +1,7 @@
 
 instance Mil_335_Rumbold(Npc_Default)
 {
-	name[0] = "Rumbold";
+	name = "Rumbold";
 	guild = GIL_MIL;
 	id = 335;
 	voice = 10;

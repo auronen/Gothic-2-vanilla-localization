@@ -1,7 +1,7 @@
 
 instance VLK_456_Abuyin(Npc_Default)
 {
-	name[0] = "Abuyin";
+	name = "Abuyin";
 	guild = GIL_VLK;
 	id = 456;
 	voice = 13;

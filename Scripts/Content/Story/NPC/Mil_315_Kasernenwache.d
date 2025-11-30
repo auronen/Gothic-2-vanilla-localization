@@ -1,7 +1,7 @@
 
 instance Mil_315_Kasernenwache(Npc_Default)
 {
-	name[0] = NAME_Miliz;
+	name = NAME_Miliz;
 	guild = GIL_MIL;
 	id = 315;
 	voice = 7;

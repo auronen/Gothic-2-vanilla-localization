@@ -1,7 +1,7 @@
 
 instance BDT_1002_Bandit_L(Npc_Default)
 {
-	name[0] = "Herumtreiber";
+	name = "Herumtreiber";
 	guild = GIL_BDT;
 	id = 1002;
 	voice = 13;

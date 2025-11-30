@@ -1,7 +1,7 @@
 
 instance DJG_714_Jan(Npc_Default)
 {
-	name[0] = "Jan";
+	name = "Jan";
 	guild = GIL_DJG;
 	id = 714;
 	voice = 10;

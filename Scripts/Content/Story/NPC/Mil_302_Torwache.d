@@ -1,7 +1,7 @@
 
 instance Mil_302_Torwache(Npc_Default)
 {
-	name[0] = NAME_Torwache;
+	name = NAME_Torwache;
 	guild = GIL_MIL;
 	id = 302;
 	voice = 6;

@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Dragon_Swamp(C_Npc)
 {
-	name[0] = "Sumpfdrache";
+	name = "Sumpfdrache";
 	guild = GIL_DRAGON;
 	aivar[AIV_MM_REAL_ID] = ID_DRAGON_SWAMP;
 	level = 350;
@@ -38,7 +38,7 @@ func void B_SetVisuals_Dragon_Swamp()
 
 instance Dragon_Swamp(Mst_Default_Dragon_Swamp)
 {
-	name[0] = "Pandrodor";
+	name = "Pandrodor";
 	flags = NPC_FLAG_IMMORTAL;
 	fight_tactic = FAI_DRAGON;
 	B_SetVisuals_Dragon_Swamp();

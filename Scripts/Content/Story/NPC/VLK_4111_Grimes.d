@@ -1,7 +1,7 @@
 
 instance VLK_4111_Grimes(Npc_Default)
 {
-	name[0] = "Grimes";
+	name = "Grimes";
 	guild = GIL_OUT;
 	id = 4111;
 	voice = 5;

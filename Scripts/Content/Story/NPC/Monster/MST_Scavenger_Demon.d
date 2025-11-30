@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Scavenger_Demon(C_Npc)
 {
-	name[0] = "Scavenger";
+	name = "Scavenger";
 	guild = GIL_SCAVENGER;
 	aivar[AIV_MM_REAL_ID] = ID_SCAVENGER_DEMON;
 	level = 12;

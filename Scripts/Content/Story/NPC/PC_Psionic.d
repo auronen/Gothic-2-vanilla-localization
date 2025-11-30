@@ -1,7 +1,7 @@
 
 instance PC_Psionic(Npc_Default)
 {
-	name[0] = "Lester";
+	name = "Lester";
 	guild = GIL_NONE;
 	id = 4;
 	voice = 13;

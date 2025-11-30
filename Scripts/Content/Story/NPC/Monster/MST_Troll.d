@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Troll(C_Npc)
 {
-	name[0] = "Troll";
+	name = "Troll";
 	guild = GIL_TROLL;
 	aivar[AIV_MM_REAL_ID] = ID_TROLL;
 	level = 50;
@@ -52,7 +52,7 @@ instance Maya_Troll(Mst_Default_Troll)
 
 instance Troll_DI(Mst_Default_Troll)
 {
-	name[0] = "Höhlentroll";
+	name = "Höhlentroll";
 	aivar[AIV_MaxDistToWp] = 300;
 	aivar[AIV_OriginalFightTactic] = FAI_TROLL;
 	B_SetVisuals_Troll();

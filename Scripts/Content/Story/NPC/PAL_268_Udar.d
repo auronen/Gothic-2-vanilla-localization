@@ -1,7 +1,7 @@
 
 instance PAL_268_Udar(Npc_Default)
 {
-	name[0] = "Udar";
+	name = "Udar";
 	guild = GIL_PAL;
 	id = 268;
 	voice = 9;

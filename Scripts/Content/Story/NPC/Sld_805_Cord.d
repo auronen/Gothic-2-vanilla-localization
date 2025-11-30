@@ -1,7 +1,7 @@
 
 instance Sld_805_Cord(Npc_Default)
 {
-	name[0] = "Cord";
+	name = "Cord";
 	guild = GIL_SLD;
 	id = 805;
 	voice = 14;

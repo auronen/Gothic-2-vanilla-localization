@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Meatbug(C_Npc)
 {
-	name[0] = "Fleischwanze";
+	name = "Fleischwanze";
 	guild = GIL_MEATBUG;
 	aivar[AIV_MM_REAL_ID] = ID_MEATBUG;
 	level = 1;

@@ -1,7 +1,7 @@
 
 instance VLK_466_Gernod(Npc_Default)
 {
-	name[0] = NAME_Buerger;
+	name = NAME_Buerger;
 	guild = GIL_VLK;
 	id = 466;
 	voice = 1;

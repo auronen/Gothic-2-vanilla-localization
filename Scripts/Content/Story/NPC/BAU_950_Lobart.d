@@ -1,7 +1,7 @@
 
 instance BAU_950_Lobart(Npc_Default)
 {
-	name[0] = "Lobart";
+	name = "Lobart";
 	guild = GIL_OUT;
 	id = 950;
 	voice = 5;

@@ -1,7 +1,7 @@
 
 instance BDT_1061_Wache(Npc_Default)
 {
-	name[0] = NAME_Wache;
+	name = NAME_Wache;
 	guild = GIL_BDT;
 	id = 1061;
 	voice = 1;

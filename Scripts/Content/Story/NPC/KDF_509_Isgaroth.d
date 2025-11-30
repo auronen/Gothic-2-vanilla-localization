@@ -1,7 +1,7 @@
 
 instance KDF_509_Isgaroth(Npc_Default)
 {
-	name[0] = "Isgaroth";
+	name = "Isgaroth";
 	guild = GIL_KDF;
 	id = 509;
 	voice = 1;

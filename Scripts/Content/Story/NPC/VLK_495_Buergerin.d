@@ -1,7 +1,7 @@
 
 instance VLK_495_Buergerin(Npc_Default)
 {
-	name[0] = NAME_Magd;
+	name = NAME_Magd;
 	guild = GIL_VLK;
 	id = 495;
 	voice = 16;

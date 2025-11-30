@@ -1,7 +1,7 @@
 
 instance NOV_604_Dyrian(Npc_Default)
 {
-	name[0] = "Dyrian";
+	name = "Dyrian";
 	guild = GIL_NOV;
 	id = 604;
 	voice = 13;

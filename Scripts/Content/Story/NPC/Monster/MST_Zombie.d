@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Zombie(C_Npc)
 {
-	name[0] = "Zombie";
+	name = "Zombie";
 	guild = GIL_ZOMBIE;
 	aivar[AIV_MM_REAL_ID] = ID_ZOMBIE;
 	level = 15;

@@ -1,7 +1,7 @@
 
 instance SLD_840_Alvares(Npc_Default)
 {
-	name[0] = "Alvares";
+	name = "Alvares";
 	guild = GIL_BDT;
 	id = 840;
 	voice = 11;

@@ -1,7 +1,7 @@
 
 instance VLK_403_Gerbrandt(Npc_Default)
 {
-	name[0] = "Gerbrandt";
+	name = "Gerbrandt";
 	guild = GIL_VLK;
 	id = 403;
 	voice = 10;

@@ -1,7 +1,7 @@
 
 instance BAU_934_Babera(Npc_Default)
 {
-	name[0] = "Babera";
+	name = "Babera";
 	guild = GIL_OUT;
 	id = 934;
 	voice = 16;
