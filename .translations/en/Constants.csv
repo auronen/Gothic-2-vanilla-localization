@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/SVM.d:1497","Ich steh auf diese ganze Scheiße!","","","False","SVM_9_MonsterKilled","",""
+"Scripts/Content/Story/SVM.d:1497","Ich steh auf diese ganze Scheiße!","I love this shit!","","False","SVM_9_MonsterKilled","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:5","Dexter hat die Steckbriefe verteilt. Typen mit schwarzen Kapuzen haben ihn damit beauftragt.","","","False","Topic_Bandits_3","",""
 "Scripts/Content/Story/NPC/Monster/MST_Scavenger_Demon.d:4","Scavenger","","","False","Mst_Default_Scavenger_Demon.name","",""
 "Scripts/Content/Items/IT_AnimalTrophy.d:266","Lurkerhaut","","","False","itat_LurkerSkin.name","",""
