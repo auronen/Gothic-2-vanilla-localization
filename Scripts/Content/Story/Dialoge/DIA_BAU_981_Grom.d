@@ -152,23 +152,23 @@ func void DIA_Grom_TEACHHUNTING_Info()
 		Info_AddChoice(DIA_Grom_TEACHHUNTING,Dialog_Back,DIA_Grom_TEACHHUNTING_BACK);
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Fur] == FALSE)
 		{
-			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString("Fell abziehen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Fur);
+			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_FUR,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Fur);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Teeth] == FALSE)
 		{
-			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString("Zähne reissen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Teeth);
+			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_TEETH,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Teeth);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Heart] == FALSE)
 		{
-			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString("Herzen nehmen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Heart);
+			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_HEARTS,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Heart);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Mandibles] == FALSE)
 		{
-			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString("Zangen rausschneiden",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Mandibles);
+			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_MANDIBLES,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_Mandibles);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_ShadowHorn] == FALSE)
 		{
-			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString("Horn des Schattenläufers",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_ShadowHorn);
+			Info_AddChoice(DIA_Grom_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_SHADOWBEAST_HORN,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Grom_TEACHHUNTING_ShadowHorn);
 		};
 	}
 	else

@@ -109,7 +109,7 @@ func void DIA_Bennet_DI_Smith_Info()
 	Info_AddChoice(DIA_Bennet_DI_Smith,Dialog_Back,DIA_Bennet_DI_Smith_BACK);
 	if(PLAYER_TALENT_SMITH[WEAPON_Common] == FALSE)
 	{
-		Info_AddChoice(DIA_Bennet_DI_Smith,B_BuildLearnString("Schmieden lernen ",B_GetLearnCostTalent(other,NPC_TALENT_SMITH)),DIA_Bennet_DI_Smith_Common);
+		Info_AddChoice(DIA_Bennet_DI_Smith,B_BuildLearnString(NAME_LEARN_SMITHING,B_GetLearnCostTalent(other,NPC_TALENT_SMITH)),DIA_Bennet_DI_Smith_Common);
 	};
 	if(PLAYER_TALENT_SMITH[WEAPON_Common] == TRUE)
 	{

@@ -669,7 +669,7 @@ func void DIA_Buster_BringTrophyShadowbeast_Info()
 		AI_Output(self,other,"DIA_Buster_ANIMALTROPHYSHADOWBEAST_13_04");	//Das weißt du nicht? Oh Mann, ich hätte mehr von dir erwartet.
 		Info_ClearChoices(DIA_Buster_BringTrophyShadowbeast);
 		Info_AddChoice(DIA_Buster_BringTrophyShadowbeast,"Ich komm noch darauf zurück.",DIA_Buster_BringTrophyShadowbeast_back);
-		Info_AddChoice(DIA_Buster_BringTrophyShadowbeast,B_BuildLearnString("Bring es mir bei",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Buster_BringTrophyShadowbeast_teach);
+		Info_AddChoice(DIA_Buster_BringTrophyShadowbeast,B_BuildLearnString(NAME_LEARN_TEACH_ME,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Buster_BringTrophyShadowbeast_teach);
 	}
 	else
 	{

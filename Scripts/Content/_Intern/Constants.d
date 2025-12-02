@@ -599,7 +599,7 @@ const string TEXT_FONT_10 = "Font_old_10_white.tga";
 const string TEXT_FONT_DEFAULT = "Font_old_10_white.tga";
 const string TEXT_FONT_Inventory = "Font_old_10_white.tga";
 
-const float VIEW_TIME_PER_CHAR = 550;
+const float VIEW_TIME_PER_CHAR = 550.0;
 
 const int NEWWORLD_ZEN = 1;
 const int OldWorld_Zen = 2;
@@ -610,3 +610,4 @@ const int INVCAM_ENTF_MISC_STANDARD = 200;
 const int INVCAM_ENTF_MISC2_STANDARD = 250;
 const int INVCAM_X_RING_STANDARD = 25;
 const int INVCAM_Z_RING_STANDARD = 45;
+

@@ -167,29 +167,29 @@ func void DIA_Gestath_TEACHHUNTING_Info()
 		Info_AddChoice(DIA_Gestath_TEACHHUNTING,Dialog_Back,DIA_Gestath_TEACHHUNTING_BACK);
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_FireTongue] == FALSE)
 		{
-			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString("Feuerzunge",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_FireTongue);
+			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_FIRE_TONGUE,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_FireTongue);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_CrawlerPlate] == FALSE)
 		{
-			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString("Crawlerplatten nehmen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_CrawlerPlate);
+			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_CRAWLER_PLATES,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_CrawlerPlate);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Mandibles] == FALSE)
 		{
-			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString("Zangen rausschneiden",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_Mandibles);
+			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_MANDIBLES,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_Mandibles);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DrgSnapperHorn] == FALSE)
 		{
-			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString("Drachensnapperhorn",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_DrgSnapperHorn);
+			Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_DRAGON_SNAPPER_HORN,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_DrgSnapperHorn);
 		};
 		if(Gestath_DragonTrophy == TRUE)
 		{
 			if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonScale] == FALSE)
 			{
-				Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString("Drachenschuppen ziehen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_DragonScale);
+				Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_DRAGON_SCALES,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_DragonScale);
 			};
 			if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonBlood] == FALSE)
 			{
-				Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString("Drachenblut zapfen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_DragonBlood);
+				Info_AddChoice(DIA_Gestath_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_DRAGON_BLOOD,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gestath_TEACHHUNTING_DragonBlood);
 			};
 		};
 	}

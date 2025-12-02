@@ -422,29 +422,29 @@ func void DIA_Godar_Teach_Info()
 		Info_AddChoice(DIA_Godar_Teach,Dialog_Back,DIA_Godar_Teach_Back);
 		if(Npc_GetTalentSkill(other,NPC_TALENT_SNEAK) == FALSE)
 		{
-			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString("Schleichen",B_GetLearnCostTalent(other,NPC_TALENT_SNEAK)),DIA_Godar_Teach_Thief_Sneak);
+			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString(TXT_TALENTS[8],B_GetLearnCostTalent(other,NPC_TALENT_SNEAK)),DIA_Godar_Teach_Thief_Sneak);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Teeth] == FALSE)
 		{
-			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString("Zähne reissen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_Teeth);
+			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString(NAME_LEARN_TEETH,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_Teeth);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_BFSting] == FALSE)
 		{
-			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString("Blutfliegenstachel",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_BFSting);
+			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString(NAME_LEARN_BLOODFLY_STING,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_BFSting);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_BFWing] == FALSE)
 		{
-			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString("Blutfliegenflügel",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_BFWing);
+			Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString(NAME_LEARN_BLOODFLY_WING,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_BFWing);
 		};
 		if(Godar_TeachDragonStuff == TRUE)
 		{
 			if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonScale] == FALSE)
 			{
-				Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString("Drachenschuppen ziehen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_DragonScale);
+				Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString(NAME_LEARN_DRAGON_SCALES,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_DragonScale);
 			};
 			if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonBlood] == FALSE)
 			{
-				Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString("Drachenblut zapfen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_DragonBlood);
+				Info_AddChoice(DIA_Godar_Teach,B_BuildLearnString(NAME_LEARN_DRAGON_BLOOD,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Godar_Teach_TROPHYS_DragonBlood);
 			};
 		};
 	}

@@ -649,7 +649,7 @@ instance DIA_HARAD_TEACHCOMMON(C_Info)
 	condition = dia_harad_teachcommon_condition;
 	information = dia_harad_teachcommon_info;
 	permanent = TRUE;
-	description = B_BuildLearnString("Bring mir bei, wie man ein ordentliches Schwert schmiedet!",B_GetLearnCostTalent(other,NPC_TALENT_SMITH));
+	description = B_BuildLearnString(NAME_LEARN_SWORD,B_GetLearnCostTalent(other,NPC_TALENT_SMITH));
 };
 
 

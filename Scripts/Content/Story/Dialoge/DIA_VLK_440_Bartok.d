@@ -198,7 +198,7 @@ instance DIA_Bartok_TeachSneak(C_Info)
 	condition = DIA_Bartok_TeachSneak_Condition;
 	information = DIA_Bartok_TeachSneak_Info;
 	permanent = TRUE;
-	description = B_BuildLearnString("Bring mir bei, wie man schleicht!",B_GetLearnCostTalent(other,NPC_TALENT_SNEAK));
+	description = B_BuildLearnString(NAME_LEARN_SNEAK,B_GetLearnCostTalent(other,NPC_TALENT_SNEAK));
 };
 
 

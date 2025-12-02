@@ -135,7 +135,7 @@ instance DIA_Dobar_Teach(C_Info)
 	nr = 3;
 	condition = DIA_Dobar_Teach_Condition;
 	information = DIA_Dobar_Teach_Info;
-	description = B_BuildLearnString("Zeig mir, wie ich gutes Schwert schmiede",B_GetLearnCostTalent(other,NPC_TALENT_SMITH));
+	description = B_BuildLearnString(NAME_LEARN_SMITHING2,B_GetLearnCostTalent(other,NPC_TALENT_SMITH));
 	permanent = TRUE;
 };
 

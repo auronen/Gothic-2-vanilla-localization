@@ -231,8 +231,8 @@ const int WATCHFIGHT_DIST_MIN = 300;
 const int WATCHFIGHT_DIST_MAX = 2000;
 const int ZivilAnquatschDist = 400;
 
-const float RANGED_CHANCE_MINDIST = 1500;
-const float RANGED_CHANCE_MAXDIST = 4500;
+const float RANGED_CHANCE_MINDIST = 1500.0;
+const float RANGED_CHANCE_MAXDIST = 4500.0;
 
 const int NPC_ANGRY_TIME = 120;
 const int HAI_TIME_UNCONSCIOUS = 20;
@@ -357,7 +357,7 @@ const int Face_P_Weak_Ulf_Wohlers = 57;
 const int Face_N_Important_Arto = 58;
 const int Face_N_ImportantGrey = 59;
 const int Face_N_ImportantOld = 60;
-const int Face_N_Tough_Lee_ähnlich = 61;
+const int Face_N_Tough_Lee_aehnlich = 61;
 const int Face_N_Tough_Skip = 62;
 const int Face_N_ToughBart01 = 63;
 const int Face_N_Tough_Okyl = 64;

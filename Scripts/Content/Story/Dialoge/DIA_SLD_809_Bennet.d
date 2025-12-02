@@ -241,7 +241,7 @@ instance DIA_Bennet_TeachCOMMON(C_Info)
 	condition = DIA_Bennet_TeachCOMMON_Condition;
 	information = DIA_Bennet_TeachCOMMON_Info;
 	permanent = TRUE;
-	description = B_BuildLearnString("Schmieden lernen",B_GetLearnCostTalent(other,NPC_TALENT_SMITH));
+	description = B_BuildLearnString(NAME_LEARN_SMITHING,B_GetLearnCostTalent(other,NPC_TALENT_SMITH));
 };
 
 

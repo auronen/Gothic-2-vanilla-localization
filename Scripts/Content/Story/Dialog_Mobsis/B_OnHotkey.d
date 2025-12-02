@@ -48,12 +48,12 @@ func void player_hotkey_lame_potion()
 			}
 			else
 			{
-				Print("Keine Manatränke vorhanden!");
+				Print(PRINT_NO_MANA_POTIONS);
 			};
 		}
 		else
 		{
-			Print("Bereits Maximales Mana!");
+			Print(PRINT_MANA_ALREADY_MAX);
 		};
 	};
 };
@@ -102,12 +102,12 @@ func void player_hotkey_lame_heal()
 			}
 			else
 			{
-				Print("Keine Heiltränke vorhanden!");
+				Print(PRINT_NO_HP_POTIONS);
 			};
 		}
 		else
 		{
-			Print("Bereits Maximale Lebensenergie!");
+			Print(PRINT_HP_ALREADY_MAX);
 		};
 	};
 };

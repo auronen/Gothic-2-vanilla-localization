@@ -297,7 +297,7 @@ func void Jan_Training_Talente_Info()
 	Info_AddChoice(Jan_Training_Talente,Dialog_Back,Jan_Training_Smith_Back);
 	if(PLAYER_TALENT_SMITH[WEAPON_Common] == FALSE)
 	{
-		Info_AddChoice(Jan_Training_Talente,B_BuildLearnString("Schmieden lernen ",B_GetLearnCostTalent(other,NPC_TALENT_SMITH)),Jan_Training_Smith_Common);
+		Info_AddChoice(Jan_Training_Talente,B_BuildLearnString(NAME_LEARN_SMITHING ,B_GetLearnCostTalent(other,NPC_TALENT_SMITH)),Jan_Training_Smith_Common);
 	};
 	if(PLAYER_TALENT_SMITH[WEAPON_Common] == TRUE)
 	{

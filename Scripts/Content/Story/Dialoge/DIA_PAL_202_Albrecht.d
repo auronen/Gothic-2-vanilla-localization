@@ -167,13 +167,13 @@ func void DIA_Albrecht_TEACHPalRunes_Heal()
 	{
 		Info_ClearChoices(DIA_Albrecht_TEACHPalRunes);
 		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,Dialog_Back,DIA_Albrecht_TEACHPalRunes_BACK);
-		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString("Leichte Wunden heilen",CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalLightHeal);
+		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString(NAME_SPL_PalLightHeal,CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalLightHeal);
 	}
 	else if((PLAYER_TALENT_RUNES[SPL_PalMediumHeal] == FALSE) && (Kapitel >= 5))
 	{
 		Info_ClearChoices(DIA_Albrecht_TEACHPalRunes);
 		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,Dialog_Back,DIA_Albrecht_TEACHPalRunes_BACK);
-		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString("Mittlere Wunden heilen",CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalMediumHeal);
+		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString(NAME_SPL_PalMediumHeal,CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalMediumHeal);
 	}
 	else
 	{
@@ -188,13 +188,13 @@ func void DIA_Albrecht_TEACHPalRunes_Combat()
 	{
 		Info_ClearChoices(DIA_Albrecht_TEACHPalRunes);
 		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,Dialog_Back,DIA_Albrecht_TEACHPalRunes_BACK);
-		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString("Heiliger Pfeil",CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalHolyBolt);
+		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString(NAME_SPL_PalHolyBolt,CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalHolyBolt);
 	}
 	else if((PLAYER_TALENT_RUNES[SPL_PalRepelEvil] == FALSE) && (Kapitel >= 5))
 	{
 		Info_ClearChoices(DIA_Albrecht_TEACHPalRunes);
 		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,Dialog_Back,DIA_Albrecht_TEACHPalRunes_BACK);
-		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString("Böses austreiben",CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalRepelEvil);
+		Info_AddChoice(DIA_Albrecht_TEACHPalRunes,B_BuildLearnString(NAME_LEARN_REPEL_EVIL,CostForPAlSpells),DIA_Albrecht_TEACHPalRunes_PalRepelEvil);
 	}
 	else
 	{

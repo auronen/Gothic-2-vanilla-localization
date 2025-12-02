@@ -416,7 +416,7 @@ instance DIA_Thorben_Teach(C_Info)
 	condition = DIA_Thorben_Teach_Condition;
 	information = DIA_Thorben_Teach_Info;
 	permanent = TRUE;
-	description = B_BuildLearnString("Bring mir bei, wie ich ein Schloß knacken kann!",B_GetLearnCostTalent(other,NPC_TALENT_PICKLOCK));
+	description = B_BuildLearnString(NAME_LEARN_LOCKS,B_GetLearnCostTalent(other,NPC_TALENT_PICKLOCK));
 };
 
 

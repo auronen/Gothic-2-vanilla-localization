@@ -278,27 +278,27 @@ func void DIA_Vatras_DI_Talente_CIRCLES()
 	Info_AddChoice(DIA_Vatras_DI_Talente,Dialog_Back,DIA_Vatras_DI_Talente_BACK);
 	if(Npc_GetTalentSkill(other,NPC_TALENT_MAGE) < 1)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("1. Kreis der Magie",B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_1);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_LearnMage_1,B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_1);
 	};
 	if(Npc_GetTalentSkill(other,NPC_TALENT_MAGE) == 1)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("2. Kreis der Magie",B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_2);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_LearnMage_2,B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_2);
 	};
 	if(Npc_GetTalentSkill(other,NPC_TALENT_MAGE) == 2)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("3. Kreis der Magie",B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_3);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_LearnMage_3,B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_3);
 	};
 	if(Npc_GetTalentSkill(other,NPC_TALENT_MAGE) == 3)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("4. Kreis der Magie",B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_4);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_LearnMage_4,B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_4);
 	};
 	if(Npc_GetTalentSkill(other,NPC_TALENT_MAGE) == 4)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("5. Kreis der Magie",B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_5);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_LearnMage_5,B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_5);
 	};
 	if(Npc_GetTalentSkill(other,NPC_TALENT_MAGE) == 5)
 	{
-		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString("6. Kreis der Magie",B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_6);
+		Info_AddChoice(DIA_Vatras_DI_Talente,B_BuildLearnString(NAME_LearnMage_6,B_GetLearnCostTalent(other,NPC_TALENT_MAGE)),DIA_Vatras_DI_Talente_Circle_6);
 	};
 };
 

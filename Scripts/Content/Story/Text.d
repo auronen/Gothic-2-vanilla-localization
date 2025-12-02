@@ -527,6 +527,43 @@ const string	NAME_Dex_Permanent = "Elixier der Geschicklichkeit";
 const string	NAME_Str_Permanent = "Elixier der Stärke";
 const string	NAME_Speed_Potion = "Trank der Geschwindigkeit";
 
+const string PRINT_NO_MANA_POTIONS = "Keine Manatränke vorhanden!";
+const string PRINT_MANA_ALREADY_MAX = "Bereits Maximales Mana!";
+const string PRINT_NO_HP_POTIONS = "Keine Heiltränke vorhanden!";
+const string PRINT_HP_ALREADY_MAX = "Bereits Maximale Lebensenergie!";
+
+const string NAME_LearnMage_1						= "1. Kreis der Magie";
+const string NAME_LearnMage_2						= "2. Kreis der Magie";
+const string NAME_LearnMage_3						= "3. Kreis der Magie";
+const string NAME_LearnMage_4						= "4. Kreis der Magie";
+const string NAME_LearnMage_5						= "5. Kreis der Magie";
+const string NAME_LearnMage_6						= "6. Kreis der Magie";
+
+const string NAME_LEARN_SWORD						= "Bring mir bei, wie man ein ordentliches Schwert schmiedet!";
+
+const string NAME_LEARN_SNEAK						= "Bring mir bei, wie man schleicht!";
+const string NAME_LEARN_LOCKS						= "Bring mir bei, wie ich ein Schloß knacken kann!";
+const string NAME_LEARN_SMITHING					= "Schmieden lernen";
+const string NAME_LEARN_SMITHING2					= "Zeig mir, wie ich gutes Schwert schmiede";
+const string NAME_LEARN_CLAWS						= "Klauen hacken";
+const string NAME_LEARN_TEETH						= "Zähne reissen";
+
+const string NAME_LEARN_MANDIBLES					= "Zangen rausschneiden";
+const string NAME_LEARN_FUR							= "Fell abziehen";
+const string NAME_LEARN_HEARTS						= "Herzen nehmen";
+const string NAME_LEARN_HEART						= "Herz nehmen";
+const string NAME_LEARN_BLOODFLY_STING				= "Blutfliegenstachel";
+const string NAME_LEARN_BLOODFLY_WING				= "Blutfliegenflügel";
+const string NAME_LEARN_CRAWLER_PLATES				= "Crawlerplatten nehmen";
+const string NAME_LEARN_CRAWLER_PLATES_2			= "Bring mir bei, wie man Crawlern die Platten abnimmt!";
+const string NAME_LEARN_SHADOWBEAST_HORN			= "Horn des Schattenläufers";
+const string NAME_LEARN_FIRE_TONGUE					= "Feuerzunge";
+const string NAME_LEARN_DRAGON_SNAPPER_HORN			= "Drachensnapperhorn";
+const string NAME_LEARN_DRAGON_SCALES				= "Drachenschuppen ziehen";
+const string NAME_LEARN_DRAGON_BLOOD				= "Drachenblut zapfen";
+const string NAME_LEARN_REPEL_EVIL					= "Böses austreiben";
+const string NAME_LEARN_REPEL_EVIL2					= "Bösem Schaden";
+const string NAME_LEARN_TEACH_ME					= "Bring es mir bei";
 
 const string NAME_STONE_GOLEM = "Steingolem";
 const string PRINT_SleepOver = "Du hast geschlafen und bist ausgeruht!";

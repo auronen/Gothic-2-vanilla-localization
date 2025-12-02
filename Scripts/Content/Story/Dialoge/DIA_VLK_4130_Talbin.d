@@ -286,19 +286,19 @@ func void DIA_Talbin_TEACHHUNTING_Info()
 		Info_AddChoice(DIA_Talbin_TEACHHUNTING,Dialog_Back,DIA_Talbin_TEACHHUNTING_BACK);
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Claws] == FALSE)
 		{
-			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString("Klauen hacken",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_Claws);
+			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_CLAWS,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_Claws);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Fur] == FALSE)
 		{
-			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString("Fell abziehen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_Fur);
+			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_FUR,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_Fur);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_ShadowHorn] == FALSE)
 		{
-			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString("Horn des Schattenläufers",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_ShadowHorn);
+			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_SHADOWBEAST_HORN,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_ShadowHorn);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Heart] == FALSE)
 		{
-			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString("Herz nehmen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_Heart);
+			Info_AddChoice(DIA_Talbin_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_HEART,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Talbin_TEACHHUNTING_Heart);
 		};
 	}
 	else

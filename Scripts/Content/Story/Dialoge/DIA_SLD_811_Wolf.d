@@ -299,7 +299,7 @@ instance DIA_Wolf_TeachCrawlerPlates(C_Info)
 	condition = DIA_Wolf_TeachCrawlerPlates_Condition;
 	information = DIA_Wolf_TeachCrawlerPlates_Info;
 	permanent = TRUE;
-	description = B_BuildLearnString("Bring mir bei, wie man Crawlern die Platten abnimmt!",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY));
+	description = B_BuildLearnString(NAME_LEARN_CRAWLER_PLATES_2,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY));
 };
 
 

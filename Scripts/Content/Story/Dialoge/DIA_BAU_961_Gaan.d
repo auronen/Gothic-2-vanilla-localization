@@ -341,27 +341,27 @@ func void DIA_Gaan_TEACHHUNTING_Info()
 		Info_AddChoice(DIA_Gaan_TEACHHUNTING,Dialog_Back,DIA_Gaan_TEACHHUNTING_BACK);
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Teeth] == FALSE)
 		{
-			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString("Zähne reissen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_Teeth);
+			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_TEETH,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_Teeth);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Claws] == FALSE)
 		{
-			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString("Klauen hacken",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_Claws);
+			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_CLAWS,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_Claws);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Fur] == FALSE)
 		{
-			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString("Fell abziehen",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_Fur);
+			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_FUR,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_Fur);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_BFSting] == FALSE)
 		{
-			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString("Blutfliegenstachel",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_BFSting);
+			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_BLOODFLY_STING,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_BFSting);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_BFWing] == FALSE)
 		{
-			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString("Blutfliegenflügel",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_BFWing);
+			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_BLOODFLY_WING,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_BFWing);
 		};
 		if((PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DrgSnapperHorn] == FALSE) && (MIS_Gaan_Snapper == LOG_SUCCESS))
 		{
-			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString("Drachensnapperhorn",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_DrgSnapperHorn);
+			Info_AddChoice(DIA_Gaan_TEACHHUNTING,B_BuildLearnString(NAME_LEARN_DRAGON_SNAPPER_HORN,B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY)),DIA_Gaan_TEACHHUNTING_DrgSnapperHorn);
 		};
 	}
 	else
