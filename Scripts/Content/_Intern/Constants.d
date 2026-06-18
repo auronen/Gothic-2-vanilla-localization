@@ -58,8 +58,12 @@ const int ITEM_KAT_LIGHT = 256;
 const int ITEM_KAT_RUNE = 512;
 const int ITEM_KAT_MAGIC = 1 << 31;
 const int ITEM_KAT_KEYS = 1;
+#if __G2A__ {
+const int ITEM_DROPPED = 1 << 10;
+} else {
 const int ITEM_BURN = 1 << 10;
 const int ITEM_DROPPED = 1 << 11;
+}
 const int ITEM_MISSION = 1 << 12;
 const int ITEM_MULTI = 1 << 21;
 const int ITEM_TORCH = 1 << 28;
@@ -72,6 +76,9 @@ const int ITEM_BOW = 1 << 19;
 const int ITEM_CROSSBOW = 1 << 20;
 const int ITEM_AMULET = 1 << 22;
 const int ITEM_RING = 1 << 11;
+#if __G2A__ {
+const int ITEM_NSPLIT = 1 << 26;
+}
 const int DAM_INVALID = 0;
 const int DAM_BARRIER = 1;
 const int DAM_BLUNT = 2;
@@ -215,6 +222,26 @@ const int GIL_TROLL = 45;
 const int GIL_SWAMPSHARK = 46;
 const int GIL_DRAGON = 47;
 const int GIL_MOLERAT = 48;
+#if __G2A__ {
+const int GIL_EMPTY_M = 49;
+const int GIL_EMPTY_N = 50;
+const int GIL_EMPTY_O = 51;
+const int GIL_EMPTY_P = 52;
+const int GIL_EMPTY_Q = 53;
+const int GIL_EMPTY_R = 54;
+const int GIL_EMPTY_S = 55;
+const int GIL_EMPTY_T = 56;
+const int GIL_EMPTY_U = 57;
+const int GIL_SEPERATOR_ORC = 58;
+const int GIL_ORC = 59;
+const int GIL_FRIENDLY_ORC = 60;
+const int GIL_UNDEADORC = 61;
+const int GIL_DRACONIAN = 62;
+const int GIL_EMPTY_X = 63;
+const int GIL_EMPTY_Y = 64;
+const int GIL_EMPTY_Z = 65;
+const int GIL_MAX = 66;
+} else {
 const int GIL_EMPTY_M = 49;
 const int GIL_EMPTY_N = 50;
 const int GIL_EMPTY_O = 51;
@@ -229,6 +256,7 @@ const int GIL_EMPTY_X = 59;
 const int GIL_EMPTY_Y = 60;
 const int GIL_EMPTY_Z = 61;
 const int GIL_MAX = 62;
+}
 
 class C_GILVALUES
 {

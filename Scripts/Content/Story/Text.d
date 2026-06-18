@@ -113,6 +113,77 @@ const string MOBNAME_GRAVE_31 = "Schwertträger Asub Ukara 145 - 212";
 const string MOBNAME_GRAVE_32 = "Schwertträger Dietmar Ukara 112 - 212";
 const string MOBNAME_GRAVE_33 = "Ehrengardist Uthar Seranis 178 - 212";
 
+#if __G2A__ {
+const string TXT_GUILDS[GIL_MAX] =
+{
+	"Gildenlos",
+	"Paladin",
+	"Miliz",
+	"Bürger",
+	"Magier",
+	"Novize",
+	"Drachenjäger",
+	"Söldner",
+	"Bauer",
+	"Bandit",
+	"Sträfling",
+	"Suchender",
+	"Landbewohner",
+	"B",
+	"C",
+	"D",
+	"",
+	"Fleischwanze",
+	"Schaf",
+	"Goblin",
+	"Goblin Skelett",
+	"B. Goblin Skelett",
+	"Scavenger",
+	"Riesenratte",
+	"Feldräuber",
+	"Blutfliege",
+	"Waran",
+	"Wolf",
+	"B. Wolf",
+	"Minecrawler",
+	"Lurker",
+	"Skelett",
+	"B. Skelett",
+	"Skelett-Magier",
+	"Zombie",
+	"Snapper",
+	"Schattenläufer",
+	"Skelettmonster",
+	"Harpie",
+	"Steingolem",
+	"Feuergolem",
+	"Eisgolem",
+	"B. Golem",
+	"Dämon",
+	"B. Dämon",
+	"Troll",
+	"Sumpfhai",
+	"Drache",
+	"Molerat",
+	"M",
+	"N",
+	"O",
+	"P",
+	"Q",
+	"R",
+	"S",
+	"",
+	"",
+	"",
+	"Ork",
+	"Ork",
+	"Untoter Ork",
+	"Drakonier",
+	"X",
+	"Y",
+	"Z"
+};
+} else {
 const string TXT_GUILDS[GIL_MAX] =
 {
 	"Gildenlos",
@@ -178,6 +249,7 @@ const string TXT_GUILDS[GIL_MAX] =
 	"Y",
 	"Z"
 };
+}
 
 const string TXT_SPELLS[MAX_SPELL] =
 {

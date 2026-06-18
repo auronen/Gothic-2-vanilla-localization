@@ -1,10 +1,17 @@
 
 func void B_RestartFreeze()
 {
+#if __G2A__ {
+	if((Npc_GetLastHitSpellID(self) == SPL_IceCube) || (Npc_GetLastHitSpellID(self) == SPL_IceWave))
+	{
+		Npc_SetStateTime(self,0);
+	};
+} else {
 	if((Npc_GetActiveSpell(other) == SPL_IceCube) || (Npc_GetActiveSpell(other) == SPL_IceWave))
 	{
 		Npc_SetStateTime(self,0);
 	};
+}
 };
 
 func void B_StopMagicFreeze()

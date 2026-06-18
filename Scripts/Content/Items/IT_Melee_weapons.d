@@ -371,7 +371,11 @@ instance ItMw_2H_Axe_L_01(C_Item)
 {
 	name = "Spitzhacke";
 	mainflag = ITEM_KAT_NF;
+#if __G2A__ {
+	flags = ITEM_2HD_AXE | ITEM_NSPLIT;
+} else {
 	flags = ITEM_2HD_AXE;
+}
 	material = MAT_METAL;
 	value = Value_Spitzhacke;
 	damageTotal = Damage_Spitzhacke;

@@ -5,7 +5,11 @@ instance ItLsTorch(C_Item)
 {
 	name = "Fackel";
 	mainflag = ITEM_KAT_NONE;
+#if __G2A__ {
+	flags = ITEM_TORCH | ITEM_MULTI;
+} else {
 	flags = ITEM_BURN | ITEM_TORCH | ITEM_MULTI;
+}
 	value = Value_Fackel;
 	visual = "ItLs_Torch_01.3ds";
 	material = MAT_WOOD;
@@ -19,7 +23,11 @@ instance ItLsTorchburning(C_Item)
 {
 	name = "Brennende Fackel";
 	mainflag = ITEM_KAT_NONE;
+#if __G2A__ {
+	flags = ITEM_TORCH;
+} else {
 	flags = ITEM_BURN | ITEM_TORCH;
+}
 	value = 0;
 	visual = "ITLSTORCHBURNING.ZEN";
 	material = MAT_WOOD;
@@ -31,7 +39,11 @@ instance ItLsTorchburned(C_Item)
 {
 	name = "Fackel";
 	mainflag = ITEM_KAT_NONE;
+#if __G2A__ {
+	flags = ITEM_TORCH | ITEM_MULTI;
+} else {
 	flags = ITEM_BURN | ITEM_TORCH | ITEM_MULTI;
+}
 	value = 0;
 	visual = "ItLs_Torchburned_01.3ds";
 	material = MAT_WOOD;
@@ -43,7 +55,11 @@ instance ItLsTorchFirespit(C_Item)
 {
 	name = "Fackel";
 	mainflag = ITEM_KAT_NONE;
+#if __G2A__ {
+	flags = ITEM_TORCH;
+} else {
 	flags = ITEM_BURN | ITEM_TORCH;
+}
 	value = 1;
 	visual = "ITLSTORCHBURNING.ZEN";
 	material = MAT_WOOD;

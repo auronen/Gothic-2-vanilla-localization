@@ -3,6 +3,43 @@ const int MAX_CHAPTER = 5;
 const int MAX_MISSIONS = 5;
 const int MAX_HITCHANCE = 5;
 
+#if __G2A__ {
+class C_Npc
+{
+	var int id;
+	var string name[5];
+	var string slot;
+	var string effect;
+	var int npcType;
+	var int flags;
+	var int attribute[ATR_INDEX_MAX];
+	var int HitChance[MAX_HITCHANCE];
+	var int protection[PROT_INDEX_MAX];
+	var int damage[DAM_INDEX_MAX];
+	var int damagetype;
+	var int guild;
+	var int level;
+	var func mission[MAX_MISSIONS];
+	var int fight_tactic;
+	var int weapon;
+	var int voice;
+	var int voicePitch;
+	var int bodymass;
+	var func daily_routine;
+	var func start_aistate;
+	var string spawnPoint;
+	var int spawnDelay;
+	var int senses;
+	var int senses_range;
+	var int aivar[100];
+	var string wp;
+	var int exp;
+	var int exp_next;
+	var int lp;
+	var int bodyStateInterruptableOverride;
+	var int noFocus;
+};
+} else {
 class C_Npc
 {
 	var int id;
@@ -37,6 +74,7 @@ class C_Npc
 	var int bodyStateInterruptableOverride;
 	var int noFocus;
 };
+}
 
 class C_Mission
 {
@@ -55,6 +93,55 @@ class C_Mission
 	var func running;
 };
 
+#if __G2A__ {
+class C_Item
+{
+	var int id;
+	var string name;
+	var string nameID;
+	var int hp;
+	var int hp_max;
+	var int mainflag;
+	var int flags;
+	var int weight;
+	var int value;
+	var int damagetype;
+	var int damageTotal;
+	var int damage[DAM_INDEX_MAX];
+	var int wear;
+	var int protection[PROT_INDEX_MAX];
+	var int nutrition;
+	var int cond_atr[3];
+	var int cond_value[3];
+	var int change_atr[3];
+	var int change_value[3];
+	var func magic;
+	var func on_equip;
+	var func on_unequip;
+	var func on_state[4];
+	var func owner;
+	var int ownerGuild;
+	var int disguiseGuild;
+	var string visual;
+	var string visual_change;
+	var string effect;
+	var int visual_skin;
+	var string scemeName;
+	var int material;
+	var int munition;
+	var int spell;
+	var int range;
+	var int mag_circle;
+	var string description;
+	var string text[ITM_TEXT_MAX];
+	var int count[ITM_TEXT_MAX];
+	var int inv_zbias;
+	var int inv_rotx;
+	var int inv_roty;
+	var int inv_rotz;
+	var int inv_animate;
+};
+} else {
 class C_Item
 {
 	var int id;
@@ -101,6 +188,7 @@ class C_Item
 	var int inv_rotz;
 	var int inv_animate;
 };
+}
 
 class C_Focus
 {

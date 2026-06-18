@@ -20,6 +20,19 @@ func void B_StopMagicBurn()
 
 func void B_RestartBurn()
 {
+#if __G2A__ {
+	if((Npc_GetLastHitSpellID(self) == SPL_Firerain) || (Npc_GetLastHitSpellID(self) == SPL_ChargeFireball) || (Npc_GetLastHitSpellID(self) == SPL_InstantFireball) || (Npc_GetLastHitSpellID(self) == SPL_Firebolt))
+	{
+		Npc_SetStateTime(self,0);
+		return;
+	};
+	if((Npc_GetLastHitSpellID(self) == SPL_IceWave) || (Npc_GetLastHitSpellID(self) == SPL_IceCube))
+	{
+		Npc_ClearAIQueue(self);
+		B_ClearPerceptions(self);
+		AI_StartState(self,ZS_MagicFreeze,0,"");
+	};
+} else {
 	if((Npc_GetActiveSpell(other) == SPL_Firerain) || (Npc_GetActiveSpell(other) == SPL_ChargeFireball) || (Npc_GetActiveSpell(other) == SPL_InstantFireball) || (Npc_GetActiveSpell(other) == SPL_Firebolt))
 	{
 		Npc_SetStateTime(self,0);
@@ -31,6 +44,7 @@ func void B_RestartBurn()
 		B_ClearPerceptions(self);
 		AI_StartState(self,ZS_MagicFreeze,0,"");
 	};
+}
 };
 
 func int ZS_MagicBurn()
